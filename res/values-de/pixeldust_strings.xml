@@ -154,4 +154,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Statusbar settings -->
     <string name="status_bar_settings_title">Statusleiste</string>
     <string name="status_bar_settings_summary">Statusleiste anpassen</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Zufällig anordnen</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
 </resources>
