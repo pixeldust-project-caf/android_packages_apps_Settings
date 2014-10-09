@@ -74,4 +74,11 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.misc.Changelog" />
+
 </PreferenceScreen>

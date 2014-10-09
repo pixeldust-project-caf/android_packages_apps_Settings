@@ -120,4 +120,9 @@
     <string name="theme_customization_device_default">Device default</string>
     <string name="theme_customization_navbar_title">Navbar style</string>
     <string name="theme_customization_navbar_summary">Set custom 3-button navbar style</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">View changes since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
