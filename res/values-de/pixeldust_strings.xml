@@ -115,4 +115,9 @@
     <string name="theme_customization_device_default">Gemäß Standard fürs Gerät</string>
     <string name="theme_customization_navbar_title">Navigationsleiste</string>
     <string name="theme_customization_navbar_summary">Stil für die 3-Tasten-Navigationsleiste festlegen</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Änderungen seit dem letzten Update anzeigen</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
 </resources>
