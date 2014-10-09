@@ -30,4 +30,9 @@
 
     <string name="pixeldust_extras_qs_title">Schnelleinstellungen</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
+
 </resources>

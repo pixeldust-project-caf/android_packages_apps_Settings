@@ -45,10 +45,18 @@
         android:title="@string/pd_version"
         android:summary="@string/pd_version_default"/>
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:order="3"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.pixeldust.Changelog" />
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
-        android:order="3"
+        android:order="4"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
@@ -58,7 +66,7 @@
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:order="4"
+        android:order="5"
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
@@ -66,7 +74,7 @@
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="5"
+        android:order="6"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
