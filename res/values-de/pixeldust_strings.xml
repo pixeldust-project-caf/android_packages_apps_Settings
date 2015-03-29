@@ -62,4 +62,7 @@
     <!-- Volume link notification -->
     <string name="ring_only_volume_option_title">Lautstärke Klingeln</string>
     <string name="volume_link_notification_title">Klingel- &amp; Benachrichtigungslautstärke verknüpfen</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot-Ton</string>
 </resources>
