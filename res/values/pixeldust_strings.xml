@@ -69,4 +69,8 @@
     <!-- PD Updater -->
     <string name="pd_updater_summary">Check if a new version is available for your device</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
 </resources>
