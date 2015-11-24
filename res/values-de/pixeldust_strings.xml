@@ -219,4 +219,8 @@
     <string name="quick_pulldown_none">Aus</string>
     <string name="quick_pulldown_right">Auf der Statusleiste von rechts nach unten ziehen</string>
     <string name="quick_pulldown_left">Auf der Statusleiste von links nach unten ziehen</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Die Historie zum letzten Ladevorgang wird zurückgesetzt</string>
 </resources>
