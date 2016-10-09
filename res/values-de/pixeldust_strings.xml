@@ -158,4 +158,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällig anordnen</string>
     <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren bei korrekter PIN-/Passworteingabe</string>
 </resources>
