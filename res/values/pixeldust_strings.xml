@@ -30,4 +30,8 @@
     <string name="pd_build_date">PixelDust build date</string>
     <string name="pd_build_date_default">2017-08-01-0000</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>

@@ -30,4 +30,8 @@
     <string name="pd_build_date">PixelDust Erstellungsdatum</string>
     <string name="pd_build_date_default">2017-08-01-0000</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Entsperren durch korrekte PIN- oder Passworteingabe</string>
+
 </resources>
