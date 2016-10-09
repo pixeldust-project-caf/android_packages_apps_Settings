@@ -19,4 +19,8 @@
 
     <!-- Density category -->
     <string name="density_category">Kompaktheitsgrad festlegen</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Die Sperre wird automatisch aufgehoben, wenn PIN/Passwort richtig eingegeben wurde</string>
 </resources>
