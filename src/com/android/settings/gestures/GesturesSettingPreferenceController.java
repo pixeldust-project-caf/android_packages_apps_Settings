@@ -27,6 +27,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 import com.pixeldust.settings.gestures.SwipeToScreenshotPreferenceController;
+import com.pixeldust.settings.gestures.volumerocker.VolumeButtonMusicControlPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -81,6 +82,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new PreventRingingParentPreferenceController(context, FAKE_PREF_KEY));
         // custom controllers
         controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }
