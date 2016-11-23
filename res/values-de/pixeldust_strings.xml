@@ -95,4 +95,8 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Clients gestatten VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot-Clients gestatten, die VPN-Verbindungen des Geräts für Upstream-Konnektivität zu verwenden</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Musikwiedergabe steuern</string>
+    <string name="volume_button_music_control_summary">Während das Display aus ist, lassen sich Musiktitel durch langes Drücken der Lautstärketasten überspringen.</string>
 </resources>

@@ -101,7 +101,14 @@
         android:fragment="com.pixeldust.settings.gestures.powermenu.GlobalPowerMenuSettings"
         settings:controller="com.pixeldust.settings.gestures.powermenu.GlobalPowerMenuPreferenceController" />
 
-    <com.android.settingslib.PrimarySwitchPreference
+    <!-- Volume button music control -->
+    <Preference
+        android:key="volume_button_music_control_summary"
+        android:title="@string/volume_button_music_control_title"
+        android:fragment="com.pixeldust.settings.gestures.volumerocker.VolumeButtonMusicControlGestureSettings"
+        settings:controller="com.pixeldust.settings.gestures.volumerocker.VolumeButtonMusicControlPreferenceController" />
+
+    <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
