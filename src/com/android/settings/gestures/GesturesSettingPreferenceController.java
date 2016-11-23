@@ -27,6 +27,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 import com.pixeldust.settings.gestures.powermenu.GlobalPowerMenuPreferenceController;
+import com.pixeldust.settings.gestures.volumerocker.VolumeButtonMusicControlPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,6 +83,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new ScreenOffUdfpsPreferenceController(context, FAKE_PREF_KEY)
                 .setConfig(ambientDisplayConfiguration));
         controllers.add(new GlobalPowerMenuPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }
