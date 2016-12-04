@@ -192,4 +192,12 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lautstärke für Klingel- &amp; Benachrichtigungston verknüpfen</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilfunkdaten</string>
+    <string name="data_usage_app_restrict_data_summary">Mobilfunkdatenzugriff erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+
 </resources>
