@@ -151,4 +151,7 @@
     <string name="smart_charging_level_title">Trigger level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
+    <!-- Running Services -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>

@@ -176,4 +176,7 @@ public class Settings extends SettingsActivity {
 
     // GamingMode
     public static class GamingModeActivity extends SettingsActivity { /* empty */ }
+
+    // Running Services
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

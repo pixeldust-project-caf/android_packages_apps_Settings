@@ -45,6 +45,7 @@ import com.android.settings.applications.DirectoryAccessDetails;
 import com.android.settings.applications.ManageDomainUrls;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.VrListenerSettings;
 import com.android.settings.applications.appinfo.AppInfoDashboardFragment;
@@ -276,7 +277,8 @@ public class SettingsGateway {
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+            RunningServices.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -320,6 +322,7 @@ public class SettingsGateway {
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName()
+            Settings.GamingModeActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
     };
 }
