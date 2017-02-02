@@ -64,4 +64,6 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü</string>
     <string name="global_actions_advanced_reboot_summary">Weitere Neustartoptionen im Ein/Aus-Menü anzeigen</string>
 
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>
