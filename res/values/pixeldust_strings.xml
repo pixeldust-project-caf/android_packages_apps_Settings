@@ -22,4 +22,12 @@
     <string name="reset_settings_summary">Reset PixelDust feature preferences</string>
     <string name="keywords_settings_reset">reset</string>
 
+    <!-- PixelDust version-->
+    <string name="pd_version">PixelDust version</string>
+    <string name="pd_version_default">Unknown</string>
+
+    <!-- PixelDust build date-->
+    <string name="pd_build_date">PixelDust build date</string>
+    <string name="pd_build_date_default">2017-08-01-0000</string>
+
 </resources>
