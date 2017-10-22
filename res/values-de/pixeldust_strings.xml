@@ -161,4 +161,7 @@
     <string name="tethering_allow_vpn_upstreams_title">Clients ermöglichen VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot-Clients erlauben, die VPN-Verbindungen dieses Geräts für die Upstream-Konnektivität zu verwenden</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ton bei Bildschirmfoto</string>
+
 </resources>
