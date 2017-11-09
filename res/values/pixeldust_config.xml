@@ -38,4 +38,7 @@
     <!-- Whether to display touch sensitivity switch -->
     <bool name="config_show_touch_sensitivity">false</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
