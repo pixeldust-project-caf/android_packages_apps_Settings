@@ -189,4 +189,7 @@
     <string name="smallest_tick_label">Ganzer Bildschirm</string>
     <string name="greatest_tick_label">Halber Bildschirm</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lautstärke für Klingel- &amp; Benachrichtigungston verknüpfen</string>
+
 </resources>
