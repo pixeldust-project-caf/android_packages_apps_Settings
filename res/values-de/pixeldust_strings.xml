@@ -58,4 +58,8 @@
     <!-- Scramble pin -->
     <string name="scramble_pin_title">Zufällig anordnen</string>
     <string name="scramble_pin_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
+
+    <!-- Volume link notification -->
+    <string name="ring_only_volume_option_title">Lautstärke Klingeln</string>
+    <string name="volume_link_notification_title">Klingel- &amp; Benachrichtigungslautstärke verknüpfen</string>
 </resources>
