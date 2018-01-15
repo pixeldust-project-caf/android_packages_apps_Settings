@@ -49,4 +49,7 @@
     <string name="selinux_status_permissive">Moderat</string>
     <string name="selinux_status_enforcing">Strikt</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lautstärke für Klingelton &amp; Benachrichtigungston verknüpfen</string>
+
 </resources>

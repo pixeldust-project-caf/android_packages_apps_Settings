@@ -68,4 +68,7 @@
     <string name="ambient_battery_percent_title">Battery level on bottom</string> 
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
 </resources>
