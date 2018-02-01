@@ -141,4 +141,7 @@
     <!-- [CHAR LIMIT=NONE] -->
     <string name="back_sensitivity_dialog_message_cust">\nVerwende den ersten Regler, um die Empfindlichkeit für die Zurück-Geste einzustellen, und den zweiten Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann. Hierdurch lassen sich Konflikte mit In-App-Gesten vermeiden.</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
+
 </resources>
