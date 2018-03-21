@@ -201,10 +201,7 @@ public class WifiTetherApBandPreferenceController extends WifiTetherBasePreferen
     }
 
     private boolean is5GhzBandSupported() {
-        if (!m5GHzSupported || mCountryCode == null) {
-            return false;
-        }
-        return true;
+        return mWifiManager.is5GHzBandSupported();
     }
 
     private boolean is6GhzBandSupported() {
