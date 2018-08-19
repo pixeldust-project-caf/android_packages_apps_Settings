@@ -22,6 +22,10 @@
     <string name="reset_settings_summary">PixelDust Feature Einstellungen zurücksetzen</string>
     <string name="keywords_settings_reset">Zurücksetzen</string>
 
+    <!-- PixelDust Settings strings -->
+    <string name="pixeldust_settings_title">PixelDust Einstellungen</string>
+    <string name="pixeldust_settings_summary">ROM Features &amp; benutzerdefinerte Einstellungen</string>
+
     <!-- PixelDust version-->
     <string name="pd_version">PixelDust Version</string>
     <string name="pd_version_default">Unbekannt</string>
