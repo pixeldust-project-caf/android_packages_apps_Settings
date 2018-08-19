@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 The Android Open Source Project
+<!--
+     Copyright (C) 2019-2020 The PixelDust Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,9 +14,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:persistent="false"
-    android:title="@string/accessibility_display_inversion_preference_title">
-</PreferenceScreen>
+    <!-- PixelDust version-->
+    <string name="pd_version">PixelDust version</string>
+    <string name="pd_version_default">Unknown</string>
+
+    <!-- PixelDust build date-->
+    <string name="pd_build_date">Build date</string>
+    <string name="pd_build_date_default">2017-08-01-0000</string>
+
+</resources>
