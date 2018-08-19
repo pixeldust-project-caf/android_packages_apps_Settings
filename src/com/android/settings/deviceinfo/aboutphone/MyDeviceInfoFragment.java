@@ -36,6 +36,8 @@ import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
+import com.android.settings.deviceinfo.PDBuildPreferenceController;
+import com.android.settings.deviceinfo.PDVersionPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.SoftwareVersionPreferenceController;
@@ -119,6 +121,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new UptimePreferenceController(context, lifecycle));
         controllers.add(new SoftwareVersionPreferenceController(context));
         controllers.add(new StorageSizePreferenceController(context));
+        controllers.add(new PDBuildPreferenceController(context));
+        controllers.add(new PDVersionPreferenceController(context));
         return controllers;
     }
 
