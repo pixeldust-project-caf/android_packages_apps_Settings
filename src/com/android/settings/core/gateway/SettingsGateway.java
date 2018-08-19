@@ -148,6 +148,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.pixeldust.settings.PixelDustSettings;
+
 public class SettingsGateway {
 
     /**
@@ -283,7 +285,8 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
-            GlobalActionsPanelSettings.class.getName()
+            GlobalActionsPanelSettings.class.getName(),
+            PixelDustSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -323,5 +326,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            Settings.PixelDustSettingsActivity.class.getName(),
     };
 }

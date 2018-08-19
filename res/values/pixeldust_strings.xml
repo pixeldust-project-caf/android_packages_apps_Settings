@@ -22,6 +22,10 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
+    <!-- PixelDust Settings strings -->
+    <string name="pixeldust_settings_title">PixelDust Settings</string>
+    <string name="pixeldust_settings_summary">ROM features &amp; personalization</string>
+
     <!-- PixelDust version-->
     <string name="pd_version">Pixe1dust version</string>
     <string name="pd_version_default">Unknown</string>
