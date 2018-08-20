@@ -30,7 +30,11 @@ import android.util.SparseIntArray;
 
 import com.android.internal.os.BatterySipper;
 import com.android.internal.util.ArrayUtils;
+
+import com.android.settings.R;
+import com.android.settings.fuelgauge.BatteryHistEntry;
 import com.android.settingslib.fuelgauge.Estimate;
+import com.android.settingslib.utils.PowerUtil;
 
 import com.android.settings.R;
 import com.android.settingslib.utils.PowerUtil;
