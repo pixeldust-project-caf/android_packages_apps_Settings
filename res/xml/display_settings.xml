@@ -68,7 +68,7 @@
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             android:key="display_settings_screen_zoom"
             android:title="@string/screen_zoom_title"
-            settings:keywords="@string/keywords_display_size" />
+            settings:searchable="false"/>
 
         <!-- Wallpaper Zoom Effects -->
         <com.pixeldust.support.preference.SystemSettingSwitchPreference
@@ -76,6 +76,10 @@
             android:title="@string/wallpaper_zoom_effect_title"
             android:summary="@string/wallpaper_zoom_effect_summary"
             android:defaultValue="true" />
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
     </PreferenceCategory>
 
     <PreferenceCategory
