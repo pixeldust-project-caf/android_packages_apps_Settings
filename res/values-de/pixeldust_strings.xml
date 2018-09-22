@@ -16,4 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen, um Info anzuzeigen</string>
+
+    <!-- Density category -->
+    <string name="density_category">Kompaktheitsgrad festlegen</string>
 </resources>
