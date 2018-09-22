@@ -63,28 +63,28 @@
         settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController"/>
 
     <!-- Legal information -->
-    <Preference
+    <!--Preference
         android:key="legal_container"
         android:order="15"
         android:title="@string/legal_information"
         android:fragment="com.android.settings.LegalSettings"
-        settings:allowDividerAbove="true"/>
+        settings:allowDividerAbove="true"/-->
 
     <!-- Regulatory labels -->
-    <Preference
+    <!--Preference
         android:key="regulatory_info"
         android:order="16"
         android:title="@string/regulatory_labels">
         <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
+    </Preference-->
 
     <!-- Safety & regulatory manual -->
-    <Preference
+    <!--Preference
         android:key="safety_info"
         android:order="17"
         android:title="@string/safety_and_regulatory_info">
         <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO"/>
-    </Preference>
+    </Preference-->
 
     <!-- SIM status -->
     <Preference
