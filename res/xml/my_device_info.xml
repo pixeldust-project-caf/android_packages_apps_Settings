@@ -28,11 +28,13 @@
         android:layout="@layout/pixeldust_logo"
         settings:allowDividerAbove="true"/>
 
+    <!--
     <com.android.settings.applications.LayoutPreference
         android:key="my_device_info_header"
         android:order="1"
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
+    -->
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
