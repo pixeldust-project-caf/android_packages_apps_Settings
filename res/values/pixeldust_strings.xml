@@ -204,4 +204,6 @@
     <string name="smart_charging_level_title">Trigger level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
+    <!-- Toolbar -->
+    <string name="settings_head_title">PixelDust</string>
 </resources>
