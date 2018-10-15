@@ -55,6 +55,17 @@
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ambient_display_category_battery"
+        android:layout="@layout/preference_category_no_label">
+
+        <com.pixeldust.settings.preferences.SystemSettingSwitchPreference 
+            android:key="ambient_battery_percent" 
+            android:title="@string/ambient_battery_percent_title" 
+            android:summary="@string/ambient_battery_percent_summary" 
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
