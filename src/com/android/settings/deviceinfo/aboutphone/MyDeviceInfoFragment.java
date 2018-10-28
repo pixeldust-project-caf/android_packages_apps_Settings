@@ -41,6 +41,7 @@ import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.SoftwareVersionPreferenceController;
 import com.android.settings.deviceinfo.StorageSizePreferenceController;
+import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.UptimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
@@ -164,6 +165,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new UptimePreferenceController(context, lifecycle));
         controllers.add(new SoftwareVersionPreferenceController(context));
         controllers.add(new StorageSizePreferenceController(context));
+        controllers.add(new SELinuxStatusPreferenceController(context));
         return controllers;
     }
 
