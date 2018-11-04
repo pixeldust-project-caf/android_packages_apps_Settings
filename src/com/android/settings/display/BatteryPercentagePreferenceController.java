@@ -42,9 +42,7 @@ public class BatteryPercentagePreferenceController extends BasePreferenceControl
 
     @Override
     public int getAvailabilityStatus() {
-        return !CutoutUtils.hasBigCutout(mContext) && mContext.getResources().getBoolean(
-                R.bool.config_battery_percentage_setting_available) ? AVAILABLE
-                : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
