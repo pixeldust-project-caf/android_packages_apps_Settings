@@ -38,4 +38,10 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
+    <!-- Device Introduction -->
+    <string name="first_time_introduction_header">Welcome to</string>
+    <string name="first_time_introduction_message">Experience Android like never before: outstanding battery life, buttery smooth feel and an extra set of custom features. You can customize the status bar, quick settings, navigation bar, lock screen, recents, notifications, and even the animations. Most of the features are present under Pixel Dust Settings. Here are some thing\'s you can do
+    to get started:\n\n- Setup Swipe up on Home button\n- Turn on Navigationbar Pulse\n- Try out Now Playing\n- Play around with our built-in theming options. You can choose the background colour from Light, Dark, Black, Shishu Nights, Chocolate, and there are also a number of accent colours available.</string>
+    <string name="first_time_confirm_button">GOT IT</string>
+
 </resources>
