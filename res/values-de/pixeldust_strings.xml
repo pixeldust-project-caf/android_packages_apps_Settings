@@ -30,4 +30,8 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Verlauf von Benachrichtigungen anzeigen</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Display an beim Ein- oder Ausstecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Das Display schaltet sich ein sobald ein Ladegerät angeschlossen oder entfernt wird.</string>
 </resources>
