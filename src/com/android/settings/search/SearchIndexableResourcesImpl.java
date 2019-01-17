@@ -98,6 +98,25 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.pixeldust.settings.fragments.ButtonSettings;
+import com.pixeldust.settings.fragments.FlingSettings;
+import com.pixeldust.settings.fragments.LockColors;
+import com.pixeldust.settings.fragments.LockScreenSettings;
+import com.pixeldust.settings.fragments.MiscSettings;
+import com.pixeldust.settings.fragments.NavigationBarSettings;
+import com.pixeldust.settings.fragments.NotificationsSettings;
+import com.pixeldust.settings.fragments.PDGestureSettings;
+import com.pixeldust.settings.fragments.PowerMenuSettings;
+import com.pixeldust.settings.fragments.PulseSettings;
+import com.pixeldust.settings.fragments.QuickSettings;
+import com.pixeldust.settings.fragments.RoundedCorners;
+import com.pixeldust.settings.fragments.SmartbarSettings;
+import com.pixeldust.settings.fragments.StatusBarSettings;
+import com.pixeldust.settings.fragments.StockNavBarSettings;
+import com.pixeldust.settings.fragments.VolumePanel;
+import com.pixeldust.settings.fragments.VolumeSettings;
+import com.pixeldust.settings.fragments.VolumeSteps;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -191,6 +210,26 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+
+        // PD custom settings
+        addIndex(ButtonSettings.class);
+        addIndex(FlingSettings.class);
+        addIndex(LockColors.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(MiscSettings.class);
+        addIndex(NavigationBarSettings.class);
+        addIndex(NotificationsSettings.class);
+        addIndex(PDGestureSettings.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(PulseSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(RoundedCorners.class);
+        addIndex(SmartbarSettings.class);
+        addIndex(StatusBarSettings.class);
+        addIndex(StockNavBarSettings.class);
+        addIndex(VolumePanel.class);
+        addIndex(VolumeSettings.class);
+        addIndex(VolumeSteps.class);
     }
 
     @Override
