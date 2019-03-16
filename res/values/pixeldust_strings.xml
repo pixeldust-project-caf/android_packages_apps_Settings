@@ -71,4 +71,9 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Notch behavior</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Hidden</string>
+
 </resources>
