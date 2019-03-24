@@ -22,6 +22,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../PixelDustSettings/src)
 
 LOCAL_FULL_LIBS_MANIFEST_FILES += $(LOCAL_PATH)/AndroidManifest-SmartNav.xml
+LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/settings/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
@@ -50,6 +51,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-logtags \
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    external/google/settings/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
