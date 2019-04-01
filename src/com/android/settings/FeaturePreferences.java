@@ -153,7 +153,7 @@ public class FeaturePreferences extends InstrumentedFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.FEATURE_PREFERENCES;
+        return MetricsEvent.PIXELDUST;
     }
 
     @Override
