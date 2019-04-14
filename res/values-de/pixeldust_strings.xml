@@ -40,7 +40,7 @@
 
     <!-- Device Introduction -->
     <string name="first_time_introduction_header">Willkommen bei</string>
-    <string name="first_time_introduction_message">Erlebe Android wie nie zuvor: hervorragende Akkulaufzeiten, flüssige Bedienoberfläche und nützliche Zusatzfeatures. In den Pixel Dust Einstellungen kannst du die Statusleiste, die Schnelleinstellungen, die Navigationsleiste, den Sperrbildschirm, den Anwendungsverlauf, die Benachrichtigungen und sogar die Animationen anpassen. Zum Einstieg kannst du z.B. folgendes tun:\n\n- Aktiviere \"Auf Startbildschirmtaste nach oben wischen\"\n- Den grafischen \"Pulse\"-Audio-Equalizer für die Navigationsleiste einschalten\n- \"Now Playing\" ausprobieren\n- Schau dir die in der ROM enthaltenen Gerätedesigns an. Schalte zwischen Hell, Dunkel, Schwarz, Shishu Nights und Schokolade hin und her, und wähle aus einer riesigen Auswahl an Akzentfarben aus.</string>
+    <string name="first_time_introduction_message">Erlebe Android wie nie zuvor: hervorragende Akkulaufzeiten, flüssige Bedienoberfläche und nützliche Zusatzfeatures. In den Pixel Dust Einstellungen kannst du die Statusleiste, die Schnelleinstellungen, die Navigationsleiste, den Sperrbildschirm, den Anwendungsverlauf, die Benachrichtigungen und sogar die Animationen anpassen. Zum Einstieg kannst du z.B. folgendes tun:\n\n- Aktiviere \"Auf Startbildschirmtaste nach oben wischen\"\n- Den grafischen \"Pulse\"-Audio-Equalizer für die Navigationsleiste einschalten\n- Probier die in der ROM enthaltenen Gerätedesigns aus. Wähle zwischen Hell, Dunkel, Schwarz, Shishu Nights und Schokolade, und es gibt ausserdem eine riesige Auswahl an Akzentfarben.</string>
     <string name="first_time_confirm_button">ALLES KLAR</string>
 
     <!-- Selinux -->
