@@ -66,6 +66,7 @@ import com.android.settings.inputmethod.AvailableVirtualKeyboardFragment;
 import com.android.settings.inputmethod.PhysicalKeyboardFragment;
 import com.android.settings.inputmethod.VirtualKeyboardFragment;
 import com.android.settings.language.LanguageAndInputSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.android.settings.location.LocationSettings;
 import com.android.settings.location.RecentLocationRequestSeeAllFragment;
 import com.android.settings.location.ScanningSettings;
@@ -230,6 +231,9 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(VolumePanel.class);
         addIndex(VolumeSettings.class);
         addIndex(VolumeSteps.class);
+
+        // LiveDisplay
+        addIndex(LiveDisplaySettings.class);
     }
 
     @Override
