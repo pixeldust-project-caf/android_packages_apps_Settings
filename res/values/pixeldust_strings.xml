@@ -66,4 +66,7 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- PD Updater -->
+    <string name="pd_updater_summary">Check if a new version is available for your device</string>
+
 </resources>

@@ -76,7 +76,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.summary_empty);
+        CharSequence summary = mContext.getString(R.string.pd_updater_summary);
         return summary;
     }
 }
