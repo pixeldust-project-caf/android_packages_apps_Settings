@@ -16,16 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Notch behavior -->
-    <string-array name="display_cutout_mode_entries" translatable="false">
-        <item>@string/display_cutout_mode_normal</item>
-        <item>@string/display_cutout_mode_hidden</item>
-    </string-array>
-    <string-array name="display_cutout_mode_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
     <!-- Values for the notification light pulse spinners -->
     <string-array name="notification_pulse_length_entries" translatable="false">
         <item>@string/pulse_length_always_on</item>
