@@ -9927,6 +9927,8 @@
     <string name="systemui_theme_light">Light</string>
     <!-- When SystemUI theme is dark [CHAR LIMIT=60] -->
     <string name="systemui_theme_dark">Dark</string>
+    <!-- When SystemUI theme is black [CHAR LIMIT=60] -->
+    <string name="systemui_theme_black">Black</string>
 
     <!-- Switch label to show operator name in the status bar [CHAR LIMIT=60] -->
     <string name="show_operator_name_title">Network name</string>
