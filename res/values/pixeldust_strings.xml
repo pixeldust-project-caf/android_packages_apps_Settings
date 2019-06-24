@@ -72,4 +72,7 @@
     <string name="global_actions_max_columns_summary">Number of icons left and right</string>
     <string name="global_actions_max_rows_title">Maximum rows</string>
     <string name="global_actions_max_rows_summary">Number of icons up and down</string>
+
+    <!-- Cloudflare DNS Option -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
 </resources>
