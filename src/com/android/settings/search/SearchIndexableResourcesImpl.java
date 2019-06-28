@@ -109,6 +109,7 @@ import com.pixeldust.settings.fragments.PDGestureSettings;
 import com.pixeldust.settings.fragments.PowerMenuSettings;
 import com.pixeldust.settings.fragments.PulseSettings;
 import com.pixeldust.settings.fragments.QuickSettings;
+import com.pixeldust.settings.fragments.RecentsSettings;
 import com.pixeldust.settings.fragments.SmartbarSettings;
 import com.pixeldust.settings.fragments.StatusBarSettings;
 import com.pixeldust.settings.fragments.StockNavBarSettings;
@@ -223,6 +224,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PowerMenuSettings.class);
         addIndex(PulseSettings.class);
         addIndex(QuickSettings.class);
+        addIndex(RecentsSettings.class);
         addIndex(ThemeFragment.class);
         addIndex(SmartbarSettings.class);
         addIndex(StatusBarSettings.class);
