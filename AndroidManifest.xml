@@ -3424,6 +3424,14 @@
                 android:value="com.pixeldust.settings.PixelDustSettings" />
         </activity-alias>
 
+        <!-- Gaming mode -->
+        <receiver android:name="com.pixeldust.settings.fragments.GamingModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
+                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
