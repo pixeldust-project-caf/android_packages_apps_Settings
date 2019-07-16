@@ -16,11 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Whether we should show the security patch level in
-         "About Phone" -->
-    <bool name="config_show_security_patch_level">true</bool>
-
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
+    <java-symbol type="bool" name="config_supportSmartCharging"/>
 
 </resources>
