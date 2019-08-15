@@ -91,4 +91,8 @@
     <!-- General -->
     <string name="copied_to_clipboard">In Zwischenablage kopiert</string>
     <string name="longpress_to_clipboard">Zum Kopieren lange drücken</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Clients gestatten VPNs zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot-Clients gestatten, die VPN-Verbindungen des Geräts für Upstream-Konnektivität zu verwenden</string>
 </resources>
