@@ -1725,7 +1725,7 @@
     <string name="install_text" msgid="884360662922471113">"Zainstaluj"</string>
     <string name="disable_text" msgid="6544054052049395202">"Wyłącz"</string>
     <string name="enable_text" msgid="9217362512327828987">"Włącz"</string>
-    <string name="clear_user_data_text" msgid="355574089263023363">"Wyczyść miejsce na dane"</string>
+    <string name="clear_user_data_text" msgid="355574089263023363">"Wyczyść pamięć"</string>
     <string name="app_factory_reset" msgid="6635744722502563022">"Odinstaluj aktualizacje"</string>
     <string name="auto_launch_enable_text" msgid="4275746249511874845">"Aplikacja jest domyślnie uruchamiana w przypadku niektórych działań."</string>
     <string name="always_allow_bind_appwidgets_text" msgid="566822577792032925">"Zdecydowałeś, że ta aplikacja może tworzyć widgety i mieć dostęp do ich danych."</string>
@@ -2388,7 +2388,7 @@
     <string name="battery_saver_auto_title" msgid="8368709389419695611">"Włącz automatycznie"</string>
     <string name="battery_saver_seekbar_title" msgid="4705356758573183963">"Przy <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <string name="battery_saver_seekbar_title_placeholder" msgid="1138980155985636295">"Włącz"</string>
-    <string name="battery_saver_master_switch_title" msgid="622539414546588436">"Użyj Oszczędzania baterii"</string>
+    <string name="battery_saver_master_switch_title" msgid="622539414546588436">"Włącz Oszczędzanie baterii"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="9023847300114669426">"Włącz automatycznie"</string>
     <string name="battery_saver_turn_on_automatically_never" msgid="6610846456314373">"Nigdy"</string>
     <string name="battery_saver_turn_on_automatically_pct" msgid="8665950426992057191">"przy <xliff:g id="PERCENT">%1$s</xliff:g> baterii"</string>
