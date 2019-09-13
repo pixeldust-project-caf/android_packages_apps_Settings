@@ -27,6 +27,8 @@ import com.android.internal.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
+import com.android.internal.util.custom.cutout.CutoutUtils;
+
 /**
  * A controller to manage the switch for showing battery percentage in the status bar.
  */
@@ -40,7 +42,7 @@ public class BatteryPercentagePreferenceController extends BasePreferenceControl
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources().getBoolean(
+        return !CutoutUtils.hasBigCutout(mContext) && mContext.getResources().getBoolean(
                 R.bool.config_battery_percentage_setting_available) ? AVAILABLE
                 : UNSUPPORTED_ON_DEVICE;
     }
