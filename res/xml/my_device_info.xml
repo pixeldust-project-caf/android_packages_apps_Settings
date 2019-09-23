@@ -28,7 +28,6 @@
         android:layout="@layout/pixeldust_logo"
         settings:allowDividerAbove="true"/>
 
-
     <!-- Android version -->
     <Preference
         android:key="firmware_version"
@@ -36,44 +35,30 @@
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"
+        settings:allowDividerAbove="true"/>
 
     <!-- PixelDust version -->
     <Preference
         android:key="pd_version"
         android:order="2"
         android:title="@string/pd_version"
-        android:summary="@string/pd_version_default" />
-
-    <!-- PixelDust build date -->
-    <Preference
-        android:key="pd_build"
-        android:order="3"
-        android:title="@string/pd_build_date"
-        android:summary="@string/pd_build_date_default" />
-
-    <!--
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="my_device_info_header"
-        android:order="0"
-        android:layout="@layout/settings_entity_header"
-        android:selectable="false"
-        settings:isPreferenceVisible="false"/>
-    -->
+        android:summary="@string/pd_version_default"/>
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
-        android:order="4"
+        android:order="3"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
-        settings:enableCopying="true"/>
+        settings:enableCopying="true"
+        settings:allowDividerAbove="true"/>
 
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:order="5"
+        android:order="4"
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
@@ -81,44 +66,20 @@
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="6"
+        android:order="5"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController"
         settings:enableCopying="true"/>
 
+    <!-- Emergency info -->
     <Preference
         android:key="emergency_info"
         android:order="14"
         android:title="@string/emergency_info_title"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController"/>
-
-    <!-- Legal information -->
-    <!--Preference
-        android:key="legal_container"
-        android:order="15"
-        android:title="@string/legal_information"
-        android:fragment="com.android.settings.LegalSettings"
-        settings:allowDividerAbove="true"
-        settings:searchable="false"/-->
-
-    <!-- Regulatory labels -->
-    <Preference
-        android:key="regulatory_info"
-        android:order="16"
-        android:title="@string/regulatory_labels">
-        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
-
-    <!-- Safety & regulatory manual -->
-    <Preference
-        android:key="safety_info"
-        android:order="17"
-        android:title="@string/safety_and_regulatory_info">
-        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO"/>
-    </Preference>
 
     <!-- SIM status -->
     <Preference
@@ -206,13 +167,21 @@
         android:title="@string/fcc_equipment_id"
         android:summary="@string/summary_placeholder"/>
 
+    <!-- PixelDust build date -->
+    <Preference
+        android:key="pd_build"
+        android:order="53"
+        android:title="@string/pd_build_date"
+        android:summary="@string/pd_build_date_default"
+        settings:allowDividerAbove="true"
+        settings:enableCopying="true"/>
+
     <!-- Build number -->
     <Preference
         android:key="build_number"
-        android:order="53"
+        android:order="54"
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
 
