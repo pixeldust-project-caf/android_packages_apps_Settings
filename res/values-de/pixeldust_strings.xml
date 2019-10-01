@@ -28,4 +28,6 @@
     <string name="pd_build_date">PixelDust Erstellungsdatum</string>
     <string name="pd_build_date_default">2017-08-01-0000</string>
 
+    <string name="pixeldust_extras_qs_title">Schnelleinstellungen</string>
+
 </resources>

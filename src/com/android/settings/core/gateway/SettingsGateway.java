@@ -149,6 +149,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.pixeldust.settings.PixelDustSettings;
+import com.pixeldust.settings.fragments.QuickSettings;
 
 public class SettingsGateway {
 
@@ -287,6 +288,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             PixelDustSettings.class.getName(),
+            QuickSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -327,5 +329,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.PixelDustSettingsActivity.class.getName(),
+            Settings.QuickSettingsActivity.class.getName(),
     };
 }
