@@ -27,6 +27,8 @@ import androidx.preference.PreferenceViewHolder;
  */
 public class PhoneNumberSummaryPreference extends Preference {
 
+    private boolean mRevealing = false;
+
     /**
      * Constructor
      * @param context
@@ -47,11 +49,22 @@ public class PhoneNumberSummaryPreference extends Preference {
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
+        holder.itemView.setOnLongClickListener(v -> {
+            return !mRevealing;
+        });
 
         // Expand text to support phone number talkback.
         TextView summaryView = (TextView) holder.findViewById(android.R.id.summary);
         if (summaryView != null) {
             summaryView.setText(PhoneNumberUtil.expandByTts(summaryView.getText()));
         }
+    }
+
+    public void setRevealing(boolean revealing) {
+        mRevealing = revealing;
+    }
+
+    public boolean isRevealing() {
+        return mRevealing;
     }
 }

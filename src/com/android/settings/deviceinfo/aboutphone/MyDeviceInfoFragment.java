@@ -58,7 +58,6 @@ import java.util.List;
 import android.content.BroadcastReceiver;
 import android.content.IntentFilter;
 
-import com.android.internal.telephony.IccCardConstants;
 import com.android.internal.telephony.TelephonyIntents;
 
 @SearchIndexable
@@ -72,8 +71,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
             if (TelephonyIntents.ACTION_SIM_STATE_CHANGED.equals(action)) {
-                String state = intent.getStringExtra(IccCardConstants.INTENT_KEY_ICC_STATE);
-                Log.d(LOG_TAG, "Received ACTION_SIM_STATE_CHANGED: " + state);
                 updatePreferenceStates();
             }
         }

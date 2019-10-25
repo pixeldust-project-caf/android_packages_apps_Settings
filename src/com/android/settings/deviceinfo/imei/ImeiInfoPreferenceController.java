@@ -145,7 +145,6 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         if (preference == null) {
             return;
         }
-        Log.d(TAG, "updateState");
         mQtiImeiInfo = TelephonyUtils.getImeiInfo();
         int size = mPreferenceList.size();
         for (int i = 0; i < size; i++) {
@@ -167,8 +166,13 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
                 simSlot = 0;
             }
         }
-        return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
-                : getImei(simSlot);
+        final PhoneNumberSummaryPreference preference =
+            (PhoneNumberSummaryPreference) mPreferenceList.get(simSlot);
+        if (preference.isRevealing()) {
+            return phoneType == PHONE_TYPE_CDMA ? mTelephonyManager.getMeid(simSlot)
+                    : mTelephonyManager.getImei(simSlot);
+        }
+        return mContext.getString(R.string.device_info_protected_single_press);
     }
 
     @Override
@@ -176,6 +180,14 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         final int simSlot = mPreferenceList.indexOf(preference);
         if (simSlot == -1) {
             return false;
+        }
+
+        final PhoneNumberSummaryPreference imeiPreference =
+            (PhoneNumberSummaryPreference) mPreferenceList.get(simSlot);
+        if (!imeiPreference.isRevealing()) {
+            imeiPreference.setRevealing(true);
+            updatePreference(imeiPreference, simSlot);
+            return true;
         }
 
         if (Utils.isSupportCTPA(mContext)) {
