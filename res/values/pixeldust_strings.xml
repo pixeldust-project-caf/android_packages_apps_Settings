@@ -8,4 +8,8 @@
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Allow to choose lockscreen or Ambient on wake gestures -->
+    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
 </resources>
