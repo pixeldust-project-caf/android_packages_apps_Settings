@@ -164,4 +164,8 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ton bei Bildschirmfoto</string>
 
+    <!-- Less boring heads up option -->
+    <string name="less_boring_heads_up_title">Weniger Störungen durch Pop-up-Benachrichtigungen</string>
+    <string name="less_boring_heads_up_summary">Pop-up-Benachrichtigungen nur für die Telefon- oder Nachrichten-App anzeigen, wenn diese nicht im Vordergrund sind</string>
+
 </resources>
