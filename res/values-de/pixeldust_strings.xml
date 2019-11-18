@@ -242,4 +242,8 @@
     <string name="data_usage_daily">Täglich</string>
     <string name="data_usage_monthly">Monatlich</string>
 
+    <!-- Back gesture settings -->
+    <string name="back_gesture_arrow_title">Pfeil für Zurück-Geste</string>
+    <string name="back_gesture_arrow_message">Pfeil für Zurück-Geste nicht anzeigen</string>
+
 </resources>

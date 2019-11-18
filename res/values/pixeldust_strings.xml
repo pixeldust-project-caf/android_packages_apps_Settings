@@ -245,4 +245,8 @@
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
 
+    <!-- Back gesture settings -->
+    <string name="back_gesture_arrow_title">Back arrow animation</string>
+    <string name="back_gesture_arrow_message">Hide arrow with back gesture</string>
+
 </resources>
