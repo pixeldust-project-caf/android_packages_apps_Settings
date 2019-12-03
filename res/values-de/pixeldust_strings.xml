@@ -172,4 +172,8 @@
     <string name="show_media_heads_up_title">Pop-up Benachrichtigungen für Medien</string>
     <string name="show_media_heads_up_summary">Pop-up Benachrichtigungen für Medien anzeigen, wenn ein neuer Titel abgespielt wird und sich der Player noch nicht im Vordergrund befindet</string>
 
+    <!-- Allow to suppress notifications sound/vibration if screen is ON -->
+    <string name="notification_sound_vib_screen_on_title">Benachrichtigungston bei bei eingeschaltetem Bildschirm</string>
+    <string name="notification_sound_vib_screen_on_summary">Töne und Vibrationen für Benachrichtigungen abspielen, wenn der Bildschirm eingeschaltet ist</string>
+
 </resources>

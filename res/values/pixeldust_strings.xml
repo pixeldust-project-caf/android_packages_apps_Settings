@@ -178,4 +178,8 @@
     <string name="show_media_heads_up_title">Show media heads up</string>
     <string name="show_media_heads_up_summary">Show media heads up when a new track is played, if the player is not already in foreground</string>
 
+    <!-- Allow to suppress notifications sound/vibration if screen is ON -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+
 </resources>
