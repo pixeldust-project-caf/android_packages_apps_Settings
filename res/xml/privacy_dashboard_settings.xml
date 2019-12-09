@@ -19,7 +19,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="privacy_dashboard_page"
-    android:title="@string/privacy_dashboard_title">
+    android:title="@string/privacy_dashboard_title"
+    settings:initialExpandedChildrenCount="10">
 
     <!-- Work Policy info -->
     <Preference
