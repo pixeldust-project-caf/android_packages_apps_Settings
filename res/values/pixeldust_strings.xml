@@ -140,4 +140,11 @@
     <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
     <string name="auto_refresh_rate">Auto</string>
 
+    <string name="smallest_tick_label">Full screen</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Back Sensitivity and DeadZone</string>
+    <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first seekbar to configure back swipe sensitivity, the second seekbar to set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures.</string>
+
 </resources>
