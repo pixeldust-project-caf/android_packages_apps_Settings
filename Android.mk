@@ -22,6 +22,7 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../PixelDustSettings/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/SettingsGoogle/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -59,7 +60,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
-    packages/apps/PixelDustSettings/res
+    packages/apps/PixelDustSettings/res \
+    external/google/SettingsGoogle/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
