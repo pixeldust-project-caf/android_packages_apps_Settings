@@ -79,7 +79,7 @@ public class AmbientWakeGesturesPreferenceController extends
 
     @Override
     public int getAvailabilityStatus() {
-        return getAmbientConfig().pulseOnNotificationAvailable()
+        return (getAmbientConfig().pulseOnNotificationAvailable() && mContext.getResources().getBoolean(com.android.internal.R.bool.config_supportAmbientWakeGestures))
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
