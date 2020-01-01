@@ -125,4 +125,8 @@
 
     <string name="lockscreen_display_title">Lock Screen Display</string>
 
+    <!-- Themes -->
+    <string name="du_themes_title">Themes</string>
+    <string name="du_themes_summary">Life is like a box of crayons..</string>
+
 </resources>

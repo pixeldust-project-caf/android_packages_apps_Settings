@@ -18,5 +18,7 @@
 
     <!-- PD Settings -->
     <color name="homepage_pixeldust_background">#FFF20D0D</color>
+    <!-- Themes -->
+    <color name="homepage_du_themes_background">#FF5E35B1</color>
 
 </resources>
