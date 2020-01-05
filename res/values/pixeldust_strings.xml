@@ -127,7 +127,7 @@
 
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
-    <string name="du_themes_summary">Life is like a box of crayons..</string>
+    <string name="du_themes_summary">Choose the background colour, accent color, font, statusbar icon style and icon shape.</string>
 
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Screen refresh rate</string>
