@@ -61,7 +61,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 R.layout.dialog_back_gesture_sensitivity, null);
         final SeekBar seekBar = view.findViewById(R.id.back_sensitivity_seekbar);
         seekBar.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
-        return new AlertDialog.Builder(getContext())
+        return new AlertDialog.Builder(getContext(), R.style.GestureDialogTheme)
                 .setTitle(R.string.back_sensitivity_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
                 .setView(view)
