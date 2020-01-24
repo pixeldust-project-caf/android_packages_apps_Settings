@@ -3329,7 +3329,7 @@
         <!-- PixelDustSettings -->
         <activity android:name="Settings$PixelDustSettingsActivity"
                 android:label="@string/pixeldust_settings_title"
-                android:icon="@drawable/ic_settings_pixeldust"
+                android:icon="@drawable/ic_homepage_pixeldust"
                 android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.PIXELDUST_SETTINGS" />
@@ -3341,12 +3341,9 @@
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="250">
+            <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
-            <meta-data android:name="com.android.settings.order" android:value="-105"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.pixeldust.settings.PixelDustSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"

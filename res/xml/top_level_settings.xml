@@ -47,6 +47,14 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
+        android:key="top_level_pdsettings"
+        android:title="@string/pixeldust_settings_title"
+        android:summary="@string/pixeldust_settings_summary"
+        android:icon="@drawable/ic_homepage_pixeldust"
+        android:fragment="com.pixeldust.settings.PixelDustSettings"
+        android:order="-99"/>
+
+    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
