@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-   Copyright (C) 2019 The PixelDust Project
+     Copyright (C) 2019-2020 The PixelDust Project
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+          http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
@@ -28,11 +28,117 @@
     <string name="pd_build_date">PixelDust Erstellungsdatum</string>
     <string name="pd_build_date_default">2017-08-01-0000</string>
 
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Lokalisieren Sie den Fingerabdrucksensor an der Vorderseite Ihres Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Lokalisieren Sie den Fingerabdrucksensor auf der linken Seite Ihres Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Lokalisieren Sie den Fingerabdrucksensor auf der rechten Seite Ihres Telefons.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Lokalisieren Sie den Fingerabdrucksensor an der Vorderseite Ihres Geräts.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Lokalisieren Sie den Fingerabdrucksensor auf der linken Seite Ihres Geräts.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Lokalisieren Sie den Fingerabdrucksensor auf der rechten Seite Ihres Geräts.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Lokalisieren Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Lokalisieren Sie den Fingerabdrucksensor auf der linken Seite Ihres Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Lokalisieren Sie den Fingerabdrucksensor auf der rechten Seite Ihres Tablets.</string>
+
     <string name="pixeldust_extras_qs_title">Schnelleinstellungen</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnellentriegelung</string>
+    <string name="unlock_quick_unlock_control_summary">Die Sperre wird automatisch aufgehoben, wenn die richtige PIN/das richtige Passwort eingegeben wurde</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED Farbe</string>
+    <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
+    <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)"</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Änderungshistorie</string>
     <string name="changelog_summary">Seit dem letzten Update</string>
     <string name="changelog_error">Changelog kann nicht geladen werden</string>
+
+    <!-- PD Updater -->
+    <string name="pd_updater_summary">Überprüfe, ob für dein Gerät eine neue Version verfügbar ist</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Die Historie zum letzten Ladevorgang wird zurückgesetzt</string>
+
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Akkuladestand am unteren Rand anzeigen</string> 
+    <string name="ambient_battery_percent_summary">Akkuladestand als Prozentwert auf dem Ambient Display anzeigen</string>
+
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">Dashboard Zustände</string>
+    <string name="summary_dashboard_conditions_enabled">Dashboard Zustände sind aktiviert</string>
+    <string name="summary_dashboard_conditions_disabled">Dashboard Zustände sind deaktiviert</string>
+    <string name="dashboard_suggestions_title">Dashboard Vorschläge</string>
+    <string name="summary_dashboard_suggestions_enabled">Dashboard Vorschläge sind aktiviert</string>
+    <string name="summary_dashboard_suggestions_disabled">Dashboard Vorschläge sind deaktiviert</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Den maximalen Ladezustand festlegen</string>
+    <string name="smart_charging_switch_title">Smart charging verwenden</string>
+    <string name="smart_charging_level_title">Ladevorgang beenden</string>
+    <string name="smart_charging_resume_level_title">Ladevorgang starten</string>
+    <string name="smart_charging_reset_stats_title">Historie über den Ladevorgang</string>
+    <string name="smart_charging_reset_stats_summary">Die Historie vom letzten Ladevorgang zurücksetzen, nachdem der benutzerdefinierte Ladezustand erreicht worden ist</string>
+    <string name="smart_charging_footer">Smart Charging ermöglicht es den maximalen Ladepegel einzustellen, um möglicherweise die Lebensdauer des Akkus zu verlängern</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Akkutemperatur</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps zwingen, Notch Space zu ignorieren</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Benachrichtigungen schließen durch nach links oder rechts wischen über den Fingerabdrucksensor</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Streiche auf dem Fingerabdrucksensor auf der Rückseite des Geräts nach links oder rechts, um Benachrichtigungen zu schließen.</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Überspringen von Songtiteln</string>
+    <string name="volume_skiptrack_title">Lautstärkeregler zum Überspringen von Titel</string>
+    <string name="volume_skiptrack_summary">Lange auf die Lautstärkewippe drücken, um zum nächsten Songtitel zu springen. Das geht auch ferngesteuert über Fernseher oder PC mit z.B. mit Spotify (App muss auf dem Telefon ausgeführt werden und die Benachrichtigung anzeigen).</string>
+
+    <string name="ambient_wake_gestures_title">Ambient-Weckgesten</string>
+    <string name="ambient_wake_gestures_summary">Ambient Display anstelle des normalem Sperrbildschirms bei Weckgesten anzeigen</string>
+
+    <string name="pulse_on_new_tracks_title">Ambient Music Ticker</string>
+    <string name="pulse_on_new_tracks_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird. Um zum nächsten Titel zu springen, auf die Titelinformationen doppeltippen.</string>
+
+    <string name="lockscreen_display_title">Sperrbildschirm</string>
+
+    <!-- Themes -->
+    <string name="du_themes_title">UI-Stil anpassen</string>
+    <string name="du_themes_summary">Hintergrundfarbe, Akzentfarbe, Schriftart, Symbolstil der Statusleiste und Symbolform wählen.</string>
+
+    <!-- Customize your device -->
+    <string name="custom_style_suggestion_title">Das Look&amp;Feel des Gerätes anpassen</string>
+    <string name="custom_style_suggestion_summary">Probiere verschiedene UI Themes, Farben und Schriftarten aus</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildschirmaktualisierungsrate</string>
+    <string name="refresh_rate_summary_auto">Auto / Erhöht automatisch die Aktualisierungsrate für einige Inhalte von 60 auf 90 Hz</string>
+    <string name="refresh_rate_summary_60">60Hz / Aktualisierungsrate für alle Inhalte bei 60 Hz gesperrt</string>
+    <string name="refresh_rate_summary_90">90Hz / Aktualisierungsrate für alle Inhalte bei 90 Hz gesperrt. Erhöhter Akkuverbrauch.</string>
+    <string name="auto_refresh_rate">Automatisch</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Swipen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_summary">Wische mit 3 Fingern über den Bildschirm nach unten, um ein Bildschirmfoto aufzunehmen</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Hier tippen, um Informationen anzuzeigen</string>
+
+    <string name="smallest_tick_label">Ganzer Bildschirm</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Sensibilität und DeadZone der Zurück-Geste</string>
+    <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nVerwende den ersten Regler, um die Empfindlichkeit für die Zurück-Geste einzustellen, und den zweiten Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann. Hierdurch lassen sich Konflikte mit In-App-Gesten vermeiden.</string>
 
 </resources>
