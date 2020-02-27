@@ -127,7 +127,7 @@
 
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
-    <string name="du_themes_summary">Choose the background colour, accent color, font, statusbar icon style and icon shape.</string>
+    <string name="du_themes_summary">Change the look and feel of your device</string>
 
     <!-- Customize your device -->
     <string name="custom_style_suggestion_title">Customize your device</string>

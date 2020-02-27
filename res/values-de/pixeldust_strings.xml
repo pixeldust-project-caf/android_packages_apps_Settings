@@ -114,7 +114,7 @@
 
     <!-- Themes -->
     <string name="du_themes_title">UI-Stil anpassen</string>
-    <string name="du_themes_summary">Hintergrundfarbe, Akzentfarbe, Schriftart, Symbolstil der Statusleiste und Symbolform wählen.</string>
+    <string name="du_themes_summary">Ändere das Look&amp;Feel Deines Geräts</string>
 
     <!-- Customize your device -->
     <string name="custom_style_suggestion_title">Das Look&amp;Feel des Gerätes anpassen</string>
