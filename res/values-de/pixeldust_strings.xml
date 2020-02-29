@@ -153,7 +153,7 @@
     <string name="left_swipe_app_action_title">App wählen für lange Wischgeste nach links</string>
     <string name="right_swipe_actions_title">Lange Wischgeste nach rechts</string>
     <string name="right_swipe_app_action_title">App wählen für lange Wischgeste nach rechts</string>
-    <string name="gesture_nav_tweaks_footer_info">Wenn du eine bestimmte App-Aktivität für die Aktion auswählen möchtest, dann drücke lange auf eine App in der Apps-Auswahl.</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücke lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, wische ganz unten auf dem Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischgeste</string>
     <string name="back_swipe_extended_summary">"Aktion auslösen, wenn man mehr als 3/4 der Displaybreite wischt"</string>
 
