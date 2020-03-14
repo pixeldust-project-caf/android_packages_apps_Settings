@@ -28,7 +28,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.pixeldust.support.colorpicker.ColorPickerPreference;
 
 public class CustomLightsPreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -63,7 +63,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
              //light color pref
             ColorPickerPreference mCustomLight = (ColorPickerPreference) preference;
             int defaultLightColor = mContext.getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
-            mCustomLight.setDefaultColor(defaultLightColor);
+            mCustomLight.setDefaultValue(defaultLightColor);
             mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
             mCustomLight.setAlphaSliderEnabled(false);
             mCustomLight.setNewPreviewColor(mLedColor);

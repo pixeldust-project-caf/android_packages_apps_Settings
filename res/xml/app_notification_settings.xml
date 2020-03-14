@@ -61,7 +61,7 @@
         settings:useAdditionalSummary="true"/>
 
     <!-- Custom led color -->
-    <net.margaritov.preference.colorpicker.ColorPickerPreference
+    <com.pixeldust.support.colorpicker.ColorPickerPreference
         android:key="custom_light"
         android:dependency="lights"
         ledPreview="true"
