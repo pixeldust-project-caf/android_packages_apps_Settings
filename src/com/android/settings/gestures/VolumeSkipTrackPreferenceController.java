@@ -19,6 +19,7 @@ package com.android.settings.gestures;
 import static android.provider.Settings.System.VOLUME_BUTTON_MUSIC_CONTROL;
 
 import android.content.Context;
+import android.os.UserHandle;
 import android.provider.Settings;
 
 public class VolumeSkipTrackPreferenceController extends GesturePreferenceController {
@@ -44,14 +45,14 @@ public class VolumeSkipTrackPreferenceController extends GesturePreferenceContro
 
     @Override
     public boolean isChecked() {
-        final int enabled = Settings.System.getInt(mContext.getContentResolver(),
-                SYSTEM_KEY, ON);
+        final int enabled = Settings.System.getIntForUser(mContext.getContentResolver(),
+                SYSTEM_KEY, ON, UserHandle.USER_CURRENT);
         return enabled == ON;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), SYSTEM_KEY,
-                isChecked ? ON : OFF);
+        return Settings.System.putIntForUser(mContext.getContentResolver(), SYSTEM_KEY,
+                isChecked ? ON : OFF, UserHandle.USER_CURRENT);
     }
 }
