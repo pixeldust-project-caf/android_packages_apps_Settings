@@ -23,11 +23,11 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.provider.Settings;
+import android.os.UserHandle;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
-
-import com.android.internal.util.custom.NavbarUtils;
 
 public class SystemNavigationPreferenceController extends BasePreferenceController {
 
@@ -77,11 +77,9 @@ public class SystemNavigationPreferenceController extends BasePreferenceControll
         }
 
         // Check if navbar visible
-        if (!NavbarUtils.isEnabled(context)){
-            return false;
-        }
-
-        return true;
+        boolean isEnabled =  Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.FORCE_SHOW_NAVBAR, 1, UserHandle.USER_CURRENT) != 0;
+        return isEnabled;
     }
 
     static boolean isOverlayPackageAvailable(Context context, String overlayPackage) {
