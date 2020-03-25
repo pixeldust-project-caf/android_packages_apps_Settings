@@ -39,13 +39,15 @@ import com.android.settingslib.fuelgauge.EstimateKt;
 import com.android.settingslib.utils.PowerUtil;
 import com.android.settingslib.utils.StringUtil;
 
+import com.android.internal.util.pixeldust.PixeldustUtils;
+
 public class BatteryInfo {
 
     public CharSequence chargeLabel;
     public CharSequence remainingLabel;
     public int batteryLevel;
     public boolean discharging = true;
-    static float batteryTemp;
+    static String batteryTemp;
     public long remainingTimeUs = 0;
     public long averageTimeToDischarge = EstimateKt.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN;
     public String batteryPercentString;
@@ -234,7 +236,8 @@ public class BatteryInfo {
         info.mCharging = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0) != 0;
         info.averageTimeToDischarge = estimate.getAverageDischargeTime();
 		int bTemp = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0);
-		info.batteryTemp = (float) (bTemp / 10);
+		info.batteryTemp = PixeldustUtils.mccCheck(context) ?
+                  (float) (bTemp * 9 / 50 + 32) + " °F" : (float) (bTemp / 10) + " °C";
         final Resources resources = context.getResources();
 
         info.statusLabel = Utils.getBatteryStatus(resources, batteryBroadcast);
