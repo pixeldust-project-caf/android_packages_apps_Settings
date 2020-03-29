@@ -314,16 +314,24 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             String key) {
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
+                resetNavbarLayout(context);
                 int sensitivity = getBackSensitivity(context, overlayManager);
                 setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity]);
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
+                resetNavbarLayout(context);
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_2BUTTON_OVERLAY);
                 break;
             case KEY_SYSTEM_NAV_3BUTTONS:
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_3BUTTON_OVERLAY);
                 break;
         }
+    }
+
+    private static void resetNavbarLayout(Context context) {
+        Settings.Secure.putStringForUser(context.getContentResolver(),
+                Settings.Secure.NAVBAR_LAYOUT_VIEWS, "default",
+                USER_CURRENT);
     }
 
     private static void setNavBarInteractionMode(IOverlayManager overlayManager,
