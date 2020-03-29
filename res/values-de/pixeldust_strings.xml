@@ -168,4 +168,8 @@
     <string name="less_boring_heads_up_title">Weniger Störungen durch Pop-up-Benachrichtigungen</string>
     <string name="less_boring_heads_up_summary">Pop-up-Benachrichtigungen nur für die Telefon- oder Nachrichten-App anzeigen, wenn diese nicht im Vordergrund sind</string>
 
+    <!-- Allow to show music heads up on new tracks -->
+    <string name="show_media_heads_up_title">Pop-up Benachrichtigungen für Medien</string>
+    <string name="show_media_heads_up_summary">Pop-up Benachrichtigungen für Medien anzeigen, wenn ein neuer Titel abgespielt wird und sich der Player noch nicht im Vordergrund befindet</string>
+
 </resources>
