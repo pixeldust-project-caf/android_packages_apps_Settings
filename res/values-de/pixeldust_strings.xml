@@ -180,4 +180,9 @@
     <string name="notification_sound_vib_screen_on_title">Benachrichtigungston bei bei eingeschaltetem Bildschirm</string>
     <string name="notification_sound_vib_screen_on_summary">Töne und Vibrationen für Benachrichtigungen abspielen, wenn der Bildschirm eingeschaltet ist</string>
 
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Berührungsempfindlichkeit bei Verwendung von Displayschutzfolien verbessern</string>
+    <string name="touch_sensitivity_title">Berührungsempfindlichkeit erhöhen</string>
+    <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Berührungsempfindlichkeit, Displayschutz, Folie, Film, Reaktionsfähigkeit</string>
+
 </resources>
