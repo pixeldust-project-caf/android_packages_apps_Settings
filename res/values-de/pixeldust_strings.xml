@@ -134,13 +134,6 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Hier tippen, um Informationen anzuzeigen</string>
 
-    <string name="smallest_tick_label">Ganzer Bildschirm</string>
-    <string name="greatest_tick_label">Halber Bildschirm</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Sensibilität und DeadZone der Zurück-Geste</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nVerwende den ersten Regler, um die Empfindlichkeit für die Zurück-Geste einzustellen, und den zweiten Regler, um den Bereich des Bildschirms festzulegen, in dem das Wischen ausgelöst werden kann. Hierdurch lassen sich Konflikte mit In-App-Gesten vermeiden.</string>
-
     <!-- Notification log -->
     <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
 
@@ -186,5 +179,14 @@
     <string name="touch_sensitivity_summary">Berührungsempfindlichkeit bei Verwendung von Displayschutzfolien verbessern</string>
     <string name="touch_sensitivity_title">Berührungsempfindlichkeit erhöhen</string>
     <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Berührungsempfindlichkeit, Displayschutz, Folie, Film, Reaktionsfähigkeit</string>
+
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar-Tuning</string>
+    <string name="back_gesture_sensitivity_dialog_message">Eine höhere Empfindlichkeit kann zu Konflikten mit App-Gesten entlang der Bildschirmränder führen.</string>
+    <string name="back_gesture_area_dead_zone_title">DeadZone für die Zurück-Geste</string>
+    <string name="back_gesture_area_dead_zone_message">Den Bereich des Bildschirms festlegen, in dem das Wischen ausgelöst werden kann. Hierdurch lassen sich Konflikte mit In-App-Gesten vermeiden.</string>
+    <string name="smallest_tick_label">Ganzer Bildschirm</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
 
 </resources>

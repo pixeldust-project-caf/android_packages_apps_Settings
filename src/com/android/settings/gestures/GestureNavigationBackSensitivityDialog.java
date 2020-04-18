@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.os.ServiceManager;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -67,7 +68,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         backDeadzoneSeekbar.setProgress(getArguments().getInt(KEY_BACK_DEAD_Y_ZONE));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_sensitivity_dialog_title_cust)
-                .setMessage(R.string.back_sensitivity_dialog_message_cust)
                 .setView(view)
                 .setPositiveButton(R.string.okay, (dialog, which) -> {
                     int sensitivity = sensitivitySeekBar.getProgress();
