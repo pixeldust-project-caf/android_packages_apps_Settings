@@ -206,4 +206,9 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Schließen</string>
 
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">Bei angeschlossenem Headset sollen Anrufe klingeln</string>
+    <string name="ringtone_focus_mode_dynamic">Im Headset (nur wenn Musik abgespielt wird)</string>
+    <string name="ringtone_focus_mode_stock">Sowohl im Lautsprecher als auch im Headset</string>
+
 </resources>
