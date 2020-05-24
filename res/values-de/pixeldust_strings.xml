@@ -168,4 +168,8 @@
     <string name="power_menu_long_press_for_torch">Gedrückt halten, um die Taschenlampe ein-/auszuschalten</string>
     <string name="torch_long_press_power_text">Langes Drücken für die Taschenlampe funktioniert nur, wenn das Display ausgeschaltet ist.\nDurch erneutes langes Drücken bei eingeschalteter Taschenlampe wird sie ausgeschaltet, auch wenn das Display eingeschaltet ist.</string>
     <string name="power_menu_summary_long_press_for_torch">Taschenlampe ein-/ausschalten</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">Gesten-Navigationsleiste</string>
+    <string name="show_navbar_hint_summary">Horizontale Linie für die Gestenbedienung anzeigen</string>
 </resources>
