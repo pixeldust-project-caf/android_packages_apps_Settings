@@ -199,4 +199,8 @@
     <string name="power_menu_long_press_for_torch">Hold to toggle flashlight</string>
     <string name="torch_long_press_power_text">Long press for torch only works when screen is off.\nLong pressing again when flashlight is on will turn it off, even if screen is on.</string>
     <string name="power_menu_summary_long_press_for_torch">Toggle flashlight</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">Navigation hint</string>
+    <string name="show_navbar_hint_summary">Show navigation hint bar at the bottom of the screen</string>
 </resources>
