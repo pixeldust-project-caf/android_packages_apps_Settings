@@ -136,4 +136,8 @@
     <string name="pattern_custom">benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefinierte Vibration</string>
     <string name="custom_vibration_pattern_summary">Benutzerdefiniertes Vibrationsmuster festlegen</string>
+
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_hint_title">Gesten-Navigationsleiste</string>
+    <string name="show_navbar_hint_summary">Horizontale Linie für die Gestenbedienung anzeigen</string>
 </resources>
