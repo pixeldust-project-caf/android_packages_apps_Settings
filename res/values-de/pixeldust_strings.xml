@@ -143,4 +143,8 @@
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Albumcover bei Musikwiedergabe anzeigen</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
+    <string name="data_usage_app_restrict_all_summary">Netzwerknutzung aktivieren</string>
 </resources>
