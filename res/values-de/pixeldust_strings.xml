@@ -125,4 +125,15 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Änderungen seit dem letzten Update anzeigen</string>
     <string name="changelog_error">Changelog kann nicht geladen werden</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
+    <string name="pattern_dzzz_dzzz">tsss-tsss</string>
+    <string name="pattern_dzzz_da">tsss-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-tsss</string>
+    <string name="pattern_da_dzzz_da">da-tsss-da</string>
+    <string name="pattern_custom">benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Benutzerdefinierte Vibration</string>
+    <string name="custom_vibration_pattern_summary">Benutzerdefiniertes Vibrationsmuster festlegen</string>
 </resources>
