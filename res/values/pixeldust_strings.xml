@@ -106,7 +106,10 @@
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
 
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played.</string>
+
+    <string name="ambient_music_ticker_title">Ambient music ticker (bottom)</string>
+    <string name="ambient_music_ticker_summary">Shows a new music track in the bottom of the ambient display. From pixel 2, the music tracks recognized by "\Now Playing\" can also be displayed here. The prerequisite for this is that you have activated "\Now Playing\" in the system audio settings.</string>
 
     <string name="lockscreen_display_title">Lock Screen Display</string>
 

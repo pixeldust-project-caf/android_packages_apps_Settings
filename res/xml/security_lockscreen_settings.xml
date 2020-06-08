@@ -108,6 +108,13 @@
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary"
             settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
+        <SwitchPreference
+            android:key="force_ambient_for_media"
+            android:title="@string/ambient_music_ticker_title"
+            android:summary="@string/ambient_music_ticker_summary"
+            settings:controller="com.android.settings.display.ForceAmbientForMediaPreferenceController" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
