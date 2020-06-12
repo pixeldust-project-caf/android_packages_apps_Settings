@@ -107,11 +107,13 @@
     <string name="ambient_wake_gestures_title">Ambient-Weckgesten</string>
     <string name="ambient_wake_gestures_summary">Ambient Display anstelle des normalem Sperrbildschirms bei Weckgesten anzeigen</string>
 
-    <string name="pulse_on_new_tracks_title">Ambient Music Ticker</string>
+    <string name="pulse_on_new_tracks_title">Ambient Music Ticker bei Musikaktivitäten anzeigen</string>
     <string name="pulse_on_new_tracks_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird.</string>
 
-    <string name="ambient_music_ticker_title">Ambient Music Ticker (unten anzeigen)</string>
-    <string name="ambient_music_ticker_summary">Neue Songtitel werden am unteren Rand des Ambient Display angezeigt. Ab dem Pixel 2 können hier auch die von \"Now Playing\" erkannten Songtitel angezeigt werden. Voraussetzung hierfür ist, dass du \"Now Playing\" in den System-Audioeinstellungen aktiviert hast.</string>
+    <string name="ambient_music_location">Ambient Music Ticker anzeigen</string>
+    <string name="ambient_music_disabled">Aus</string>
+    <string name="ambient_music_bottom">Unten (Standard)</string>
+    <string name="ambient_music_center">Zentriert (unter der Uhr)</string>
 
     <string name="lockscreen_display_title">Sperrbildschirm</string>
 
