@@ -113,6 +113,9 @@
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
 
+    <string name="ambient_indication_transparent_bgcolor_title">Bottom music ticker transparent background</string>
+    <string name="ambient_indication_transparent_bgcolor_summary">Use a transparent background for the pill of the bottom music ticker</string>
+
     <string name="lockscreen_display_title">Lock Screen Display</string>
 
     <!-- Themes -->

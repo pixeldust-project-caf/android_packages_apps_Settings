@@ -117,6 +117,12 @@
             android:entryValues="@array/ambient_music_location_values"
             android:defaultValue="1" />
 
+        <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+            android:key="ambient_indication_transparent_bgcolor"
+            android:title="@string/ambient_indication_transparent_bgcolor_title"
+            android:summary="@string/ambient_indication_transparent_bgcolor_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that

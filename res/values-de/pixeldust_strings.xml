@@ -115,6 +115,9 @@
     <string name="ambient_music_bottom">Unten (Standard)</string>
     <string name="ambient_music_center">Zentriert (unter der Uhr)</string>
 
+    <string name="ambient_indication_transparent_bgcolor_title">Unterer Musikticker mit transparentem Hintergrund</string>
+    <string name="ambient_indication_transparent_bgcolor_summary">Den Hintergrund für den unteren Musikticker transparent darstellen</string>
+
     <string name="lockscreen_display_title">Sperrbildschirm</string>
 
     <!-- Themes -->
