@@ -442,7 +442,7 @@
 
     <!-- Playing tone setting -->
     <bool name="config_show_connect_tone_ui">false</bool>
-    <integer name="config_default_tone_after_connected">1</integer>
+    <integer name="config_default_tone_after_connected">0</integer>
 
     <!-- Whether the given language capitalizes nouns -->
     <bool name="language_capitalizes_nouns">false</bool>
