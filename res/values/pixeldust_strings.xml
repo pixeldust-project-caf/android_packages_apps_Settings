@@ -240,4 +240,9 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+
 </resources>
