@@ -219,4 +219,11 @@
     <string name="ringtone_focus_mode_dynamic">Im Headset (nur wenn Musik abgespielt wird)</string>
     <string name="ringtone_focus_mode_stock">Sowohl im Lautsprecher als auch im Headset</string>
 
+    <!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Bluetooth Audio Codec (bevorzugt)</string>
+
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD Audio</string>
+    <string name="sbc_hd_priority_summary">Dual-Channel-Modus für den SBC-Codec standardmäßig verwenden</string>
+
 </resources>
