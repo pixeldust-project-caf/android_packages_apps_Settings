@@ -1668,7 +1668,7 @@
             android:screenOrientation="portrait"/>
 
         <activity android:name=".biometrics.face.FaceEnrollFinish"
-            android:exported="true"
+            android:exported="false"
             android:screenOrientation="portrait"/>
 
         <!-- Must not be exported -->

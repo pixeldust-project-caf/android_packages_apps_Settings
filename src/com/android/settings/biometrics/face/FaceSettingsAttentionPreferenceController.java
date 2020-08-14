@@ -20,7 +20,6 @@ import android.content.Context;
 import android.hardware.face.FaceManager;
 import android.hardware.face.FaceManager.GetFeatureCallback;
 import android.hardware.face.FaceManager.SetFeatureCallback;
-import android.os.SystemProperties;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
@@ -120,10 +119,6 @@ public class FaceSettingsAttentionPreferenceController extends FaceSettingsPrefe
 
     @Override
     public int getAvailabilityStatus() {
-        boolean senseEnabled = SystemProperties.getBoolean("ro.face.sense_service", false);
-        if (senseEnabled) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
         return AVAILABLE;
     }
 }
