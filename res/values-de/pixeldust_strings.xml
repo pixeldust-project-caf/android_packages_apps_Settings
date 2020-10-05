@@ -105,4 +105,8 @@
     <!-- Fullscreen gestures -->
     <string name="fullscreen_gestures_title">Vollbild-Gestenmodus</string>
     <string name="fullscreen_gestures_summary">Gestengriff und Tastaturbereich ausblenden</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptisches Feedback</string>
+    <string name="back_gesture_haptic_summary">Haptischen Tick-Effekt bei der Zurück-Geste aktivieren</string>
 </resources>
