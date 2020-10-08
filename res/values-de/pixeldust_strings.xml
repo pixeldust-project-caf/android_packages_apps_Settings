@@ -38,4 +38,10 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="use_photos_spoof_title">Unbegrenzter Google Fotos Speicherplatz</string>
     <string name="use_photos_spoof_summary">Dein Gerät wird als Pixel XL ausgewiesen, um kostenlos Videos und Fotos in verlustfreier Qualität bei Google Fotos zu speichern. Das bedeutet jedoch, dass Funktionen wie der Magic Eraser nicht mehr verfügbar sind.</string>
     <string name="photos_spoof_toast">Fotos-App neustarten, damit es wirksam wird</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Speicher</string>
+    <string name="storage_card_info">Belegt</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">Der Gerätename kann von Geräten in der Nähe gelesen werden.</string>
 </resources>

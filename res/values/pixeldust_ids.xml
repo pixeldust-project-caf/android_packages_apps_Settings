@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The PixelDust Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- About phone cards -->
+    <item name="storage_info_used_id" type="id"/>
+    <item name="rom_card_id" type="id"/>
+    <item name="rom_logo_id" type="id"/>
+</resources> 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The PixelDust Project
+     Copyright (C) 2023 The PixelDust Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -38,4 +38,10 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="use_photos_spoof_title">Unlimited Google photos storage</string>
     <string name="use_photos_spoof_summary">Your device will be identified as a Pixel XL to get unlimited Google photo storage at original quality. However, this means that features such as the Magic Eraser are no longer available.</string>
     <string name="photos_spoof_toast">Restart the Photos app for it to take effect</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
 </resources>
