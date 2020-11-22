@@ -34,4 +34,7 @@
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Display an beim Ein- oder Ausstecken</string>
     <string name="wake_when_plugged_or_unplugged_summary">Das Display schaltet sich ein sobald ein Ladegerät angeschlossen oder entfernt wird.</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildwiederholrate</string>
 </resources>
