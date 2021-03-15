@@ -36,5 +36,6 @@
     <string name="wake_when_plugged_or_unplugged_summary">Das Display schaltet sich ein sobald ein Ladegerät angeschlossen oder entfernt wird.</string>
 
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Bildwiederholrate</string>
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
 </resources>
