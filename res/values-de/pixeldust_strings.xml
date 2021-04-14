@@ -54,4 +54,9 @@
     <string name="selinux_status_disabled">Deaktiviert</string>
     <string name="selinux_status_permissive">Tolerant</string>
     <string name="selinux_status_enforcing">Strikt</string>
+
+    <!-- Option to hide gesture navigation handle -->
+    <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
+    <string name="navbar_gesture_handle_hide_title">Gestengriff ausblenden</string>
+    <string name="navbar_gesture_handle_hide_summary">Horizontale Linie ausblenden</string>
 </resources>
