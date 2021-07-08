@@ -44,4 +44,11 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="storage_card_info">Belegt</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">Der Gerätename kann von Geräten in der Nähe gelesen werden.</string>
+
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Farbbalance</string>
+    <string name="color_mode_balance_red">Rote Stärke</string>
+    <string name="color_mode_balance_green">Grüne Stärke</string>
+    <string name="color_mode_balance_blue">Blaue Stärke</string>
+    <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
 </resources>
