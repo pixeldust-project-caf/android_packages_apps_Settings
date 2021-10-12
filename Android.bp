@@ -67,7 +67,17 @@ android_library {
         "btadva_settings_java_defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "PixelDustSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.pixeldust.settings",],
+
+    resource_dirs: [
+        "res",
+        "PixelDustSettings/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -97,6 +107,12 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "windowExtLib",
+        "VendorSupport-Libs",
+        "androidx.navigation_navigation-common-ktx",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.navigation_navigation-runtime-ktx",
+        "androidx.navigation_navigation-ui-ktx",
+        "kotlin-stdlib",
     ],
 
     libs: [

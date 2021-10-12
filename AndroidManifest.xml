@@ -4308,5 +4308,21 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- PixelDust additions -->
+        <activity android:name=".Settings$PixelDustSettingsSettingsActivity"
+                  android:label="@string/settings_title"
+                  android:icon="@drawable/ic_homepage_pixeldust"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.pixeldust.settings.PixelDustSettings"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+        </activity>
     </application>
 </manifest>
+
