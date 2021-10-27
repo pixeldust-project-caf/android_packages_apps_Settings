@@ -16,6 +16,7 @@
 
 package com.android.settings.misc;
 
+import android.annotation.Nullable;
 import android.app.Fragment;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -32,12 +33,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.android.internal.logging.nano.MetricsProto;
+import androidx.preference.PreferenceFragment;
+
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -45,18 +45,24 @@ import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class Changelog extends SettingsPreferenceFragment {
+public class ChangelogFragment extends PreferenceFragment {
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXELDUST;
-    }
+    TextView textView;
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+            Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.changelog, container, false);
+    }
+
+    @Override
+    public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        textView = view.findViewById(R.id.changelog_text);
+
         InputStreamReader inputReader = null;
         String text = null;
         StringBuilder data = new StringBuilder();
@@ -112,15 +118,11 @@ public class Changelog extends SettingsPreferenceFragment {
             sb.setSpan(new StyleSpan(Typeface.BOLD), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
 
-        final TextView textView = new TextView(getActivity());
-        LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-        llp.setMargins(20, 0, 0, 0); // llp.setMargins(left, top, right, bottom);
-        textView.setLayoutParams(llp);
         textView.setText(sb);
+    }
 
-        final ScrollView scrollView = new ScrollView(getActivity());
-        scrollView.addView(textView);
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
 
-        return scrollView;
     }
 }
