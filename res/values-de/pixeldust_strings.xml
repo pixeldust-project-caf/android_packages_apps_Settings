@@ -362,4 +362,9 @@
     <string name="status_bar_battery_percent_text_next">Neben dem Symbol</string>
     <string name="status_bar_battery_text_charging_title">Akku-Prozentzahl beim Laden</string>
     <string name="status_bar_battery_text_charging_summary">Akku-Prozentanzeige beim Laden immer anzeigen</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Kleines Symbol für die Mobilverbindung</string>
+    <string name="use_old_mobiletype_summary">Symbol für den Verbindungstyp über der Signalstärke anzeigen</string>
+    <string name="misc_category_title">Verschiedenes</string>
 </resources>
