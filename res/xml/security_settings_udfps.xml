@@ -24,6 +24,13 @@
             android:summary="@string/udfps_recog_animation_effect_summary"
             android:fragment="com.pixeldust.settings.udfps.UdfpsAnimation" />
 
+        <com.pixeldust.support.preference.SecureSettingSwitchPreference
+            android:key="screen_off_udfps_enabled"
+            android:title="@string/ambient_display_screen_off_udfps_title"
+            android:summary="@string/ambient_display_screen_off_udfps_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
