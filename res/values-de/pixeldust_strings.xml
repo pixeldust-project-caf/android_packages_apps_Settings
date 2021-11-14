@@ -122,4 +122,9 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="media_artwork_fade_percent_title">Verblassungsgrad für Mediengrafiken</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Unschärfegrad von Mediengrafiken</string>
     <string name="ls_media_artwork_fade_percent_title">Verblassungsgrad für Mediengrafiken auf dem Sperrbildschirm</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Um den Bildschirm zu aktivieren und zu entsperren, drücken Sie lange auf den Fingerabdrucksensor unter dem Display.</string>
 </resources>

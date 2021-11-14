@@ -122,4 +122,9 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="media_artwork_fade_percent_title">Fade percent for media notification artwork</string>
     <string name="lockscreen_albumart_filter_blur_radius_title">Blur amount for lockscreen media artwork</string>
     <string name="ls_media_artwork_fade_percent_title">Fade amount for lockscreen media artwork</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>
