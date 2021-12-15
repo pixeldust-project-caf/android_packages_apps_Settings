@@ -98,7 +98,11 @@ public class MyDeviceInfoFragment extends DashboardFragment
         use(DeviceNamePreferenceController.class).setHost(this /* parent */);
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
-        use(PhoneNumberPreferenceController.class).init(getSettingsLifecycle());
+        try {
+            use(PhoneNumberPreferenceController.class).init(getSettingsLifecycle());
+        } catch (NullPointerException e) {
+            Log.e(LOG_TAG, "NPE for onAttach(Context context)", e);
+        }
     }
 
     @Override
