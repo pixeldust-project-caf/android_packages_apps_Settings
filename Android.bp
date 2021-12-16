@@ -78,6 +78,7 @@ android_library {
 
     resource_dirs: [
         "res",
+        "res-pixel",
         "PixelDustSettings/res",
     ],
 
@@ -116,7 +117,10 @@ android_library {
         "androidx.navigation_navigation-runtime-ktx",
         "androidx.navigation_navigation-ui-ktx",
         "kotlin-stdlib",
+        "SettingsGoogle-lib",
     ],
+    manifest: "AndroidManifest.xml",
+    additional_manifests: ["SettingsGoogle-Manifest.xml"],
 
     libs: [
         "telephony-common",
