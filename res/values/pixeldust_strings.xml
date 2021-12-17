@@ -190,4 +190,13 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+
+    <!-- Torch gesture -->
+    <string name="gesture_double_tap_power_summary_disabled">Disabled by flashlight gesture</string>
+    <string name="double_tap_power_for_torch_title">Toggle flashlight</string>
+    <string name="double_tap_power_for_torch_summary_enabled">Quickly press the power button twice to toggle flashlight</string>
+    <string name="double_tap_power_for_torch_summary_disabled">Disabled by open camera gesture</string>
+    <string name="power_menu_long_press_for_torch">Hold to toggle flashlight</string>
+    <string name="torch_long_press_power_text">Long press for torch only works when screen is off.\nLong pressing again when flashlight is on will turn it off, even if screen is on.</string>
+    <string name="power_menu_summary_long_press_for_torch">Toggle flashlight</string>
 </resources>
