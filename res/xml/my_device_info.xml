@@ -32,7 +32,7 @@
     <com.android.settingslib.widget.LayoutPreference
         android:key="pd_logo"
         android:layout="@layout/pixeldust_logo"
-        android:selectable="false"/>
+        android:fragment="com.pixeldust.settings.fragments.About" />
 
     <PreferenceCategory
         android:key="basic_info_category"
