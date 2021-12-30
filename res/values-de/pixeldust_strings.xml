@@ -113,4 +113,6 @@
     <string name="theme_customization_wifi_icon_title">WiFi-Symbol</string>
     <string name="theme_customization_wifi_icon_summary">Stil für das WiFi-Symbol festlegen</string>
     <string name="theme_customization_device_default">Gemäß Standard fürs Gerät</string>
+    <string name="theme_customization_navbar_title">Navigationsleiste</string>
+    <string name="theme_customization_navbar_summary">Stil für die 3-Tasten-Navigationsleiste festlegen</string>
 </resources>
