@@ -397,4 +397,7 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- WiFi Standard icon -->
     <string name="show_wifi_standard_icon_title">WLAN-Standard-Symbol anzeigen</string>
     <string name="show_wifi_standard_icon_summary">WLAN-Standard neben der WLAN-Signalstärke anzeigen</string>
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Eingefärbte Symbole</string>
+    <string name="statusbar_colored_icons_summary">Passende App-Symbole für Benachrichtigungssymbole in der Statusleiste verwenden</string>
 </resources>
