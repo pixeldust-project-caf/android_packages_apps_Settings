@@ -449,4 +449,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
     <string name="udfps_icon_picker_summary">Benutzerdefiniertes Fingerabdrucksymbol festlegen</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Ausgefüllte Symbole</string>
+    <string name="statusbar_colored_icons_summary">Farbige App-Symbole in der Statusleiste statt abstrakter Symbole verwenden</string>
 </resources>
