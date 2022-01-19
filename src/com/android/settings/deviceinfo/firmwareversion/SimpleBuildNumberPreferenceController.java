@@ -40,9 +40,13 @@ public class SimpleBuildNumberPreferenceController extends BasePreferenceControl
         StringBuilder sb = new StringBuilder();
         sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
         String pixeldustVersion = VersionUtils.getPixelDustVersion();
+        String pixelDustBuildDate = "#" + VersionUtils.getPixelDustBuildDate();
+
         if (!pixeldustVersion.equals("")){
             sb.append("\n");
             sb.append(pixeldustVersion);
+            sb.append("\n");
+            sb.append(pixelDustBuildDate);
         }
         return sb.toString();
     }

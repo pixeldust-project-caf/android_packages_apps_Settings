@@ -18,8 +18,17 @@ package com.android.settings.deviceinfo;
 
 import android.os.SystemProperties;
 
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+
 public class VersionUtils {
-    public static String getPixelDustVersion(){
+    public static String getPixelDustVersion() {
         return SystemProperties.get("ro.pixeldust.version","");
+    }
+
+    public static String getPixelDustBuildDate() {
+        long timestamp = Long.parseLong(SystemProperties.get("ro.pixeldust.ota.timestamp","")) * 1000;
+        SimpleDateFormat sdf = new SimpleDateFormat("E MMM dd HH:mm:ss z yyyy", new Locale("en", "US"));
+        return sdf.format(timestamp);
     }
 }
