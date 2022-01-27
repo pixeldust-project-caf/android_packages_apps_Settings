@@ -87,7 +87,6 @@ public abstract class DefaultSubscriptionController extends TelephonyBasePrefere
         super(context, preferenceKey);
         mManager = context.getSystemService(SubscriptionManager.class);
         mChangeListener = new SubscriptionsChangeListener(context, this);
-
         mTelephonyManager = (TelephonyManager) mContext
                 .getSystemService(Context.TELEPHONY_SERVICE);
         mPhoneCount = mTelephonyManager.getPhoneCount();
