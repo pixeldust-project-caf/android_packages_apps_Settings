@@ -69,7 +69,9 @@ android_library {
 
     srcs: [
         "src/**/*.java",
+        "src/**/*.kt",
         "PixelDustSettings/src/**/*.java",
+        "PixelDustSettings/src/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.pixeldust.settings",],
