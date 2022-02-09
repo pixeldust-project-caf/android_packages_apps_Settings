@@ -148,20 +148,21 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
                     c.getText(R.string.edge_to_edge_navigation_summary),
                     KEY_SYSTEM_NAV_GESTURAL, true /* enabled */));
         }
+        /*
         if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                 NAV_BAR_MODE_2BUTTON_OVERLAY)) {
             candidates.add(new CandidateInfoExtra(
                     c.getText(R.string.swipe_up_to_switch_apps_title),
                     c.getText(R.string.swipe_up_to_switch_apps_summary),
-                    KEY_SYSTEM_NAV_2BUTTONS, true /* enabled */));
+                    KEY_SYSTEM_NAV_2BUTTONS, true ));
         }
         if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                 NAV_BAR_MODE_3BUTTON_OVERLAY)) {
             candidates.add(new CandidateInfoExtra(
                     c.getText(R.string.legacy_navigation_title),
                     c.getText(R.string.legacy_navigation_summary),
-                    KEY_SYSTEM_NAV_3BUTTONS, true /* enabled */));
-        }
+                    KEY_SYSTEM_NAV_3BUTTONS, true ));
+        }*/
 
         return candidates;
     }
@@ -202,13 +203,15 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     @VisibleForTesting
     static String getCurrentSystemNavigationMode(Context context) {
+    	return KEY_SYSTEM_NAV_GESTURAL;
+    	/*
         if (SystemNavigationPreferenceController.isGestureNavigationEnabled(context)) {
             return KEY_SYSTEM_NAV_GESTURAL;
         } else if (SystemNavigationPreferenceController.is2ButtonNavigationEnabled(context)) {
             return KEY_SYSTEM_NAV_2BUTTONS;
         } else {
             return KEY_SYSTEM_NAV_3BUTTONS;
-        }
+        }*/
     }
 
     static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager, String key) {
