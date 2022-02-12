@@ -62,7 +62,8 @@ public class AssistGestureSettingsPreferenceController extends GesturePreference
         final boolean isAvailable = mAssistOnly ? isSupported : isSensorAvailable;
         Log.d(TAG, "mAssistOnly:" + mAssistOnly + ", isSupported:" + isSupported
                 + ", isSensorAvailable:" + isSensorAvailable);
-        return isAvailable ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        //return isAvailable ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
