@@ -127,5 +127,6 @@
           Heads-up-Benachrichtigungen werden automatisch deaktiviert.
     </string>
     <string name="app_lock_notifications_disabled_summary">Sperren Sie zuerst eine App</string>
+    <string name="app_lock_biometrics_allowed_title">Biometrie zum Entsperren aktivieren</string>
     <string name="app_lock_footer_text">Bubbles werden nach dem Timeout automatisch geschlossen</string>
 </resources>
