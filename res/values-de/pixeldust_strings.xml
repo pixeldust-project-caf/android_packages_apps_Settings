@@ -324,4 +324,16 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Erweiterter Status beim Ladevorgang</string>
     <string name="lockscreen_battery_info_summary">Zeigt auf dem Sperrbildschirm die vom System ermittelte Stromstärke, Ladespannung, Wattanzahl und Akkutemperatur während des Ladevorgangs an</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Lautstärkeschritte</string>
+    <string name="volume_steps_summary">Diverse Lautstärkeschritte anpassen</string>
+    <string name="volume_steps_alarm_title">Lautstärkeschritte: Alarm</string>
+    <string name="volume_steps_dtmf_title">Lautstärkeschritte: Wähltastentöne</string>
+    <string name="volume_steps_music_title">Lautstärkeschritte: Medien</string>
+    <string name="volume_steps_notification_title">Lautstärkeschritte: Benachrichtigung</string>
+    <string name="volume_steps_ring_title">Lautstärkeschritte: Klingelton</string>
+    <string name="volume_steps_system_title">Lautstärkeschritte: System</string>
+    <string name="volume_steps_voice_call_title">Lautstärkeschritte: Sprachanruf</string>
+    <string name="volume_steps_reset">Zurücksetzen</string>
 </resources>
