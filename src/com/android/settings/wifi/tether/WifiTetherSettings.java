@@ -46,6 +46,7 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.wifi.WifiEnterpriseRestrictionUtils;
 
 import ink.kscope.settings.wifi.tether.WifiTetherHiddenSsidPreferenceController;
+import ink.kscope.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,6 +81,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     private WifiTetherApBandPreferenceController mApBandPreferenceController;
     private WifiTetherSecurityPreferenceController mSecurityPreferenceController;
     private WifiTetherHiddenSsidPreferenceController mHiddenSsidPrefController;
+    private WifiTetherAutoOffPreferenceController mAutoOffPrefController;
 
     private WifiManager mWifiManager;
     private boolean mRestartWifiApAfterConfigChange;
@@ -132,6 +134,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         mPasswordPreferenceController = use(WifiTetherPasswordPreferenceController.class);
         mApBandPreferenceController = use(WifiTetherApBandPreferenceController.class);
         mHiddenSsidPrefController = use(WifiTetherHiddenSsidPreferenceController.class);
+        mAutoOffPrefController = use(WifiTetherAutoOffPreferenceController.class);
     }
 
     @Override
@@ -288,6 +291,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
             configBuilder.setBand(mApBandPreferenceController.getBandIndex());
         }
         configBuilder.setHiddenSsid(mHiddenSsidPrefController.isHiddenSsidEnabled());
+        mAutoOffPrefController.updateConfig(configBuilder);
         return configBuilder.build();
     }
 
@@ -306,6 +310,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         use(WifiTetherApBandPreferenceController.class)
                 .updateDisplay();
         use(WifiTetherHiddenSsidPreferenceController.class).updateDisplay();
+        use(WifiTetherAutoOffPreferenceController.class).updateDisplay();
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
