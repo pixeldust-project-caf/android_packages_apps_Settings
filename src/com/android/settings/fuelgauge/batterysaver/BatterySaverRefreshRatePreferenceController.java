@@ -47,4 +47,9 @@ public class BatterySaverRefreshRatePreferenceController extends TogglePreferenc
         return mContext.getResources().getBoolean(R.bool.config_show_refresh_rate_controls)
                         ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_battery;
+    }
 }
