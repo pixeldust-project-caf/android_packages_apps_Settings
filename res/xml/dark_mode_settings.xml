@@ -17,6 +17,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/dark_ui_mode"
     settings:keywords="@string/keywords_dark_ui_mode">
 
@@ -33,6 +34,10 @@
         android:key="dark_ui_activated"
         android:title="@string/dark_theme_main_switch_title"
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
+        
+   <com.android.settingslib.widget.IllustrationPreference
+        android:key="dark_illustration"
+        app:lottie_rawRes="@raw/darkmode"/>
 
     <com.android.settingslib.widget.BannerMessagePreference
         android:key="dark_ui_location_off"
