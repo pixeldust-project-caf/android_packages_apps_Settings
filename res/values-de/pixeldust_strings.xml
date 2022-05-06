@@ -334,9 +334,18 @@
     <!-- Status bar - Battery -->
     <string name="battery_category_title">Akkuanzeige</string>
     <string name="status_bar_battery_style_title">Stil des Akkusymbols</string>
-    <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Querformat-Symbol (Rechts)</string>
-    <string name="status_bar_battery_style_icon_landscape">Querformat-Symbol (Links)</string>
+    <string name="status_bar_battery_style_icon_portrait">Hochformat (Standard)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Querformat (Rechts)</string>
+    <string name="status_bar_battery_style_icon_landscape">Querformat (Links)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Querformat (Rechts) Stil A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Querformat (Links) Stil A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Querformat (Rechts) Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Querformat (Links) Stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Hochformat Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Querformat Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Hochformat IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Querformat Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Querformat Capsule</string>
     <string name="status_bar_battery_style_circle">Kreis</string>
     <string name="status_bar_battery_style_dotted_circle">Kreis (gepunktet)</string>
     <string name="status_bar_battery_style_big_circle">Kreis (groß)</string>
