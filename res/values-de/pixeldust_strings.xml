@@ -87,4 +87,8 @@
     <string name="global_actions_max_columns_summary">Anzahl der Symbole links und rechts</string>
     <string name="global_actions_max_rows_title">Maximale Zeilenanzahl</string>
     <string name="global_actions_max_rows_summary">Anzahl der Symbole nach oben und unten</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">In Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Zum Kopieren lange drücken</string>
 </resources>
