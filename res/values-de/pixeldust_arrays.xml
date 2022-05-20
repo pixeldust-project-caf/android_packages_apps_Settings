@@ -14,4 +14,14 @@
         <item>10 Minuten</item>
         <item>30 Minuten</item>
     </string-array>
+
+    <string-array name="wifi_tether_auto_turn_off_entries">
+        <item>Niemals</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>5 Minutes</item>
+        <item>10 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+    </string-array>
 </resources>
