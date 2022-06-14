@@ -43,6 +43,8 @@ import androidx.annotation.VisibleForTesting;
 
 import com.qti.extphone.ExtTelephonyManager;
 
+import com.android.settings.R;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
@@ -138,6 +140,8 @@ public class NetworkScanHelper {
     private final Executor mExecutor;
     private final LegacyIncrementalScanBroadcastReceiver mLegacyIncrScanReceiver;
     private Context mContext;
+
+    private int mMaxSearchTimeSec = MAX_SEARCH_TIME_SEC;
     private NetworkScan mNetworkScanRequester;
     private IntentFilter filter =
             new IntentFilter("qualcomm.intent.action.ACTION_INCREMENTAL_NW_SCAN_IND");
@@ -152,6 +156,13 @@ public class NetworkScanHelper {
         mLegacyIncrScanReceiver =
                 new LegacyIncrementalScanBroadcastReceiver(mContext, mInternalNetworkScanCallback);
         mExtTelephonyManager = ExtTelephonyManager.getInstance(context);
+    }
+
+    public NetworkScanHelper(Context context, TelephonyManager tm, NetworkScanCallback callback,
+            Executor executor) {
+        this(tm, callback, executor);
+        mMaxSearchTimeSec = context.getResources().getInteger(
+                R.integer.config_network_scan_helper_max_search_time_sec);
     }
 
     @VisibleForTesting
@@ -203,7 +214,7 @@ public class NetworkScanHelper {
                 radioAccessSpecifiers.toArray(
                         new RadioAccessSpecifier[radioAccessSpecifiers.size()]),
                 SEARCH_PERIODICITY_SEC,
-                MAX_SEARCH_TIME_SEC,
+                mMaxSearchTimeSec,
                 INCREMENTAL_RESULTS,
                 INCREMENTAL_RESULTS_PERIODICITY_SEC,
                 null /* List of PLMN ids (MCC-MNC) */,
