@@ -133,4 +133,9 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Clients gestatten VPNs zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot-Clients gestatten, die VPN-Verbindungen des Geräts für Upstream-Konnektivität zu verwenden</string>
+
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Hintergrund-Zoom-Effekt</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Das Hintergrundbild wird geringfügig vergrößert, um die Zoom-Out-Tiefenanimation anzuzeigen. Dadurch können Hintergrundbilder Qualitätseinbußen erleiden.</string>
 </resources>
