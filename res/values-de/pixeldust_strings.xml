@@ -489,4 +489,9 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
 
     <!-- QS Header image -->
     <string name="qs_header_image_title">Hintergrundgrafik auswählen</string>
+
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Songtexte in der Statusleiste</string>
+    <string name="status_bar_lyric_summary">Songtexte in der Statusleiste anzeigen (App-Unterstützung erforderlich)</string>
+    <string name="status_bar_show_lyric_title">Songtexte in der Statusleiste anzeigen</string>
 </resources>
