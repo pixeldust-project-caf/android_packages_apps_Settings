@@ -163,8 +163,21 @@
     <string name="show_navbar_hint_title">Gesten-Navigationsleiste</string>
     <string name="show_navbar_hint_summary">Horizontale Linie für die Gestenbedienung anzeigen</string>
 
-    <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Albumcover bei Musikwiedergabe anzeigen</string>
+    <!-- Lock screen media artwork -->
+    <string name="lockscreen_media_art_options_title">Medienbenachrichtigungen</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Albumcover</string>
+    <string name="media_art_summary">Albumcover anzeigen, wenn verfügbar</string>
+
+    <!-- Lock screen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Filtereinstellungen</string>
+    <string name="lockscreen_albumart_filter_grayscale">Graustufen</string>
+    <string name="lockscreen_albumart_filter_tint">Akzent getönt</string>
+    <string name="lockscreen_albumart_filter_blur">Unschärfe</string>
+    <string name="lockscreen_albumart_filter_grayblur">Graustufen und unscharf</string>
+    <string name="lockscreen_albumart_filter_blur_radius_title">Unschärfegrad der Albumcovergrafik</string>
+    <string name="none_string">Aus</string>
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
@@ -249,10 +262,6 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Verlauf von Benachrichtigungen anzeigen</string>
-
-    <!-- Media art -->
-    <string name="media_art_title">Albumcover</string>
-    <string name="media_art_summary">Albumcover anzeigen falls verfügbar</string>
 
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparenz des Hintergrunds</string>
