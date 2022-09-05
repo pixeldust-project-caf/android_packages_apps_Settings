@@ -100,6 +100,8 @@ android_library {
         "lottie",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
+        "android.frameworks.stats-V1-java",
+        "google-fuelgauge",
     ],
 
     libs: [
@@ -137,6 +139,18 @@ android_app {
     libs: [
         "extphonelib"
     ],
+}
+
+android_library_import {
+    name: "google-fuelgauge",
+    aars: ["libs/google-fuelgauge.aar"],
+    sdk_version: "33",
+    static_libs: [
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.appcompat_appcompat",
+        "androidx.preference_preference",
+        "lottie",
+    ]
 }
 
 android_library_import {
