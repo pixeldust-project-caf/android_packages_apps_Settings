@@ -102,6 +102,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "android.frameworks.stats-V1-java",
         "google-fuelgauge",
+        "VendorSupport-Libs",
     ],
 
     libs: [
