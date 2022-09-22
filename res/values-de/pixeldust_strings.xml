@@ -9,4 +9,8 @@
 
     <!-- Radio Info -->
     <string name="radio_info_title">Telefoninformationen</string>
+
+    <!-- Scramble pin -->
+    <string name="scramble_pin_title">Zufällig anordnen</string>
+    <string name="scramble_pin_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
 </resources>

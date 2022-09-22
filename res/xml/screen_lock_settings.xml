@@ -22,6 +22,13 @@
     android:title="@string/unlock_set_unlock_launch_picker_title"
     settings:searchable="false">
 
+    <!-- available in pin -->
+    <SwitchPreference
+        android:key="scramble_pin_layout"
+        android:title="@string/scramble_pin_title"
+        android:summary="@string/scramble_pin_summary"
+        android:persistent="false" />
+
     <!-- available in pattern -->
     <SwitchPreference
         android:key="visiblepattern"
