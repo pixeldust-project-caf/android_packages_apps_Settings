@@ -4,12 +4,53 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
+
     <!-- Allow to choose lockscreen or Ambient on wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient-Weckgeste</string>
     <string name="ambient_wake_gestures_summary">Beim Aktivieren des Displays den Ambient Mode anzeigen statt des normalen Sperrbildschirms</string>
 
+    <!-- Package details -->
+    <string name="package_details_group_title">App-Paketdetails</string>
+    <string name="package_name">App-Paketname</string>
+    <string name="package_version">App-Paketversion</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen, um Info anzuzeigen</string>
+
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird unverschlüsselt sein.</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Suchen Sie den Fingerabdrucksensor an der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Suchen Sie den Fingerabdrucksensor auf der Rückseite deines Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Suchen Sie den Fingerabdrucksensor auf der Seite Ihres Telefons.</string>
+
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Berühren Sie den Sensor an der Vorderseite des Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Berühren Sie den Sensor an der Rückseite des Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Berühren Sie den Sensor an der Seite des Telefons.</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">LED während des Ladevorgangs aktivieren</string>
+
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Zum Entsperren Fingerabdruck berühren</string>
+    <string name="fingerprint_wake_unlock_touch">Reagiert auf Ereignisse, während das Display aus ist</string>
+    <string name="fingerprint_wake_unlock_press">Reagiert nur auf Ereignisse, wenn das Display an ist</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Fingerabdrucksensor lange drücken, um Gerät zu entsperren.</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Den Fingerabdrucksensor unter dem Display lange drücken, um das Display zu aktivieren und zu entsperren.</string>
 
     <!-- Radio Info -->
     <string name="radio_info_title">Telefoninformationen</string>
