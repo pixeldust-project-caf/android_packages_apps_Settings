@@ -4,6 +4,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Allow to choose lockscreen or Ambient on wake gestures -->
+    <string name="ambient_wake_gestures_title">Ambient-Weckgeste</string>
+    <string name="ambient_wake_gestures_summary">Beim Aktivieren des Displays den Ambient Mode anzeigen statt des normalen Sperrbildschirms</string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen, um Info anzuzeigen</string>
 
