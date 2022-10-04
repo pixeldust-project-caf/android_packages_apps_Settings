@@ -66,7 +66,7 @@ public class AvailableMediaBluetoothDeviceUpdater extends BluetoothDeviceUpdater
         }
 
         boolean isFilterMatched = false;
-        if (isDeviceConnected(cachedDevice) && isDeviceInCachedDevicesList(cachedDevice)) {
+        if (isDeviceConnected(cachedDevice)) {
             if (DBG) {
                 Log.d(TAG, "isFilterMatched() current audio profile : " + currentAudioProfile);
             }
@@ -74,9 +74,7 @@ public class AvailableMediaBluetoothDeviceUpdater extends BluetoothDeviceUpdater
             // It would show in Available Devices group.
             if (cachedDevice.isConnectedHearingAidDevice()
                     || cachedDevice.isConnectedLeAudioDevice()) {
-                isFilterMatched =  true;
-                Log.d(TAG, "isFilterMatched() device : " +
-                        cachedDevice.getName() + ", the profile is connected.");
+                return true;
             }
             // According to the current audio profile type,
             // this page will show the bluetooth device that have corresponding profile.
@@ -84,32 +82,17 @@ public class AvailableMediaBluetoothDeviceUpdater extends BluetoothDeviceUpdater
             // If current audio profile is a2dp, show the bluetooth device that have a2dp profile.
             // If current audio profile is headset,
             // show the bluetooth device that have headset profile.
-            if (!isFilterMatched) {
-                switch (currentAudioProfile) {
-                    case BluetoothProfile.A2DP:
-                        isFilterMatched = cachedDevice.isConnectedA2dpDevice();
-                        break;
-                    case BluetoothProfile.HEADSET:
-                        isFilterMatched = cachedDevice.isConnectedHfpDevice();
-                        break;
-                }
+            switch (currentAudioProfile) {
+                case BluetoothProfile.A2DP:
+                    isFilterMatched = cachedDevice.isConnectedA2dpDevice();
+                    break;
+                case BluetoothProfile.HEADSET:
+                    isFilterMatched = cachedDevice.isConnectedHfpDevice();
+                    break;
             }
             if (DBG) {
                 Log.d(TAG, "isFilterMatched() device : " +
                         cachedDevice.getName() + ", isFilterMatched : " + isFilterMatched);
-            }
-            if (isFilterMatched) {
-                if (isGroupDevice(cachedDevice)) {
-                    isFilterMatched = false;
-                    if (DBG) {
-                        Log.d(TAG, "It is GroupDevice ignore showing ");
-                    }
-                } else if (isPrivateAddr(cachedDevice)) {
-                    isFilterMatched = false;
-                    if (DBG) {
-                        Log.d(TAG, "It is isPrivateAddr ignore showing ");
-                    }
-                }
             }
         }
         return isFilterMatched;

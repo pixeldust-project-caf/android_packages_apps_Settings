@@ -41,18 +41,15 @@ import com.android.settingslib.media.MediaOutputConstants;
  * nearby broadcast sources.
  */
 public class BluetoothBroadcastDialog extends InstrumentedDialogFragment {
-
     public static final String KEY_APP_LABEL = "app_label";
     public static final String KEY_DEVICE_ADDRESS =
             BluetoothFindBroadcastsFragment.KEY_DEVICE_ADDRESS;
-    public static final String KEY_MEDIA_STREAMING = "media_streaming";
 
     private static final String TAG = "BTBroadcastsDialog";
     private static final CharSequence UNKNOWN_APP_LABEL = "unknown";
     private Context mContext;
     private CharSequence mCurrentAppLabel = UNKNOWN_APP_LABEL;
     private String mDeviceAddress;
-    private boolean mIsMediaStreaming;
     private LocalBluetoothManager mLocalBluetoothManager;
     private AlertDialog mAlertDialog;
 
@@ -62,7 +59,6 @@ public class BluetoothBroadcastDialog extends InstrumentedDialogFragment {
         mContext = getActivity();
         mCurrentAppLabel = getActivity().getIntent().getCharSequenceExtra(KEY_APP_LABEL);
         mDeviceAddress = getActivity().getIntent().getStringExtra(KEY_DEVICE_ADDRESS);
-        mIsMediaStreaming = getActivity().getIntent().getBooleanExtra(KEY_MEDIA_STREAMING, false);
         mLocalBluetoothManager = Utils.getLocalBtManager(mContext);
         setShowsDialog(true);
     }
@@ -76,7 +72,6 @@ public class BluetoothBroadcastDialog extends InstrumentedDialogFragment {
         TextView subTitle = layout.findViewById(com.android.settingslib.R.id.dialog_subtitle);
 
         Button broadcastBtn = layout.findViewById(com.android.settingslib.R.id.positive_btn);
-
         if (isBroadcastSupported() && mIsMediaStreaming) {
             title.setText(mContext.getString(R.string.bluetooth_broadcast_dialog_title));
             subTitle.setText(
