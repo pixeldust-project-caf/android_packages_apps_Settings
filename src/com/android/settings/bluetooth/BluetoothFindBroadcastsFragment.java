@@ -120,7 +120,6 @@ public class BluetoothFindBroadcastsFragment extends RestrictedDashboardFragment
 
                 @Override
                 public void onSourceAdded(@NonNull BluetoothDevice sink, int sourceId, int reason) {
-                    Log.d(TAG, "onSourceAdded");
                     setSourceId(sourceId);
                     if (mSelectedPreference == null) {
                         Log.w(TAG, "onSourceAdded: mSelectedPreference == null!");
@@ -233,10 +232,6 @@ public class BluetoothFindBroadcastsFragment extends RestrictedDashboardFragment
     public void onStop() {
         super.onStop();
         if (mLeBroadcastAssistant != null) {
-            if (mLeBroadcastAssistant.isSearchInProgress()) {
-                Log.d(TAG, "Search is in progress, stop searching.");
-                mLeBroadcastAssistant.stopSearchingForSources();
-            }
             mLeBroadcastAssistant.unregisterServiceCallBack(mBroadcastAssistantCallback);
         }
     }

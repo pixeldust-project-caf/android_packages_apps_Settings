@@ -40,7 +40,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
 
 /**
  * Update the bluetooth devices. It gets bluetooth event from {@link LocalBluetoothManager} using
@@ -64,10 +63,8 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
     protected static final String TAG = "BluetoothDeviceUpdater";
     private static final boolean DBG = Log.isLoggable(TAG, Log.DEBUG);
 
-    private GroupUtils mGroupUtils;
-
     @VisibleForTesting
-    public final GearPreference.OnGearClickListener mDeviceProfilesListener = pref -> {
+    final GearPreference.OnGearClickListener mDeviceProfilesListener = pref -> {
         launchDeviceDetails(pref);
     };
 
@@ -86,7 +83,6 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
         mLocalManager = localManager;
         mMetricsCategory = metricsCategory;
         mMetricsFeatureProvider = FeatureFactory.getFactory(context).getMetricsFeatureProvider();
-        mGroupUtils = new GroupUtils(context);
     }
 
     /**
@@ -190,16 +186,6 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
         if (DBG) {
             Log.d(getLogTag(), "onAclConnectionStateChanged() device: " + cachedDevice.getName()
                     + ", state: " + state);
-        }
-        update(cachedDevice);
-    }
-
-    @Override
-    public void onNewGroupFound(CachedBluetoothDevice cachedDevice, int groupId,
-            UUID setPrimaryServiceUuid) {
-        if (DBG) {
-            Log.d(TAG, " NewGroupFound device: " + cachedDevice
-                    + ", groupId: " + groupId);
         }
         update(cachedDevice);
     }
@@ -358,19 +344,6 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
             Log.d(getLogTag(), "removePreference key: " + bluetoothDevice.getAnonymizedAddress());
             removePreference(bluetoothDevice);
         }
-    }
-
-    public boolean isGroupDevice(CachedBluetoothDevice cachedDevice) {
-        return mGroupUtils.isGroupDevice(cachedDevice);
-    }
-
-    public boolean isPrivateAddr(CachedBluetoothDevice cachedDevice) {
-        boolean isPvtAddr = cachedDevice.isPrivateAddr();
-        if (DBG) {
-            Log.d(TAG, "isPrivateAddr device name : " + cachedDevice.getName()
-                +  " isPvtAddr " + isPvtAddr);
-        }
-        return isPvtAddr;
     }
 
     protected boolean isDeviceInCachedDevicesList(CachedBluetoothDevice cachedDevice) {

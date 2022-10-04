@@ -17,7 +17,6 @@
 package com.android.settings;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
@@ -35,12 +34,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.AlertDialog;
 
 import com.android.settings.core.InstrumentedFragment;
 import com.android.settings.network.ResetNetworkOperationBuilder;
 import com.android.settings.network.ResetNetworkRestrictionViewBuilder;
-import com.android.settingslib.bluetooth.CachedBluetoothDeviceManager;
-import com.android.settingslib.bluetooth.LocalBluetoothManager;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
