@@ -28,13 +28,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
-import android.bluetooth.BluetoothAdapter;
 
-import com.android.settingslib.bluetooth.BluetoothCallback;
-import com.android.settingslib.bluetooth.LocalBluetoothAdapter;
-import com.android.settingslib.bluetooth.LocalBluetoothManager;
-import com.android.settingslib.bluetooth.CachedBluetoothDevice;
-import com.android.settings.bluetooth.Utils;
 import com.android.settings.R;
 import com.android.settings.bluetooth.BluetoothDevicePreference;
 import com.android.settings.bluetooth.BluetoothDeviceUpdater;
@@ -51,7 +45,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PreviouslyConnectedDevicePreferenceController extends BasePreferenceController
-        implements LifecycleObserver, OnStart, OnStop, DevicePreferenceCallback, BluetoothCallback {
+        implements LifecycleObserver, OnStart, OnStop, DevicePreferenceCallback {
 
     private static final String TAG = "PreviouslyDevicePreController";
     private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
@@ -64,8 +58,6 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
     private final List<Preference> mDockDevicesList = new ArrayList<>();
 
     private PreferenceGroup mPreferenceGroup;
-    private LocalBluetoothAdapter mLocalAdapter;
-    private LocalBluetoothManager manager;
     private BluetoothDeviceUpdater mBluetoothDeviceUpdater;
     private DockUpdater mSavedDockUpdater;
     private BluetoothAdapter mBluetoothAdapter;
@@ -90,10 +82,6 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
                 context).getDockUpdaterFeatureProvider().getSavedDockUpdater(context, this);
         mIntentFilter = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-        manager = Utils.getLocalBtManager(context);
-         if ( manager != null) {
-           mLocalAdapter = manager.getBluetoothAdapter();
-         }
     }
 
     @Override
@@ -126,7 +114,6 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
         mContext.registerReceiver(mReceiver, mIntentFilter,
                 Context.RECEIVER_EXPORTED_UNAUDITED);
         mBluetoothDeviceUpdater.refreshPreference();
-        manager.getEventManager().registerCallback(this);
     }
 
     @Override
@@ -134,8 +121,6 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
         mBluetoothDeviceUpdater.unregisterCallback();
         mSavedDockUpdater.unregisterCallback();
         mContext.unregisterReceiver(mReceiver);
-        manager.getEventManager().unregisterCallback(this);
-
     }
 
     public void init(DashboardFragment fragment) {
@@ -218,46 +203,6 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
         updatePreferenceVisibility();
     }
 
-    @Override
-    public void onBluetoothStateChanged(int bluetoothState) {
-        updatePreferenceVisibility();
-    }
-
-    @Override
-    public void onScanningStateChanged(boolean started) {
-        // do nothing
-    }
-
-    @Override
-    public void onDeviceAdded(CachedBluetoothDevice cachedDevice) {
-       // do nothing
-    }
-
-    @Override
-    public void onDeviceDeleted(CachedBluetoothDevice cachedDevice) {
-        // do nothing
-    }
-
-    @Override
-    public void onDeviceBondStateChanged(CachedBluetoothDevice cachedDevice, int bondState) {
-        // do nothing
-    }
-
-    @Override
-    public void onConnectionStateChanged(CachedBluetoothDevice cachedDevice, int state) {
-        // do nothing
-    }
-
-    @Override
-    public void onActiveDeviceChanged(CachedBluetoothDevice activeDevice, int bluetoothProfile) {
-        // do nothing
-    }
-
-    @Override
-    public void onAudioModeChanged() {
-       // do nothing
-    }
-
     @VisibleForTesting
     void setBluetoothDeviceUpdater(BluetoothDeviceUpdater bluetoothDeviceUpdater) {
         mBluetoothDeviceUpdater = bluetoothDeviceUpdater;
@@ -282,5 +227,4 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
                     mContext.getString(R.string.connected_device_see_all_summary));
         }
     }
-
 }

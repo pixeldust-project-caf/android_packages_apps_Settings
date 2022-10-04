@@ -20,7 +20,6 @@ import static android.os.UserManager.DISALLOW_CONFIG_BLUETOOTH;
 
 import android.app.settings.SettingsEnums;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
@@ -93,8 +92,6 @@ public final class BluetoothDevicePreference extends GearPreference {
         }
     }
 
-    private final boolean mHideSummary;
-
     public BluetoothDevicePreference(Context context, CachedBluetoothDevice cachedDevice,
             boolean showDeviceWithoutNames, @SortType int type) {
         super(context, null);
@@ -113,28 +110,7 @@ public final class BluetoothDevicePreference extends GearPreference {
         mCachedDevice.registerCallback(mCallback);
         mCurrentTime = System.currentTimeMillis();
         mType = type;
-        onPreferenceAttributesChanged();
-        mHideSummary = false;
-    }
 
-    public BluetoothDevicePreference(Context context, CachedBluetoothDevice cachedDevice,
-            boolean showDeviceWithoutNames, @SortType int type, boolean hideSummary) {
-        super(context, null);
-        mResources = getContext().getResources();
-        mUserManager = context.getSystemService(UserManager.class);
-        mShowDevicesWithoutNames = showDeviceWithoutNames;
-        if (sDimAlpha == Integer.MIN_VALUE) {
-            TypedValue outValue = new TypedValue();
-            context.getTheme().resolveAttribute(android.R.attr.disabledAlpha, outValue, true);
-            sDimAlpha = (int) (outValue.getFloat() * 255);
-        }
-
-        mCachedDevice = cachedDevice;
-        mCallback = new BluetoothDevicePreferenceCallback();
-        mCachedDevice.registerCallback(mCallback);
-        mCurrentTime = System.currentTimeMillis();
-        mType = type;
-        mHideSummary = hideSummary;
         onPreferenceAttributesChanged();
     }
 
@@ -209,26 +185,12 @@ public final class BluetoothDevicePreference extends GearPreference {
          * changed before proceeding. It will also call notifyChanged() if
          * any preference info has changed from the previous value.
          */
-        BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
-        if (adapter != null &&
-                mCachedDevice.getAddress().equals(adapter.getAddress())) {
-            //for ba related things, using the same preference
-            //for showing the local device
-            setTitle(adapter.getName()+"(self)");
-        } else {
-            setTitle(mCachedDevice.getName());
-        }
+        setTitle(mCachedDevice.getName());
         // Null check is done at the framework
-        if (!mHideSummary) {
-            setSummary(mCachedDevice.getConnectionSummary());
-        }
+        setSummary(mCachedDevice.getConnectionSummary());
 
         // Used to gray out the item
-        if (mHideSummary) {
-            setEnabled(true);
-        } else {
-            setEnabled(!mCachedDevice.isBusy());
-        }
+        setEnabled(!mCachedDevice.isBusy());
 
         // Device is only visible in the UI if it has a valid name besides MAC address or when user
         // allows showing devices without user-friendly name in developer settings

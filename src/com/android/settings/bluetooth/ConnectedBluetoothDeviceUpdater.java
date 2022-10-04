@@ -66,7 +66,7 @@ public class ConnectedBluetoothDeviceUpdater extends BluetoothDeviceUpdater {
         }
 
         boolean isFilterMatched = false;
-        if (isDeviceConnected(cachedDevice) && isDeviceInCachedDevicesList(cachedDevice)) {
+        if (isDeviceConnected(cachedDevice)) {
             if (DBG) {
                 Log.d(TAG, "isFilterMatched() current audio profile : " + currentAudioProfile);
             }
@@ -94,19 +94,6 @@ public class ConnectedBluetoothDeviceUpdater extends BluetoothDeviceUpdater {
             if (DBG) {
                 Log.d(TAG, "isFilterMatched() device : " +
                         cachedDevice.getName() + ", isFilterMatched : " + isFilterMatched);
-            }
-            if (isFilterMatched) {
-                if (isGroupDevice(cachedDevice)) {
-                    isFilterMatched = false;
-                    if (DBG) {
-                        Log.d(TAG, "It is isGroupDevice ignore showing ");
-                    }
-                } else if (isPrivateAddr(cachedDevice)) {
-                    isFilterMatched = false;
-                    if (DBG) {
-                        Log.d(TAG, "It is isPrivateAddr ignore showing ");
-                    }
-                }
             }
         }
         return isFilterMatched;
