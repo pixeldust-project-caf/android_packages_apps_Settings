@@ -94,6 +94,13 @@
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
 
+    <!-- Global Power Menu -->
+    <Preference
+        android:key="gesture_global_powermenu_summary"
+        android:title="@string/powermenu_title"
+        android:fragment="com.pixeldust.settings.gestures.powermenu.GlobalPowerMenuSettings"
+        settings:controller="com.pixeldust.settings.gestures.powermenu.GlobalPowerMenuPreferenceController" />
+
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
