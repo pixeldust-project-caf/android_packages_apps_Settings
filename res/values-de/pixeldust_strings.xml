@@ -65,4 +65,26 @@
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot-Ton</string>
+
+    <!-- Global Power Menu -->
+    <string name="powermenu_title">Ein-/Aus-Menü</string>
+    <string name="powermenu_summary">Optionen für das Ein-/Aus-Menü festlegen</string>
+    <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Neustart-Optionen für Recovery, Bootloader und Fastbootd anzeigen</string>
+    <string name="global_actions_menu_category">Aktionen</string>
+    <string name="global_actions_power">Ausschalten</string>
+    <string name="global_actions_restart">Neustart</string>
+    <string name="global_actions_emergency">Notfall</string>
+    <string name="global_actions_flashlight">Taschenlampe</string>
+    <string name="global_actions_lockdown">Sperren</string>
+    <string name="global_actions_settings">Einstellungen</string>
+    <string name="global_actions_screenshot">Bildschirmfoto</string>
+    <string name="global_actions_screenrecord">Bildschirmaufnahme</string>
+    <string name="global_actions_airplane">Flugmodus</string>
+    <string name="global_actions_columns_rows_title">Dialog anpassen</string>
+    <string name="global_actions_columns_rows_summary">Anzahl der Symbole für das Ein-/Aus-Menü festlegen</string>
+    <string name="global_actions_max_columns_title">Maximale Spaltenanzahl</string>
+    <string name="global_actions_max_columns_summary">Anzahl der Symbole links und rechts</string>
+    <string name="global_actions_max_rows_title">Maximale Zeilenanzahl</string>
+    <string name="global_actions_max_rows_summary">Anzahl der Symbole nach oben und unten</string>
 </resources>
