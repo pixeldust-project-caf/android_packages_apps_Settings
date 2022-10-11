@@ -99,4 +99,18 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Musikwiedergabe steuern</string>
     <string name="volume_button_music_control_summary">Während das Display aus ist, lassen sich Musiktitel durch langes Drücken der Lautstärketasten überspringen.</string>
+
+    <!-- Category for theme overlays -->
+    <string name="theme_customization_category">UI-Stil anpassen</string>
+    <string name="theme_customization_font_title">Überschrift / Schriftstil</string>
+    <string name="theme_customization_font_summary">Systemschriftart festlegen</string>
+    <string name="theme_customization_icon_pack_title">Icon-Pack</string>
+    <string name="theme_customization_icon_pack_summary">Icon-Pack festlegen</string>
+    <string name="theme_customization_icon_shape_title">Symbol-Stil</string>
+    <string name="theme_customization_icon_shape_summary">Form für Systemsymbole festlegen</string>
+    <string name="theme_customization_signal_icon_title">Signal-Symbol</string>
+    <string name="theme_customization_signal_icon_summary">Stil für das Mobilfunksignal-Symbol festlegen</string>
+    <string name="theme_customization_wifi_icon_title">WiFi-Symbol</string>
+    <string name="theme_customization_wifi_icon_summary">Stil für das WiFi-Symbol festlegen</string>
+    <string name="theme_customization_device_default">Gemäß Standard fürs Gerät</string>
 </resources>
