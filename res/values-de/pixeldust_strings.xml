@@ -102,6 +102,7 @@
 
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">UI-Stil anpassen</string>
+    <string name="theme_customization_summary">Das Look &amp; Feel neu festlegen</string>
     <string name="theme_customization_font_title">Überschrift / Schriftstil</string>
     <string name="theme_customization_font_summary">Systemschriftart festlegen</string>
     <string name="theme_customization_icon_pack_title">Icon-Pack</string>
