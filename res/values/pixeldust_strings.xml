@@ -105,6 +105,10 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">Theming</string>
     <string name="theme_customization_summary">Customize the look &amp; feel</string>
