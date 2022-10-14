@@ -100,6 +100,10 @@
     <string name="volume_button_music_control_title">Musikwiedergabe steuern</string>
     <string name="volume_button_music_control_summary">Während das Display aus ist, lassen sich Musiktitel durch langes Drücken der Lautstärketasten überspringen.</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Schwarzes Hintergrund-Design</string>
+    <string name="system_black_theme_summary">Schwarzen Hintergrund erzwingen</string>
+
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">UI-Stil anpassen</string>
     <string name="theme_customization_summary">Das Look &amp; Feel neu festlegen</string>

@@ -8,6 +8,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/theme_customization_category">
 
+    <com.pixeldust.support.preference.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="android.theme.customization.font"
         android:title="@string/theme_customization_font_title"
