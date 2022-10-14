@@ -107,6 +107,7 @@
 
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_summary">Customize the look &amp; feel</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_font_summary">Set system font style</string>
     <string name="theme_customization_icon_pack_title">Icon pack</string>
