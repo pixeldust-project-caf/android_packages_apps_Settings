@@ -71,6 +71,15 @@
         android:fragment="com.pixeldust.settings.tweaks.GeneralSettings"/>
 
     <Preference
+        android:key="theme_customization_summary"
+        android:title="@string/theme_customization_category"
+        android:summary="@string/theme_customization_summary"
+        android:icon="@drawable/ic_settings_themes"
+        android:order="-240"
+        android:fragment="com.pixeldust.settings.themes.ThemeSettings"
+        settings:controller="com.pixeldust.settings.themes.ThemeSettingsPreferenceController"/>
+
+    <Preference
         android:key="default_usb_configuration"
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
         android:icon="@drawable/ic_usb_24"
