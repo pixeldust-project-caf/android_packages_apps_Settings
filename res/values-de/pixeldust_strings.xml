@@ -67,6 +67,10 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Hintergrundprozesse</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Schwarzes Hintergrund-Design</string>
+    <string name="system_black_theme_summary">Schwarzen Hintergrund erzwingen</string>
+
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">UI-Stil anpassen</string>
     <string name="theme_customization_summary">Das Look &amp; Feel neu festlegen</string>

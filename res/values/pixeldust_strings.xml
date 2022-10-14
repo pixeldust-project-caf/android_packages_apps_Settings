@@ -67,6 +67,10 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">Theming</string>
     <string name="theme_customization_summary">Customize the look &amp; feel</string>
