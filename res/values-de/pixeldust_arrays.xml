@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The PixelDust Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App lock timeout -->
+    <string-array name="app_lock_timeout_entries">
+        <item>5 Sekunden</item>
+        <item>10 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>30 Minuten</item>
+    </string-array>
+</resources>
