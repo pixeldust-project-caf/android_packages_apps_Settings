@@ -80,26 +80,34 @@
         settings:controller="com.pixeldust.settings.themes.ThemeSettingsPreferenceController"/>
 
     <Preference
-        android:key="default_usb_configuration"
-        android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
-        android:icon="@drawable/ic_usb_24"
-        android:order="-245"
-        android:title="@string/usb_default_config_title"
-        android:summary="@string/usb_default_config_summary"/>
+        android:key="status_bar_settings"
+        android:title="@string/status_bar_settings_title"
+        android:summary="@string/status_bar_settings_summary"
+        android:icon="@drawable/ic_settings_statusbar"
+        android:order="-235"
+        android:fragment="com.pixeldust.settings.statusbar.StatusBarSettings"/>
 
     <Preference
         android:key="quicksettings_settings"
         android:title="@string/quicksettings_settings_title"
         android:summary="@string/quicksettings_settings_summary"
         android:icon="@drawable/ic_settings_quicksettings"
-        android:order="-225"
+        android:order="-230"
         android:fragment="com.pixeldust.settings.quicksettings.QuicksettingsSettings"/>
+
+    <Preference
+        android:key="default_usb_configuration"
+        android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
+        android:icon="@drawable/ic_usb_24"
+        android:order="-225"
+        android:title="@string/usb_default_config_title"
+        android:summary="@string/usb_default_config_summary"/>
 
     <Preference
         android:key="date_time_settings"
         android:title="@string/date_and_time"
         android:icon="@drawable/ic_settings_date_time"
-        android:order="-240"
+        android:order="-220"
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 

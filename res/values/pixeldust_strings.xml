@@ -135,4 +135,8 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
+
+    <!-- Statusbar settings -->
+    <string name="status_bar_settings_title">Status bar</string>
+    <string name="status_bar_settings_summary">Customize the status bar</string>
 </resources>

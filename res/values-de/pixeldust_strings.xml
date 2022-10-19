@@ -135,4 +135,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparenz des Hintergrunds</string>
     <string name="qs_transparency_summary">Transparenzgrad für den Hintergrund der Schnelleinstellungen einstellen</string>
+
+    <!-- Statusbar settings -->
+    <string name="status_bar_settings_title">Statusleiste</string>
+    <string name="status_bar_settings_summary">Statusleiste anpassen</string>
 </resources>
