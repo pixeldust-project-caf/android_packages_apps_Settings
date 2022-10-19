@@ -164,4 +164,8 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_title">Sperrbildschirm Verknüpfungen</string>
+    <string name="lockscreen_shortcuts_summary">Festlegen ob Verknüpfungen angezeigt werden</string>
 </resources>
