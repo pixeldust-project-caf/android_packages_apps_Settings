@@ -168,4 +168,8 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts_title">Sperrbildschirm Verknüpfungen</string>
     <string name="lockscreen_shortcuts_summary">Festlegen ob Verknüpfungen angezeigt werden</string>
+
+    <!-- Statusbar settings -->
+    <string name="status_bar_settings_title">Statusleiste</string>
+    <string name="status_bar_settings_summary">Statusleiste anpassen</string>
 </resources>
