@@ -231,4 +231,8 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
     <string name="lockscreen_shortcuts_summary">Customize which shortcuts are displayed</string>
+
+    <!-- Statusbar settings -->
+    <string name="status_bar_settings_title">Status bar</string>
+    <string name="status_bar_settings_summary">Customize the status bar</string>
 </resources>
