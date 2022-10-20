@@ -162,4 +162,8 @@
     <!-- Statusbar settings -->
     <string name="status_bar_settings_title">Status bar</string>
     <string name="status_bar_settings_summary">Customize the status bar</string>
+
+    <!-- Statusbar Items -->
+    <string name="statusbar_items_title">Status bar items</string>
+    <string name="statusbar_items_summary">Customize which items appear in the status bar</string>
 </resources>
