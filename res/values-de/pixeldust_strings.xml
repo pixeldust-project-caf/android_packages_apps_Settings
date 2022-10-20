@@ -172,4 +172,8 @@
     <!-- Statusbar settings -->
     <string name="status_bar_settings_title">Statusleiste</string>
     <string name="status_bar_settings_summary">Statusleiste anpassen</string>
+
+    <!-- Statusbar Items -->
+    <string name="statusbar_items_title">Symbole</string>
+    <string name="statusbar_items_summary">Festlegen welche Symbole angezeigt werden</string>
 </resources>
