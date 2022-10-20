@@ -176,4 +176,10 @@
     <!-- Statusbar Items -->
     <string name="statusbar_items_title">Symbole</string>
     <string name="statusbar_items_summary">Festlegen welche Symbole angezeigt werden</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_title">Uhr positionieren</string>
+    <string name="status_bar_clock_position_center">Mittig</string>
+    <string name="status_bar_clock_position_left">Links</string>
+    <string name="status_bar_clock_position_right">Rechts</string>
 </resources>
