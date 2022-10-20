@@ -9,4 +9,10 @@
         android:key="status_bar_settings"
         android:title="@string/status_bar_settings_title">
 
+    <Preference
+        android:key="icon_manager"
+        android:title="@string/icon_manager_title"
+        android:summary="@string/icon_manager_summary">
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+    </Preference>
 </PreferenceScreen>

@@ -53,7 +53,7 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Status bar icons</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
 
     <!-- Swipe to screenshot -->
