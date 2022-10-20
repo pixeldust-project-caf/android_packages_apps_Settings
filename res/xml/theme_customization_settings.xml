@@ -60,4 +60,13 @@
         android:summary="@string/theme_customization_navbar_summary"
         android:fragment="com.pixeldust.settings.themes.NavbarStyles"/>
 
+    <Preference
+        android:key="themepicker"
+        android:title="@string/theme_customization_picker_title"
+        android:summary="@string/theme_customization_picker_summary" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.wallpaper"
+            android:targetClass="com.pixeldust.android.customization.picker.PixeldustCustomizationPickerActivity" />
+    </Preference>
+
 </PreferenceScreen>
