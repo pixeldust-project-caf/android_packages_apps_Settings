@@ -216,4 +216,10 @@
     <!-- Statusbar Items -->
     <string name="statusbar_items_title">Status bar items</string>
     <string name="statusbar_items_summary">Customize which items appear in the status bar</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_title">Clock position</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
 </resources>
