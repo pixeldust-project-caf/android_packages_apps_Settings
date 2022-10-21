@@ -209,4 +209,8 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel-Animation</string>
     <string name="pixel_navbar_anim_summary">Pixel-Animation für den Home-Button aktivieren</string>
+
+    <!-- QuickSettings settings -->
+    <string name="quicksettings_settings_title">Schnelleinstellungen</string>
+    <string name="quicksettings_settings_summary">Schnelleinstellungen anpassen</string>
 </resources>
