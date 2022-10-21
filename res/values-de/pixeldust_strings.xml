@@ -205,4 +205,8 @@
     <string name="navbar_layout_rightleaning">Rechtsbündig</string>
     <string name="navbar_invert_layout_title">Layout umkehren</string>
     <string name="navbar_invert_layout_summary">Kehrt die Anordnung der Navigationsleiste und anderer Elemente, wie z. B. der Eingabemethodenauswahl, um</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel-Animation</string>
+    <string name="pixel_navbar_anim_summary">Pixel-Animation für den Home-Button aktivieren</string>
 </resources>
