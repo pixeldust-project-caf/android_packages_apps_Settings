@@ -195,4 +195,14 @@
     <string name="unit_milliseconds">Millisekunden</string>
     <string name="unit_pixels">Bildschirmdichte in dip</string>
     <string name="unit_hz">Hz</string>
+
+    <!-- Navigation bar -->
+    <string name="navbar_layout_category_title">Layout Einstellungen</string>
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Kompakt</string>
+    <string name="navbar_layout_leftleaning">Links­bün­dig</string>
+    <string name="navbar_layout_rightleaning">Rechtsbündig</string>
+    <string name="navbar_invert_layout_title">Layout umkehren</string>
+    <string name="navbar_invert_layout_summary">Kehrt die Anordnung der Navigationsleiste und anderer Elemente, wie z. B. der Eingabemethodenauswahl, um</string>
 </resources>
