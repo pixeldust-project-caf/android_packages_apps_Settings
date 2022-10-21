@@ -258,4 +258,14 @@
     <string name="unit_milliseconds">milliseconds</string>
     <string name="unit_pixels">dp</string>
     <string name="unit_hz">hz</string>
+
+    <!-- Navigation bar -->
+    <string name="navbar_layout_category_title">Layout settings</string>
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_summary">Inverts the layout of the navigation bar and other items, such as the IME switcher</string>
 </resources>
