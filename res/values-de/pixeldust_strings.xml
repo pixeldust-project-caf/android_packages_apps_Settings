@@ -127,4 +127,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="ambient_display_screen_off_udfps_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Um den Bildschirm zu aktivieren und zu entsperren, drücken Sie lange auf den Fingerabdrucksensor unter dem Display.</string>
+
+    <!-- QuickSettings settings -->
+    <string name="quicksettings_settings_title">Schnelleinstellungen</string>
+    <string name="quicksettings_settings_summary">Schnelleinstellungen anpassen</string>
 </resources>
