@@ -186,4 +186,13 @@
     <!-- Clock show seconds -->
     <string name="status_bar_clock_show_seconds_title">Sekundenanzeige</string>
     <string name="status_bar_clock_show_seconds_desc">Stunden, Minuten und Sekunden anzeigen</string>
+
+    <!-- Ability to resize QS & Statusbar Clock -->
+    <string name="clock_font_size_title">Schriftgröße einstellen</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">Sekunden</string>
+    <string name="unit_milliseconds">Millisekunden</string>
+    <string name="unit_pixels">Bildschirmdichte in dip</string>
+    <string name="unit_hz">Hz</string>
 </resources>
