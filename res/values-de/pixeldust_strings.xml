@@ -213,4 +213,10 @@
     <!-- QuickSettings settings -->
     <string name="quicksettings_settings_title">Schnelleinstellungen</string>
     <string name="quicksettings_settings_summary">Schnelleinstellungen anpassen</string>
+
+    <!-- Quick QS pulldown -->
+    <string name="status_bar_quick_qs_pulldown">Schnelleinstellungen auf einmal herunterziehen</string>
+    <string name="quick_pulldown_none">Aus</string>
+    <string name="quick_pulldown_right">Auf der Statusleiste von rechts nach unten ziehen</string>
+    <string name="quick_pulldown_left">Auf der Statusleiste von links nach unten ziehen</string>
 </resources>
