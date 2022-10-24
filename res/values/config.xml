@@ -49,7 +49,11 @@
     <string name="config_wallpaper_picker_class" translatable="false">com.android.wallpaper.picker.CategoryPickerActivity</string>
     
     <!-- Fully-qualified class name for the styles & wallpaper picker activity. -->
-    <string name="config_styles_and_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
+    <string name="config_styles_and_wallpaper_picker_class" translatable="false"></string>
+    <!-- Action name for the wallpaper picker activity. -->
+    <string name="config_wallpaper_picker_action" translatable="false"></string>
+    <!-- Action name for the styles & wallpaper picker activity. -->
+    <string name="config_styles_and_wallpaper_picker_action" translatable="false"></string>
     <!-- Intent extra for wallpaper picker activity. -->
     <string name="config_wallpaper_picker_launch_extra" translatable="false">com.android.wallpaper.LAUNCH_SOURCE</string>
 
@@ -631,4 +635,10 @@
 
     <!-- Whether the given language capitalizes nouns -->
     <bool name="language_capitalizes_nouns">false</bool>
+
+    <!-- An array of uid name for which packages exempt from Wi-Fi permission check. -->
+    <string-array name="config_exempt_wifi_permission_uid_name" translatable="false">
+        <item>@string/config_settingsintelligence_package_name</item>
+        <item>android.uid.system:1000</item>
+    </string-array>
 </resources>
