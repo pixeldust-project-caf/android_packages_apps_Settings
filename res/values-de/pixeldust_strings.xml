@@ -226,4 +226,8 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Verlauf von Benachrichtigungen anzeigen</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Albumcover</string>
+    <string name="media_art_summary">Albumcover anzeigen falls verfügbar</string>
 </resources>
