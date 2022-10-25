@@ -230,4 +230,8 @@
     <!-- Media art -->
     <string name="media_art_title">Albumcover</string>
     <string name="media_art_summary">Albumcover anzeigen falls verfügbar</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparenz des Hintergrunds</string>
+    <string name="qs_transparency_summary">Transparenzgrad für den Hintergrund der Schnelleinstellungen einstellen</string>
 </resources>
