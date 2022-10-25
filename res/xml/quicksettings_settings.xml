@@ -10,6 +10,16 @@
         android:title="@string/quicksettings_settings_title">
 
     <com.pixeldust.support.preference.SystemSettingSeekBarPreference
+        android:key="qs_transparency"
+        android:title="@string/qs_transparency_title"
+        android:summary="@string/qs_transparency_summary"
+        android:defaultValue="100"
+        settings:interval="1"
+        settings:units="%"
+        android:max="100"
+        settings:min="1" />
+
+    <com.pixeldust.support.preference.SystemSettingSeekBarPreference
         android:key="qs_header_clock_size"
         android:title="@string/clock_font_size_title"
         android:max="27"
