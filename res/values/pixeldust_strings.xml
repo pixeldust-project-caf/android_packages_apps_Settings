@@ -298,4 +298,8 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show squiggle animation in media player. You must either change the track, pause playback, or move the progress bar for this setting to take effect.</string>
 </resources>
