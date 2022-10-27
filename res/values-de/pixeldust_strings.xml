@@ -238,4 +238,37 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Schnörkelanimation anzeigen</string>
     <string name="show_squiggle_animation_summary">Schnörkelanimation im Mediaplayer anzeigen. Damit diese Einstellung sichtbar wird, muss entweder der Track gewechselt, die Wiedergabe angehalten oder der Fortschrittsbalken verschoben werden.</string>
+
+   <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Über Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse ist ein brillanter Audio-Grafik-Equalizer, wenn Musik auf dem Gerät abgespielt wird</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Pulse Audio-Equalizer für Navigationsleiste und Sperrbildschirm</string>
+    <string name="show_navbar_pulse_title">Pulse in der Navigationsleiste</string>
+    <string name="show_navbar_pulse_summary">Audio-Equalizer beim Abspielen von Musik in der Navigationsleiste anzeigen</string>
+    <string name="show_lockscreen_pulse_title">Pulse auf dem Sperrbildschirm</string>
+    <string name="show_lockscreen_pulse_summary">Audio-Equalizer beim Abspielen von Musik auf dem Sperrbildschirm anzeigen</string>
+    <string name="show_ambient_pulse_title">Pulse auf dem Ambient Display</string>
+    <string name="show_ambient_pulse_summary">Audio-Equalizer beim Abspielen von Musik auf dem Ambient Display anzeigen</string>
+    <string name="pulse_render_mode_title">Rendermodus</string>
+    <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
+    <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
+    <string name="pulse_legacy_mode_advanced_category">Verblassende Blöcke konfigurieren</string>
+    <string name="pulse_custom_fudge_factor">Amplitude</string>
+    <string name="pulse_lavalamp_speed_title">Lava-Lampe Geschwindigkeit</string>
+    <string name="pulse_solid_units_count">Anzahl durchgezogener Linien</string>
+    <string name="pulse_solid_units_opacity">Deckkraft der durchgezogenen Linien</string>
+    <string name="pulse_solid_dimen_category">Moduseinstellungen für durchgezogene Linien</string>
+    <string name="pulse_color_mode_title">Farbe</string>
+    <string name="pulse_color_accent">Akzentfarbe</string>
+    <string name="pulse_color_custom">Benutzerdefiniert</string>
+    <string name="pulse_color_lava_lamp">Lava-Lampe</string>
+    <string name="pulse_color_auto">Albumcover</string>
+    <string name="pulse_color_user_title">Farbe wählen</string>
+    <string name="pulse_smoothing_enabled_title">Glättung einschalten</string>
+    <string name="pulse_smoothing_enabled_summary">Jeder Balken wird flüssiger animiert</string>
+    <string name="pulse_custom_dimen">Balkenbreite</string>
+    <string name="pulse_custom_div">Abstände der Balken</string>
+    <string name="pulse_filled_block_size">Blockgröße</string>
+    <string name="pulse_empty_block_size">Abstände der Blöcke</string>
 </resources>
