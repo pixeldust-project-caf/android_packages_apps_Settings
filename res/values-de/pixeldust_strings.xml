@@ -234,4 +234,8 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Transparenz des Hintergrunds</string>
     <string name="qs_transparency_summary">Transparenzgrad für den Hintergrund der Schnelleinstellungen einstellen</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Schnörkelanimation anzeigen</string>
+    <string name="show_squiggle_animation_summary">Schnörkelanimation im Mediaplayer anzeigen. Damit diese Einstellung sichtbar wird, muss entweder der Track gewechselt, die Wiedergabe angehalten oder der Fortschrittsbalken verschoben werden.</string>
 </resources>
