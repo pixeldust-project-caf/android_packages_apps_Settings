@@ -283,4 +283,33 @@
     <string name="visualizer_center_mirrored_summary">Den mittig gespiegelten Modus aktivieren</string>
     <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netzwerkaktivität</string>
+    <string name="network_traffic_summary">Netzwerkaktivitätsanzeige anpassen</string>
+    <string name="network_traffic_autohide_threshold_title">Netzwerkaktivität anzeigen ab</string>
+    <string name="network_traffic_location_title">Verortung</string>
+    <string name="network_traffic_disabled">Ausblenden</string>
+    <string name="network_traffic_statusbar">Statusleiste</string>
+    <string name="network_traffic_qs_header">Erweiterte Statusleiste</string>
+    <string name="network_traffic_refresh_interval_title">Aktualisierungsintervall</string>
+    <string name="network_traffic_refresh_interval_summary">Dauer, nach der die Geschwindigkeit erneut gemessen wird</string>
+    <string name="network_traffic_mode_title">Anzeigemodus</string>
+    <string name="network_traffic_dynamic">Dynamisch</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_font_size">Schriftgröße bei einzeiliger Anzeige</string>
+    <string name="network_traffic_autohide">Automatisch ausblenden</string>
+    <string name="network_traffic_autohide_summary">Anzeige bei Inaktivität ausblenden</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_units_title">Messeinheiten</string>
+    <string name="network_traffic_units_bits">Bits pro Sekunde (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits pro Sekunde (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits pro Sekunde (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bytes pro Sekunde (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes pro Sekunde (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes pro Sekunde (MB/s)</string>
+    <string name="network_traffic_hidearrow">Pfeile ausblenden</string>
+    <string name="network_traffic_hidearrow_summary">Richtungspfeile ausblenden</string>
 </resources>
