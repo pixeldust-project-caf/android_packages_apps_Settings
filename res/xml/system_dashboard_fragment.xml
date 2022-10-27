@@ -61,6 +61,14 @@
         android:fragment="com.pixeldust.settings.quicksettings.QuicksettingsSettings"/>
 
     <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary"
+        android:icon="@drawable/ic_settings_pulse"
+        android:order="-224"
+        android:fragment="com.pixeldust.settings.pulse.PulseSettings" />
+
+    <Preference
         android:key="date_time_settings"
         android:title="@string/date_and_time"
         android:icon="@drawable/ic_settings_date_time"
