@@ -258,6 +258,8 @@
     <string name="pulse_lavalamp_speed_title">Lava-Lampe Geschwindigkeit</string>
     <string name="pulse_solid_units_count">Anzahl durchgezogener Linien</string>
     <string name="pulse_solid_units_opacity">Deckkraft der durchgezogenen Linien</string>
+    <string name="pulse_solid_units_rounded_title">Rundung</string>
+    <string name="pulse_solid_units_rounded_summary">Durchgezogene Linien mit abgerundeten Spitzen</string>
     <string name="pulse_solid_dimen_category">Moduseinstellungen für durchgezogene Linien</string>
     <string name="pulse_color_mode_title">Farbe</string>
     <string name="pulse_color_accent">Akzentfarbe</string>
