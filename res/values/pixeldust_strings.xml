@@ -95,4 +95,12 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+
+    <!-- Ambient battery bar settings -->
+    <string name="ambient_battery_settings_title">Battery bar</string>
+    <string name="ambient_battery_settings_summary">Display a battery bar on the ambient display</string>
+    <string name="keyguard_show_battery_title">Battery bar when charging</string>
+    <string name="keyguard_show_battery_summary">Show a battery bar on the ambient display when charging</string>
+    <string name="keyguard_show_battery_always_title">Always show battery bar</string>
+    <string name="keyguard_show_battery_always_summary">Always show a battery bar on the ambient display</string>
 </resources>
