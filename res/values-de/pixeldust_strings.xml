@@ -336,4 +336,8 @@
     <string name="volume_steps_system_title">Lautstärkeschritte: System</string>
     <string name="volume_steps_voice_call_title">Lautstärkeschritte: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+
+    <!-- Hide status bar on lock screen -->
+    <string name="hide_lockscreen_status_bar_title">Statusleiste ausblenden</string>
+    <string name="hide_lockscreen_status_bar_summary">Statusleiste auf dem Sperrbildschirm ausblenden</string>
 </resources>
