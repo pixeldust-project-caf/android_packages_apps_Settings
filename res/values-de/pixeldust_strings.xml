@@ -178,6 +178,7 @@
     <string name="statusbar_items_summary">Festlegen welche Symbole angezeigt werden</string>
 
     <!-- Clock position -->
+    <string name="clock_category_title">Uhranzeige</string>
     <string name="status_bar_clock_position_title">Uhr positionieren</string>
     <string name="status_bar_clock_position_center">Mittig</string>
     <string name="status_bar_clock_position_left">Links</string>
@@ -285,6 +286,7 @@
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
 
     <!-- Network traffic -->
+    <string name="network_traffic_category_title">Netzwerk-Monitor</string>
     <string name="network_traffic_title">Netzwerkaktivität</string>
     <string name="network_traffic_summary">Netzwerkaktivitätsanzeige anpassen</string>
     <string name="network_traffic_autohide_threshold_title">Netzwerkaktivität anzeigen ab</string>
