@@ -342,4 +342,24 @@
     <!-- Hide status bar on lock screen -->
     <string name="hide_lockscreen_status_bar_title">Statusleiste ausblenden</string>
     <string name="hide_lockscreen_status_bar_summary">Statusleiste auf dem Sperrbildschirm ausblenden</string>
+
+    <!-- Status bar - Battery -->
+    <string name="battery_category_title">Akkuanzeige</string>
+    <string name="status_bar_battery_style_title">Stil des Akkusymbols</string>
+    <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Querformat-Symbol (Rechts)</string>
+    <string name="status_bar_battery_style_icon_landscape">Querformat-Symbol (Links)</string>
+    <string name="status_bar_battery_style_circle">Kreis</string>
+    <string name="status_bar_battery_style_dotted_circle">Kreis (gepunktet)</string>
+    <string name="status_bar_battery_style_big_circle">Kreis (groß)</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Kreis (gepunktet)</string>
+    <string name="status_bar_battery_style_filled_circle">Kreis (gefüllt)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
+    <string name="status_bar_battery_percent_title">Akkuanzeige in Prozent</string>
+    <string name="status_bar_battery_percent_hidden">Ausgeblendet</string>
+    <string name="status_bar_battery_percent_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percent_text_next">Neben dem Symbol</string>
+    <string name="status_bar_battery_text_charging_title">Akku-Prozentzahl beim Laden</string>
+    <string name="status_bar_battery_text_charging_summary">Akku-Prozentanzeige beim Laden immer anzeigen</string>
 </resources>
