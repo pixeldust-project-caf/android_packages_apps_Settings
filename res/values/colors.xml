@@ -211,4 +211,7 @@
 
     <!-- Background for multiple user settings page avatars -->
     <color name="user_avatar_color_bg">?androidprv:attr/colorSurface</color>
+
+    <color name="face_enroll_check_color">#42a5f5</color>
+    <color name="face_enroll_icon_color">#42a5f5</color>
 </resources>
