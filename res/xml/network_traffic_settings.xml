@@ -60,7 +60,8 @@
     <com.pixeldust.support.preference.SecureSettingSwitchPreference
         android:key="network_traffic_hidearrow"
         android:title="@string/network_traffic_hidearrow"
-        android:summary="@string/network_traffic_hidearrow_summary" />
+        android:summary="@string/network_traffic_hidearrow_summary"
+        android:defaultValue="true" />
 
     <com.pixeldust.support.preference.SecureSettingSeekBarPreference
         android:key="network_traffic_font_size"
