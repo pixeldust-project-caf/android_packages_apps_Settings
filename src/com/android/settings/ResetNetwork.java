@@ -247,9 +247,6 @@ public class ResetNetwork extends InstrumentedFragment {
     }
 
     private List<SubscriptionInfo> getActiveSubscriptionInfoList() {
-        if (!SubscriptionUtil.isSimHardwareVisible(getActivity())) {
-            return Collections.emptyList();
-        }
         SubscriptionManager mgr = getActivity().getSystemService(SubscriptionManager.class);
         if (mgr == null) {
             Log.w(TAG, "No SubscriptionManager");

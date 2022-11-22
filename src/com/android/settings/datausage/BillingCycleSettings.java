@@ -103,10 +103,6 @@ public class BillingCycleSettings extends DataUsageBaseFragment implements
         super.onCreate(icicle);
 
         final Context context = getContext();
-        if (!SubscriptionUtil.isSimHardwareVisible(context)) {
-            finish();
-            return;
-        }
         mDataUsageController = new DataUsageController(context);
 
         Bundle args = getArguments();
@@ -503,8 +499,7 @@ public class BillingCycleSettings extends DataUsageBaseFragment implements
 
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {
-                    return SubscriptionUtil.isSimHardwareVisible(context)
-                            && DataUsageUtils.hasMobileData(context);
+                    return DataUsageUtils.hasMobileData(context);
                 }
             };
 

@@ -148,11 +148,6 @@ public class AppDataUsagePreferenceController extends AppInfoPreferenceControlle
     }
 
     private static NetworkTemplate getTemplate(Context context) {
-        if (SubscriptionUtil.isSimHardwareVisible(context)
-                && DataUsageUtils.hasReadyMobileRadio(context)) {
-            return new NetworkTemplate.Builder(NetworkTemplate.MATCH_MOBILE).setMeteredness(
-                    NetworkStats.METERED_YES).build();
-        }
         if (DataUsageUtils.hasWifiRadio(context)) {
             return new NetworkTemplate.Builder(NetworkTemplate.MATCH_WIFI).build();
         }
