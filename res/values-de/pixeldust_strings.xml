@@ -51,4 +51,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="color_mode_balance_green">Grüne Stärke</string>
     <string name="color_mode_balance_blue">Blaue Stärke</string>
     <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Statusleistensymbole</string>
+    <string name="icon_manager_summary">Statusleistensymbole konfigurieren</string>
 </resources>
