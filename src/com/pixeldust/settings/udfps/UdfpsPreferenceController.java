@@ -45,9 +45,11 @@ public class UdfpsPreferenceController extends BasePreferenceController {
     }
 
     private boolean isUdfps() {
-        for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
-            if (prop.isAnyUdfpsType()) {
-                return true;
+        if (mSensorProperties != null){
+            for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
+                if (prop.isAnyUdfpsType()) {
+                    return true;
+                }
             }
         }
         return false;
