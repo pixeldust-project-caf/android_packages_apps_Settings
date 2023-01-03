@@ -104,6 +104,14 @@
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
+
+        <!-- Udfps options -->
+        <Preference
+            android:key="udfps_settings"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="com.pixeldust.settings.udfps.UdfpsSettings"
+            settings:controller="com.pixeldust.settings.udfps.UdfpsPreferenceController" />
     </PreferenceCategory>
 
     <PreferenceCategory

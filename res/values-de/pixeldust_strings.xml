@@ -412,4 +412,18 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="use_photos_spoof_title">Unbegrenzter Google Fotos Speicherplatz</string>
     <string name="use_photos_spoof_summary">Dein Gerät wird als Pixel XL ausgewiesen, um kostenlos Videos und Fotos in verlustfreier Qualität bei Google Fotos zu speichern. Das bedeutet jedoch, dass Funktionen wie der Magic Eraser nicht mehr verfügbar sind.</string>
     <string name="photos_spoof_toast">Fotos-App neustarten, damit es wirksam wird</string>
+
+    <!-- UDFPS settings -->
+    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_customization">UDFPS anpassen</string>
+    <string name="udfps_recog_animation">UDFPS Animation</string>
+    <string name="udfps_recog_animation_summary">Animation anzeigen, während der Finger gesannt wird</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS benutzerdefinierte Animation</string>
+    <string name="udfps_recog_animation_effect_summary">Animationseffekt auswählen</string>
+    <string name="udfps_settings_title">UDFPS Einstellungen</string>
+    <string name="udfps_settings_summary">Benutzerdefinierte Optionen für UDFPS</string>
+
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
+    <string name="udfps_icon_picker_summary">Benutzerdefiniertes Fingerabdrucksymbol festlegen</string>
 </resources>
