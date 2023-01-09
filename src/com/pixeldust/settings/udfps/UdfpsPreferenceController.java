@@ -20,6 +20,7 @@ import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
 import android.hardware.fingerprint.FingerprintSensorPropertiesInternal;
 
+import com.android.internal.util.pixeldust.PixeldustUtils;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.Utils;
 
@@ -30,9 +31,11 @@ public class UdfpsPreferenceController extends BasePreferenceController {
     public static final String KEY = "udfps_settings";
     private FingerprintManager mFingerprintManager;
     private List<FingerprintSensorPropertiesInternal> mSensorProperties;
+    private Context mContext;
 
     public UdfpsPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
+        mContext = context;
         mFingerprintManager = Utils.getFingerprintManagerOrNull(context);
 
         if (mFingerprintManager != null)
@@ -42,6 +45,7 @@ public class UdfpsPreferenceController extends BasePreferenceController {
 
     public UdfpsPreferenceController(Context context) {
         this(context, KEY);
+        mContext = context;
     }
 
     private boolean isUdfps() {
@@ -62,6 +66,11 @@ public class UdfpsPreferenceController extends BasePreferenceController {
         }
         if (mFingerprintManager != null &&
             (!mFingerprintManager.isHardwareDetected() || !mFingerprintManager.hasEnrolledFingerprints())) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        final boolean udfpsResPkgInstalled = PixeldustUtils.isPackageInstalled(mContext,
+                "com.pixeldust.udfps.resources");
+        if (!udfpsResPkgInstalled) {
             return UNSUPPORTED_ON_DEVICE;
         }
         return AVAILABLE;
