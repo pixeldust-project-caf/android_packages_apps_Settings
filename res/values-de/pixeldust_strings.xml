@@ -7,4 +7,15 @@
     <!-- Allow to choose lockscreen or Ambient on wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient-Weckgeste</string>
     <string name="ambient_wake_gestures_summary">Beim Aktivieren des Displays den Ambient Mode anzeigen statt des normalen Sperrbildschirms</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Taschenlampe schnell einschalten</string>
+    <string name="use_power_button_torch_title">Screen-off Taschenlampe verwenden</string>
+    <string name="use_power_button_torch_summary">
+Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgenden Tastenkombinationen aktivieren</string>
+    <string name="gesture_power_button_torch_category_title">Taschenlampe bei ausgeschaltetem Display umschalten durch</string>
+    <string name="gesture_power_button_torch_long_press_title">Langes Drücken der Ein-/Aus-Taste</string>
+    <string name="gesture_power_button_torch_double_tap_title">Zweimal in Folge die Ein-/Aus-Taste drücken</string>
+    <string name="gesture_double_tap_power_summary_disabled">Deaktiviert durch Taschenlampengeste</string>
+    <string name="double_tap_power_for_torch_summary_disabled">Deaktiviert durch Geste zum Öffnen der Kamera</string>
 </resources>
