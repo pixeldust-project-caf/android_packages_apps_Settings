@@ -33,4 +33,9 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- General tweaks -->
     <string name="general_settings_title">General tweaks</string>
     <string name="general_settings_summary">Other common and useful customizations</string>
+
+    <!-- Unlimited photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Google photos storage</string>
+    <string name="use_photos_spoof_summary">Your device will be identified as a Pixel XL to get unlimited Google photo storage at original quality. However, this means that features such as the Magic Eraser are no longer available.</string>
+    <string name="photos_spoof_toast">Restart the Photos app for it to take effect</string>
 </resources>
