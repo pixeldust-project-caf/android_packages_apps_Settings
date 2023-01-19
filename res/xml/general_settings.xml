@@ -9,4 +9,10 @@
         android:key="general_settings"
         android:title="@string/general_settings_title">
 
+        <com.pixeldust.support.preference.SystemSettingSwitchPreference
+            android:key="use_photos_spoof"
+            android:title="@string/use_photos_spoof_title"
+            android:summary="@string/use_photos_spoof_summary"
+            android:persistent="false" />
+
 </PreferenceScreen>
