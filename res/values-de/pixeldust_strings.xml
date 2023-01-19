@@ -29,4 +29,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="gesture_power_button_torch_double_tap_title">Zweimal in Folge die Ein-/Aus-Taste drücken</string>
     <string name="gesture_double_tap_power_summary_disabled">Deaktiviert durch Taschenlampengeste</string>
     <string name="double_tap_power_for_torch_summary_disabled">Deaktiviert durch Geste zum Öffnen der Kamera</string>
+
+    <!-- General tweaks -->
+    <string name="general_settings_title">Allgemeine Einstellungen</string>
+    <string name="general_settings_summary">Weitere allgemeine und nützliche Anpassungen</string>
 </resources>
