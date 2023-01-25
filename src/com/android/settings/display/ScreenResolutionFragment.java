@@ -31,6 +31,7 @@ import android.text.TextUtils;
 import android.view.Display;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
+import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceScreen;
@@ -209,6 +210,12 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
         setDisplayMode(width);
         updateIllustrationImage(mImagePreference);
 
+        // If UDFPS animation is enabled inform the user that a SysUI restart is required
+        if (Settings.System.getInt(getContext().getContentResolver(),
+                       Settings.System.UDFPS_ANIM, 0) == 1) {
+            Toast.makeText(getActivity(),
+                    (R.string.udfps_restart_upon_res_change), Toast.LENGTH_LONG).show();
+        }
         return true;
     }
 
