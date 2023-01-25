@@ -429,4 +429,8 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+
+    <!-- WiFi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Show CAF-style WiFi type icon</string>
+    <string name="show_wifi_standard_icon_summary">Show WiFi type next to the WiFi signal indicator</string>
 </resources>

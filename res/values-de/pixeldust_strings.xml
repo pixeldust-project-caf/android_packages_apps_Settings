@@ -427,4 +427,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
     <string name="udfps_icon_picker_summary">Benutzerdefiniertes Fingerabdrucksymbol festlegen</string>
+
+    <!-- WiFi Standard icon -->
+    <string name="show_wifi_standard_icon_title">WLAN-Standard-Symbol wie bei CAF anzeigen</string>
+    <string name="show_wifi_standard_icon_summary">WLAN-Standard neben der WLAN-Signalstärke anzeigen</string>
 </resources>
