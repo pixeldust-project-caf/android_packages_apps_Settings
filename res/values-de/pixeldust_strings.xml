@@ -422,6 +422,7 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="udfps_recog_animation_effect_summary">Animationseffekt auswählen</string>
     <string name="udfps_settings_title">UDFPS Einstellungen</string>
     <string name="udfps_settings_summary">Benutzerdefinierte Optionen für UDFPS</string>
+    <string name="udfps_restart_upon_res_change">Neustarten um UDFPS-Animation korrekt anzuzeigen</string>
 
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
