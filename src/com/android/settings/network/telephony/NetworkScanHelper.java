@@ -156,11 +156,6 @@ public class NetworkScanHelper {
         mLegacyIncrScanReceiver =
                 new LegacyIncrementalScanBroadcastReceiver(mContext, mInternalNetworkScanCallback);
         mExtTelephonyManager = ExtTelephonyManager.getInstance(context);
-    }
-
-    public NetworkScanHelper(Context context, TelephonyManager tm, NetworkScanCallback callback,
-            Executor executor) {
-        this(tm, callback, executor);
         mMaxSearchTimeSec = context.getResources().getInteger(
                 R.integer.config_network_scan_helper_max_search_time_sec);
     }
