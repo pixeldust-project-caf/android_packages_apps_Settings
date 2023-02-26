@@ -28,7 +28,6 @@ import com.pixeldust.support.preference.CustomSeekBarPreference;
 public class NetworkTrafficSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private CustomSeekBarPreference mNetTrafficSize;
     private CustomSeekBarPreference mNetTrafficAutohideThreshold;
     private CustomSeekBarPreference mNetTrafficRefreshInterval;
     private ListPreference mNetTrafficLocation;
@@ -45,8 +44,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment implement
 
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mNetTrafficSize = (CustomSeekBarPreference)
-                findPreference(Settings.Secure.NETWORK_TRAFFIC_FONT_SIZE);
         mNetTrafficAutohideThreshold = (CustomSeekBarPreference)
                 findPreference(Settings.Secure.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);
         mNetTrafficRefreshInterval = (CustomSeekBarPreference)
@@ -81,7 +78,6 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment implement
 
     private void updateEnabledStates(int location) {
         final boolean enabled = location != 0;
-        mNetTrafficSize.setEnabled(enabled);
         mNetTrafficMode.setEnabled(enabled);
         mNetTrafficAutohide.setEnabled(enabled);
         mNetTrafficAutohideThreshold.setEnabled(enabled);
