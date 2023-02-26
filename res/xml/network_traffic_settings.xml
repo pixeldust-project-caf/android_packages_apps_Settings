@@ -62,12 +62,4 @@
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
         android:defaultValue="true" />
-
-    <com.pixeldust.support.preference.SecureSettingSeekBarPreference
-        android:key="network_traffic_font_size"
-        android:title="@string/network_traffic_font_size"
-        android:max="24"
-        settings:min="14"
-        settings:defaultValue="18"
-        settings:units="dp" />
 </PreferenceScreen>
