@@ -99,12 +99,6 @@
             android:summary="@string/ambient_battery_settings_summary"
             android:fragment="com.pixeldust.settings.ambient.AmbientBatterySettings" />
 
-        <com.pixeldust.support.preference.SystemSettingSwitchPreference
-            android:key="lockscreen_battery_info"
-            android:title="@string/lockscreen_battery_info_title"
-            android:summary="@string/lockscreen_battery_info_summary"
-            android:defaultValue="true" />
-
         <!-- Udfps options -->
         <Preference
             android:key="udfps_settings"
