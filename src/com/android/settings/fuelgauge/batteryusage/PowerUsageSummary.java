@@ -309,7 +309,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
     @VisibleForTesting
     void restartBatteryTipLoader() {
-        getLoaderManager().restartLoader(BATTERY_TIP_LOADER, Bundle.EMPTY, mBatteryTipsCallbacks);
+        restartLoader(LoaderIndex.BATTERY_TIP_LOADER, Bundle.EMPTY, mBatteryTipsCallbacks);
     }
 
     @VisibleForTesting
@@ -347,8 +347,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         if (!mIsBatteryPresent) {
             return;
         }
-        getLoaderManager().restartLoader(BATTERY_INFO_LOADER, Bundle.EMPTY,
-                mBatteryInfoLoaderCallbacks);
+        restartLoader(LoaderIndex.BATTERY_INFO_LOADER, Bundle.EMPTY, mBatteryInfoLoaderCallbacks);
     }
 
     @VisibleForTesting

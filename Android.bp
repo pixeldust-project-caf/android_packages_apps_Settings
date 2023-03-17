@@ -92,6 +92,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
+        "SystemUIUnfoldLib",
         "VendorSupport-Libs",
         "glide",
         "kotlinx_coroutines_android",
