@@ -104,8 +104,7 @@ public class NotificationVolumePreferenceController extends VolumeSeekBarPrefere
         // Show separate notification slider if ring/notification are not aliased by AudioManager --
         // if they are, notification volume is controlled by RingVolumePreferenceController.
         return mContext.getResources().getBoolean(R.bool.config_show_notification_volume)
-                && (!mRingNotificationAliased || !Utils.isVoiceCapable(mContext))
-                && !mHelper.isSingleVolume()
+                && !Utils.isVoiceCapable(mContext) && !mHelper.isSingleVolume()
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
@@ -136,7 +135,7 @@ public class NotificationVolumePreferenceController extends VolumeSeekBarPrefere
 
     @Override
     public int getMuteIcon() {
-        return mMuteIcon;
+        return R.drawable.ic_notifications_off_24dp;
     }
 
     private void updateRingerMode() {
