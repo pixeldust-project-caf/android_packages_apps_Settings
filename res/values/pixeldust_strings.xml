@@ -67,9 +67,9 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Background processes</string>
 
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- UI Styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set a custom style for the user interface</string>
 
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">Theming</string>
@@ -87,4 +87,8 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="theme_customization_device_default">Device default</string>
     <string name="theme_customization_navbar_title">Navbar style</string>
     <string name="theme_customization_navbar_summary">Set custom 3-button navbar style</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>

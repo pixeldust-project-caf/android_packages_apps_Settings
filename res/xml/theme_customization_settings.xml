@@ -25,6 +25,12 @@
         android:defaultValue="false" />
 
     <Preference
+        android:key="android.theme.customization.style"
+        android:title="@string/theme_customization_ui_style_title"
+        android:summary="@string/theme_customization_ui_style_summary"
+        android:fragment="com.pixeldust.settings.themes.UIStylesPicker"/>
+
+    <Preference
         android:key="android.theme.customization.font"
         android:title="@string/theme_customization_font_title"
         android:summary="@string/theme_customization_font_summary"
