@@ -25,6 +25,12 @@
         android:defaultValue="false" />
 
     <Preference
+        android:key="monet_settings"
+        android:title="@string/monet_settings_title"
+        android:summary="@string/monet_settings_summary"
+        android:fragment="com.pixeldust.settings.themes.MonetSettings" />
+
+    <Preference
         android:key="android.theme.customization.style"
         android:title="@string/theme_customization_ui_style_title"
         android:summary="@string/theme_customization_ui_style_summary"
