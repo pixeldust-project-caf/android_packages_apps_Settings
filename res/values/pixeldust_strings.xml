@@ -90,9 +90,9 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- UI Styles -->
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set a custom style for the user interface</string>
 
     <!-- Category for theme overlays -->
     <string name="theme_customization_category">Theming</string>
@@ -112,6 +112,10 @@
     <string name="theme_customization_navbar_summary">Set custom 3-button navbar style</string>
     <string name="theme_customization_lock_clock_title">Clock font style</string>
     <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
