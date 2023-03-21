@@ -19,7 +19,10 @@ package com.android.settings.privacy;
 import static android.hardware.SensorPrivacyManager.Sources.SETTINGS;
 
 import android.content.Context;
-
+import androidx.lifecycle.Lifecycle;
+import androidx.lifecycle.LifecycleObserver;
+import androidx.lifecycle.OnLifecycleEvent;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
@@ -33,14 +36,20 @@ import java.util.concurrent.Executor;
 /**
  * Base class for sensor toggle controllers
  */
-public abstract class SensorToggleController extends TogglePreferenceController {
+public abstract class SensorToggleController extends TogglePreferenceController implements LifecycleObserver {
 
     protected final SensorPrivacyManagerHelper mSensorPrivacyManagerHelper;
     private final Executor mCallbackExecutor;
+    private Preference mPreference;
+    private SensorPrivacyManagerHelper.Callback mCallback = (sensor, blocked) -> {
+        if (mPreference != null) {
+            updateState(mPreference);
+        }
+    };
 
     public SensorToggleController(Context context, String preferenceKey) {
         super(context, preferenceKey);
-        mSensorPrivacyManagerHelper = SensorPrivacyManagerHelper.getInstance(context);
+        mSensorPrivacyManagerHelper = SensorPrivacyManagerHelper.getInstance(context.getApplicationContext());
         mCallbackExecutor = context.getMainExecutor();
     }
 
@@ -75,15 +84,21 @@ public abstract class SensorToggleController extends TogglePreferenceController 
             preference.setDisabledByAdmin(RestrictedLockUtilsInternal
                     .checkIfRestrictionEnforced(mContext, getRestriction(), mContext.getUserId()));
         }
+        mPreference = preference;
 
         mSensorPrivacyManagerHelper.addSensorBlockedListener(
                 getSensor(),
-                (sensor, blocked) -> updateState(screen.findPreference(mPreferenceKey)),
+                mCallback,
                 mCallbackExecutor);
     }
 
     @Override
     public int getSliceHighlightMenuRes() {
         return R.string.menu_key_privacy;
+    }
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
+    public void onStop() {
+        mSensorPrivacyManagerHelper.removeBlockedListener(mCallback);
     }
 }
