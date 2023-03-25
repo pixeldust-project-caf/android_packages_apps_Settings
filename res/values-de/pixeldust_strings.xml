@@ -311,6 +311,20 @@
     <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_intro_text">
+        Ein Monitor zeigt die aktuelle Geschwindigkeit des Netzwerkverkehrs
+        in der Statusleiste an. Die Geschwindigkeit wird dynamisch angezeigt,
+        sodass jede Sekunde zwischen Upload- und Download-Geschwindigkeit
+        gewechselt wird.
+    </string>
+    <string name="network_traffic_title">Netzwerk-Monitor</string>
+    <string name="network_traffic_summary">Netzwerk-Monitor in der Statusleiste ein- oder ausblenden</string>
+    <string name="network_traffic_main_switch_title">Netzwerkmonitor aktivieren</string>
+    <string name="network_options_title">Optionen</string>
+    <string name="network_traffic_autohide_title">Netzwerkmonitor ausblenden, wenn inaktiv</string>
+    <string name="network_traffic_autohide_summary">Ausblenden, wenn die Netzwerkaktivität unter 1 KB/s liegt</string>
+
     <!-- Ambient battery bar settings -->
     <string name="ambient_battery_settings_title">Akkustandbalken</string>
     <string name="ambient_battery_settings_summary">Akkustandbalken auf dem Ambient Display anzeigen</string>
