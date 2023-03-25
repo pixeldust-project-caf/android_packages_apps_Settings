@@ -315,6 +315,10 @@
     <string name="keyguard_show_battery_always_title">Akkustandbalken immer anzeigen</string>
     <string name="keyguard_show_battery_always_summary">Akkustandbalken immer auf dem Ambient Display anzeigen</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Erweiterter Status beim Ladevorgang</string>
+    <string name="lockscreen_battery_info_summary">Zeigt auf dem Sperrbildschirm die vom System ermittelte Stromstärke, Ladespannung, Wattanzahl und Akkutemperatur während des Ladevorgangs an</string>
+
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Lautstärkeschritte</string>
     <string name="volume_steps_summary">Diverse Lautstärkeschritte anpassen</string>
