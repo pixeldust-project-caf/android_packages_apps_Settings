@@ -96,6 +96,21 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="volume_button_music_control_title">Musikwiedergabe steuern</string>
     <string name="volume_button_music_control_summary">Während das Display aus ist, lassen sich Musiktitel durch langes Drücken der Lautstärketasten überspringen.</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_intro_text">
+        Die aktuelle Geschwindigkeit des Netzwerkverkehrs wird in der
+        Statusleiste angezeigt. Die Geschwindigkeit wird dynamisch angezeigt,
+        sodass jede Sekunde zwischen Upload- und Download-Geschwindigkeit
+        gewechselt wird.
+    </string>
+    <string name="network_traffic_category_title">Netzwerkaktivität</string>
+    <string name="network_traffic_title">Netzwerkmonitor</string>
+    <string name="network_traffic_summary">Netzwerkmonitor in der Statusleiste ein- oder ausblenden</string>
+    <string name="network_traffic_main_switch_title">Netzwerkmonitor aktivieren</string>
+    <string name="network_options_title">Optionen</string>
+    <string name="network_traffic_autohide_title">Netzwerkmonitor ausblenden, wenn inaktiv</string>
+    <string name="network_traffic_autohide_summary">Ausblenden, wenn die Netzwerkaktivität unter 1 KB/s liegt</string>
+
     <!-- Ambient battery bar settings -->
     <string name="ambient_battery_settings_title">Akkustandbalken</string>
     <string name="ambient_battery_settings_summary">Akkustandbalken auf dem Ambient Display anzeigen</string>
