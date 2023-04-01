@@ -118,6 +118,10 @@
     <string name="theme_customization_navbar_summary">Stil für die 3-Tasten-Navigationsleiste festlegen</string>
     <string name="theme_customization_lock_clock_title">Schriftstil der Uhr</string>
     <string name="theme_customization_lock_clock_summary">Schrift der Sperrbildschirmuhr festlegen</string>
+    <string name="volte_icon_title">VoLTE-Symbol</string>
+    <string name="volte_icon_summary">VoLTE-Symbol anzeigen falls verfügbar</string>
+    <string name="vowifi_icon_title">VoWiFi-Symbol</string>
+    <string name="vowifi_icon_summary">VoWiFi-Symbol anzeigen falls verfügbar</string>
 
     <!-- Black theme -->
     <string name="system_black_theme_title">Schwarzes Hintergrund-Design</string>

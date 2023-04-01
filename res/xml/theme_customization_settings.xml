@@ -54,6 +54,24 @@
         android:summary="@string/theme_customization_icon_pack_summary"
         android:fragment="com.pixeldust.settings.themes.StatusbarIcons"/>
 
+    <com.pixeldust.support.preference.SystemSettingSeekBarPreference
+        android:key="volte_icon_style"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="0"
+        android:max="25"
+        settings:min="0"
+        settings:units="" />
+
+    <com.pixeldust.support.preference.SystemSettingSeekBarPreference
+        android:key="vowifi_icon_style"
+        android:title="@string/vowifi_icon_title"
+        android:summary="@string/vowifi_icon_summary"
+        android:defaultValue="0"
+        android:max="6"
+        settings:min="0"
+        settings:units="" />
+
     <Preference
         android:key="android.theme.customization.signal_icon"
         android:title="@string/theme_customization_signal_icon_title"
