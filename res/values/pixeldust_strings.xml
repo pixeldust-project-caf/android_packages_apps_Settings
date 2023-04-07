@@ -68,9 +68,6 @@
     <string name="global_actions_max_rows_title">Maximum rows</string>
     <string name="global_actions_max_rows_summary">Number of icons up and down</string>
 
-    <!-- Cloudflare DNS Option -->
-    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
-
     <!-- General -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
