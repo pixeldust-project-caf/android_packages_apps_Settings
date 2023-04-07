@@ -68,13 +68,13 @@
         android:order="-224"
         android:fragment="com.pixeldust.settings.pulse.PulseSettings" />
 
-    <Preference
+    <!--Preference
         android:key="general_settings"
         android:title="@string/general_settings_title"
         android:summary="@string/general_settings_summary"
         android:icon="@drawable/ic_settings_general"
         android:order="-223"
-        android:fragment="com.pixeldust.settings.tweaks.GeneralSettings"/>
+        android:fragment="com.pixeldust.settings.tweaks.GeneralSettings"/-->
 
     <Preference
         android:key="date_time_settings"
