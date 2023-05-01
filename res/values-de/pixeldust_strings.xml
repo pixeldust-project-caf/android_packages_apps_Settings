@@ -431,14 +431,4 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- WiFi Standard icon -->
     <string name="show_wifi_standard_icon_title">WLAN-Standard-Symbol anzeigen</string>
     <string name="show_wifi_standard_icon_summary">WLAN-Standard neben der WLAN-Signalstärke anzeigen</string>
-
-    <!-- QS battery -->
-    <string name="qs_battery_location_title">Verortung des Akkusymbols</string>
-    <string name="qs_battery_location_qs_panel">Schnelleinstellungen</string>
-    <string name="qs_battery_location_qs_statusbar">Erweiterte Statusleiste</string>
-    <string name="qs_use_status_bar_battery_style">Dem Stil der Statusleiste entsprechend</string>
-
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Geschätzte Akkulaufzeit</string>
-    <string name="battery_estimate_summary">Geschätzte verbleibende Akkulaufzeit neben dem Akku-Symbol anzeigen, falls verfügbar</string>
 </resources>
