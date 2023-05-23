@@ -428,10 +428,6 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
     <string name="udfps_icon_picker_summary">Benutzerdefiniertes Fingerabdrucksymbol festlegen</string>
 
-    <!-- WiFi Standard icon -->
-    <string name="show_wifi_standard_icon_title">WLAN-Standard-Symbol anzeigen</string>
-    <string name="show_wifi_standard_icon_summary">WLAN-Standard neben der WLAN-Signalstärke anzeigen</string>
-
     <!-- QS battery -->
     <string name="qs_battery_location_title">Verortung des Akkusymbols</string>
     <string name="qs_battery_location_qs_panel">Schnelleinstellungen</string>
