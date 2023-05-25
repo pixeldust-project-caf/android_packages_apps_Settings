@@ -427,14 +427,4 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS-Symbolauswahl</string>
     <string name="udfps_icon_picker_summary">Benutzerdefiniertes Fingerabdrucksymbol festlegen</string>
-
-    <!-- QS battery -->
-    <string name="qs_battery_location_title">Verortung des Akkusymbols</string>
-    <string name="qs_battery_location_qs_panel">Schnelleinstellungen</string>
-    <string name="qs_battery_location_qs_statusbar">Erweiterte Statusleiste</string>
-    <string name="qs_use_status_bar_battery_style">Dem Stil der Statusleiste entsprechend</string>
-
-    <!-- Battery estimate -->
-    <string name="battery_estimate_title">Geschätzte Akkulaufzeit</string>
-    <string name="battery_estimate_summary">Geschätzte verbleibende Akkulaufzeit neben dem Akku-Symbol anzeigen, falls verfügbar</string>
 </resources>
