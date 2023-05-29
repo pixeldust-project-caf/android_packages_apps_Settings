@@ -40,7 +40,7 @@ public class GeneralSettings extends SettingsPreferenceFragment implements OnPre
         addPreferencesFromResource(R.xml.general_settings);
 
         mSpoof = (SwitchPreference) findPreference(KEY_SPOOF);
-        mSpoof.setChecked(SystemProperties.getBoolean(SYS_SPOOF, false));
+        mSpoof.setChecked(SystemProperties.getBoolean(SYS_SPOOF, true));
         mSpoof.setOnPreferenceChangeListener(this);
     }
 
