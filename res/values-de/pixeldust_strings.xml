@@ -502,4 +502,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="qs_outline">Outline</string>
     <string name="qs_two_tone">Zweifarbiger Akzent</string>
     <string name="qs_shaded">Schattiert</string>
+
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Verschlüsselungsstatus spoofen</string>
+    <string name="spoof_storage_encryption_status_summary">Den Status für die Speicherverschlüsselung als verschlüsselt melden</string>
 </resources>
