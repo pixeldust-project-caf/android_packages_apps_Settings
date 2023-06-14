@@ -18,6 +18,7 @@ package com.android.settings.notification;
 
 import static com.google.common.truth.Truth.assertThat;
 
+import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
@@ -25,10 +26,17 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.media.AudioManager;
 import android.os.Vibrator;
+import android.provider.DeviceConfig;
 import android.service.notification.NotificationListenerService;
 import android.telephony.TelephonyManager;
 
-import com.android.internal.R;
+import androidx.preference.PreferenceManager;
+import androidx.preference.PreferenceScreen;
+import androidx.test.core.app.ApplicationProvider;
+
+import com.android.internal.config.sysui.SystemUiDeviceConfigFlags;
+import com.android.settings.core.BasePreferenceController;
+import com.android.settings.testutils.shadow.ShadowDeviceConfig;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -37,11 +45,12 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
+import org.robolectric.Shadows;
 import org.robolectric.annotation.Config;
 
 @RunWith(RobolectricTestRunner.class)
+@Config(shadows = {ShadowDeviceConfig.class})
 public class NotificationVolumePreferenceControllerTest {
-
     @Mock
     private AudioHelper mHelper;
     @Mock
@@ -52,6 +61,11 @@ public class NotificationVolumePreferenceControllerTest {
     private Vibrator mVibrator;
     @Mock
     private Resources mResources;
+    @Mock
+    private PreferenceManager mPreferenceManager;
+
+    private static final String READ_DEVICE_CONFIG_PERMISSION =
+            "android.permission.READ_DEVICE_CONFIG";
 
     private Context mContext;
     private NotificationVolumePreferenceController mController;
@@ -87,7 +101,9 @@ public class NotificationVolumePreferenceControllerTest {
     public void isAvailable_voiceCapable_aliasedWithRing_shouldReturnFalse() {
         when(mResources.getBoolean(
                 com.android.settings.R.bool.config_show_notification_volume)).thenReturn(true);
-        when(mResources.getBoolean(R.bool.config_alias_ring_notif_stream_types)).thenReturn(true);
+
+        DeviceConfig.setProperty(DeviceConfig.NAMESPACE_SYSTEMUI,
+                SystemUiDeviceConfigFlags.VOLUME_SEPARATE_NOTIFICATION, "false", false);
 
         NotificationVolumePreferenceController controller =
                 new NotificationVolumePreferenceController(mContext);
@@ -105,7 +121,9 @@ public class NotificationVolumePreferenceControllerTest {
     public void isAvailable_voiceCapable_separatedFromRing_shouldReturnTrue() {
         when(mResources.getBoolean(
                 com.android.settings.R.bool.config_show_notification_volume)).thenReturn(true);
-        when(mResources.getBoolean(R.bool.config_alias_ring_notif_stream_types)).thenReturn(false);
+
+        DeviceConfig.setProperty(DeviceConfig.NAMESPACE_SYSTEMUI,
+                SystemUiDeviceConfigFlags.VOLUME_SEPARATE_NOTIFICATION, "true", false);
 
         NotificationVolumePreferenceController controller =
                 new NotificationVolumePreferenceController(mContext);
