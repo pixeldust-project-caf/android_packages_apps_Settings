@@ -466,4 +466,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Ausgefüllte Symbole</string>
     <string name="statusbar_colored_icons_summary">Farbige App-Symbole in der Statusleiste statt abstrakter Symbole verwenden</string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Akkuverbrauch zu reduzieren</string>
 </resources>
