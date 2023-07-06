@@ -18,23 +18,82 @@
     android:title="@string/monet_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <ListPreference
-        android:key="theme_style"
-        android:title="@string/theme_style_title"
-        android:entries="@array/theme_style_entries"
-        android:entryValues="@array/theme_style_values"
-        android:defaultValue="0" />
+    <PreferenceCategory
+        android:title="@string/monet_engine_category_title">
 
-    <ListPreference
-        android:key="color_source"
-        android:title="@string/color_source_title"
-        android:entries="@array/color_source_entries"
-        android:entryValues="@array/color_source_values"
-        android:defaultValue="0" />
+        <!-- Monet engine -->
+        <com.pixeldust.support.preference.SecureSettingSwitchPreference
+            android:key="monet_engine_custom_color"
+            android:title="@string/monet_engine_custom_color_title"
+            android:summary="@string/monet_engine_custom_color_summary"
+            android:defaultValue="false" />
 
-    <com.pixeldust.support.colorpicker.ColorPickerPreference
-        android:key="accent_color"
-        android:title="@string/accent_color_title"
-        android:summary="@string/accent_color_summary" />
+        <com.pixeldust.support.colorpicker.SecureSettingColorPickerPreference
+            android:key="monet_engine_color_override"
+            android:title="@string/monet_engine_color_override_title"
+            android:dependency="monet_engine_custom_color"
+            android:defaultValue="0xFF1b6ef3" />
+
+        <com.pixeldust.support.preference.SecureSettingSwitchPreference
+            android:key="monet_engine_custom_bgcolor"
+            android:title="@string/monet_engine_custom_bgcolor_title"
+            android:summary="@string/monet_engine_custom_bgcolor_summary"
+            android:defaultValue="false" />
+
+        <com.pixeldust.support.colorpicker.SecureSettingColorPickerPreference
+            android:key="monet_engine_bgcolor_override"
+            android:title="@string/monet_engine_color_override_title"
+            android:dependency="monet_engine_custom_bgcolor"
+            android:defaultValue="0xFF1b6ef3" />
+
+        <com.pixeldust.support.preference.SecureSettingSeekBarPreference
+            android:key="monet_engine_luminance_factor"
+            android:title="@string/monet_engine_luminance_factor_title"
+            android:summary="@string/monet_engine_luminance_factor_summary"
+            android:defaultValue="100"
+            android:max="225"
+            settings:min="25"
+            settings:interval="5"/>
+
+        <com.pixeldust.support.preference.SecureSettingSeekBarPreference
+            android:key="monet_engine_chroma_factor"
+            android:title="@string/monet_engine_chroma_factor_title"
+            android:summary="@string/monet_engine_chroma_factor_summary"
+            android:defaultValue="100"
+            android:max="225"
+            settings:min="25"
+            settings:interval="5"/>
+
+        <com.pixeldust.support.preference.SecureSettingSwitchPreference
+            android:key="monet_engine_tint_background"
+            android:title="@string/monet_engine_tint_background_title"
+            android:summary="@string/monet_engine_tint_background_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/monet_theme_category_title">
+
+        <ListPreference
+            android:key="theme_style"
+            android:title="@string/theme_style_title"
+            android:entries="@array/theme_style_entries"
+            android:entryValues="@array/theme_style_values"
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:key="color_source"
+            android:title="@string/color_source_title"
+            android:entries="@array/color_source_entries"
+            android:entryValues="@array/color_source_values"
+            android:defaultValue="0" />
+
+        <com.pixeldust.support.colorpicker.ColorPickerPreference
+            android:key="accent_color"
+            android:title="@string/accent_color_title"
+            android:summary="@string/accent_color_summary" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
