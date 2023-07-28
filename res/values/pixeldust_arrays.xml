@@ -73,6 +73,19 @@
         <item>space;space;left,back,home,recent,right</item>
     </string-array>
 
+    <!-- Quick QS pulldown -->
+    <string-array name="quick_pulldown_entries">
+       <item>@string/quick_pulldown_none</item>
+       <item>@string/quick_pulldown_right</item>
+       <item>@string/quick_pulldown_left</item>
+    </string-array>
+
+    <string-array name="quick_pulldown_values" translatable="false">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+    </string-array>
+
     <!-- Pulse music visualizer -->
     <string-array name="pulse_render_mode_entries">
        <item>@string/pulse_render_mode_fading_bars</item>
