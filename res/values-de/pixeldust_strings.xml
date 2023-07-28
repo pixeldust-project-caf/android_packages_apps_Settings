@@ -482,4 +482,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="location_privacy_indicator_summary">Datenschutzindikator anzeigen, wenn eine App den Standort verwendet</string>
     <string name="projection_privacy_indicator_title">Indikator für Medienprojektion</string>
     <string name="projection_privacy_indicator_summary">Datenschutzindikator anzeigen, wenn der Gerätebildschirm projiziert wird</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Datenverbrauch anzeigen</string>
+    <string name="qs_footer_datausage_summary">Datenverbrauch in der Fußzeile der Schnelleinstellungen anzeigen</string>
 </resources>
