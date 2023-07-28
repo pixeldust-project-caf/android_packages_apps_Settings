@@ -474,4 +474,12 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Akkuverbrauch zu reduzieren</string>
+
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Indikator für Mikrofon und Kamera</string>
+    <string name="mic_camera_privacy_indicator_summary">Datenschutzindikator anzeigen, wenn eine App das Mikrofon oder die Kamera verwendet</string>
+    <string name="location_privacy_indicator_title">Indikator für Standort</string>
+    <string name="location_privacy_indicator_summary">Datenschutzindikator anzeigen, wenn eine App den Standort verwendet</string>
+    <string name="projection_privacy_indicator_title">Indikator für Medienprojektion</string>
+    <string name="projection_privacy_indicator_summary">Datenschutzindikator anzeigen, wenn der Gerätebildschirm projiziert wird</string>
 </resources>
