@@ -161,6 +161,7 @@
     <string name="monet_engine_chroma_factor_summary">Höhere Werte erzeugen kräftigere Farben</string>
     <string name="monet_engine_tint_background_title">Hintergrund tönen</string>
     <string name="monet_engine_tint_background_summary">Eingestellte Luminanz- und Chroma-Werte wirken sich auf die Farbgebung des Hintergrunds aus</string>
+    <string name="monet_engine_help_text">Wenn Sie die unten aufgeführten Optionen für den Monet-UI-Stil verwenden möchten, funktioniert dies nur dann ordnungsgemäß, wenn Sie zunächst alle Optionen unter Allgemein zurücksetzen.</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>

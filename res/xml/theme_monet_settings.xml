@@ -70,6 +70,11 @@
             android:summary="@string/monet_engine_tint_background_summary"
             android:defaultValue="false" />
 
+        <com.android.settingslib.widget.FooterPreference
+            android:key="monet_engine_footer_preference"
+            android:selectable="false"
+            android:title="@string/monet_engine_help_text" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

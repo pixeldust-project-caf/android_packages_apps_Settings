@@ -150,6 +150,7 @@
     <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
     <string name="monet_engine_tint_background_title">Tint background</string>
     <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
+    <string name="monet_engine_help_text">If you want to use the Monet theme settings below, then it will only work properly if you first reset all options under General.</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
