@@ -10,6 +10,14 @@
         android:title="@string/quicksettings_settings_title">
 
     <com.pixeldust.support.preference.SystemSettingSeekBarPreference
+        android:key="qs_header_image"
+        android:title="@string/qs_header_image_title"
+        android:defaultValue="0"
+        settings:interval="1"
+        android:max="24"
+        android:min="0" />
+
+    <com.pixeldust.support.preference.SystemSettingSeekBarPreference
         android:key="qs_transparency"
         android:title="@string/qs_transparency_title"
         android:summary="@string/qs_transparency_summary"

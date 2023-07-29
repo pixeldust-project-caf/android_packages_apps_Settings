@@ -486,4 +486,7 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Datenverbrauch anzeigen</string>
     <string name="qs_footer_datausage_summary">Datenverbrauch in der Fußzeile der Schnelleinstellungen anzeigen</string>
+
+    <!-- QS Header image -->
+    <string name="qs_header_image_title">Hintergrundgrafik auswählen</string>
 </resources>
