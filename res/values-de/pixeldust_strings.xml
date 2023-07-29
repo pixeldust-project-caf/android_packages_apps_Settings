@@ -495,4 +495,11 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="status_bar_lyric_title">Songtexte in der Statusleiste</string>
     <string name="status_bar_lyric_summary">Songtexte in der Statusleiste anzeigen (App-Unterstützung erforderlich)</string>
     <string name="status_bar_show_lyric_title">Songtexte in der Statusleiste anzeigen</string>
+
+    <!-- Quick settings styles -->
+    <string name="default_string">Standard</string>
+    <string name="qs_styles_title">Layout für QS-Kacheln</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Zweifarbiger Akzent</string>
+    <string name="qs_shaded">Schattiert</string>
 </resources>
