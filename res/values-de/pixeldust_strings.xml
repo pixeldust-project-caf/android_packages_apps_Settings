@@ -506,4 +506,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Verschlüsselungsstatus spoofen</string>
     <string name="spoof_storage_encryption_status_summary">Den Status für die Speicherverschlüsselung als verschlüsselt melden</string>
+
+    <!-- Disable QS -->
+    <string name="disable_qs_title">QS-Panel auf dem Sperrbildschirm deaktivieren</string>
+    <string name="disable_qs_summary">QS-Panel deaktivieren, wenn das Gerät gesperrt ist. Der Benachrichtigungsschatten wird weiterhin angezeigt.</string>
 </resources>

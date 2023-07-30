@@ -502,4 +502,8 @@ When the screen is off, the torch can be enabled with one of the following key c
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
     <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS in secure lock screen</string>
+    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
 </resources>
