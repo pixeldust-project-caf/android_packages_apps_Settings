@@ -517,4 +517,13 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="solid_accent">Einfarbig</string>
     <string name="outline">Umrisslinie</string>
     <string name="solid_accent_gradient">Akzentverlauf</string>
+    <string name="solid_gradient">Fester Farbverlauf seitlich</string>
+    <string name="solid_gradient_corner">Fester Akzent-Steigungsverlauf scharf</string>
+    <string name="solid_gradient_void">Farbverlauf ins Leere</string>
+    <string name="solid_gradient_neumorph">Neumorph-Gradient</string>
+    <string name="solid_gradient_stroke">Scharfer Farbverlauf</string>
+    <string name="solid_accent_transperent">Akzent transparent</string>    
+    <string name="solid_gradient_light">Farbverlauf hell</string>
+    <string name="solid_gradient_shape">Ecke mit scharfem Farbverlauf</string>
+    <string name="solid_gradient_void_light">Farbverlauf ins Leere hell</string>
 </resources>
