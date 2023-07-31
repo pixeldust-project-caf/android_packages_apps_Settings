@@ -492,9 +492,12 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="qs_header_image_title">Hintergrundgrafik auswählen</string>
 
     <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">Songtexte in der Statusleiste</string>
+    <string name="status_bar_lyric_title">Songtexte in der Statusleiste (experimentell)</string>
     <string name="status_bar_lyric_summary">Songtexte in der Statusleiste anzeigen (App-Unterstützung erforderlich)</string>
     <string name="status_bar_show_lyric_title">Songtexte in der Statusleiste anzeigen</string>
+    <string name="status_bar_lyric_options_title">Einstellungen</string>
+    <string name="disguise_props_for_music_app_title">Gerät spoofen für Musik-Apps</string>
+    <string name="disguise_props_for_music_app_summary">Das Gerät in einigen Musik-Apps  spoofen, um Songtexte in der Statusleiste als Feature zu unterstützen. Nach Änderung dieses Schalters, müssen die Apps neu gestartet werden, damit die Änderung wirksam wird.</string>
 
     <!-- Quick settings styles -->
     <string name="default_string">Standard</string>
