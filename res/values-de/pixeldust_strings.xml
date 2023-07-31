@@ -510,4 +510,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Disable QS -->
     <string name="disable_qs_title">QS-Panel auf dem Sperrbildschirm deaktivieren</string>
     <string name="disable_qs_summary">QS-Panel deaktivieren, wenn das Gerät gesperrt ist. Der Benachrichtigungsschatten wird weiterhin angezeigt.</string>
+
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Hintergrundchip anzeigen</string>
+    <string name="statusbar_clock_chip_summary">Akzentfarbiger Chip hinter der Uhr anzeigen</string>
 </resources>

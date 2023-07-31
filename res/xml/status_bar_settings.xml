@@ -34,6 +34,12 @@
             android:summary="@string/status_bar_clock_show_seconds_desc"
             android:defaultValue="false"/>
 
+        <com.pixeldust.support.preference.SystemSettingSwitchPreference
+            android:key="statusbar_clock_chip"
+            android:title="@string/statusbar_clock_chip_title"
+            android:summary="@string/statusbar_clock_chip_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
