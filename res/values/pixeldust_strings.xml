@@ -522,4 +522,8 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="solid_gradient_light">Gradient light</string>
     <string name="solid_gradient_shape">Sharp gradient corner</string>
     <string name="solid_gradient_void_light">Gradient Void light</string>
+
+    <!-- Brightness slider styles -->
+    <string name="theme_customization_brightness_slider_title">Brightness slider style</string>
+    <string name="theme_customization_brightness_slider_summary">Set custom brightness slider style</string>
 </resources>

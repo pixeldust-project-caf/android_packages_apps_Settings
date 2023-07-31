@@ -526,4 +526,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="solid_gradient_light">Farbverlauf hell</string>
     <string name="solid_gradient_shape">Ecke mit scharfem Farbverlauf</string>
     <string name="solid_gradient_void_light">Farbverlauf ins Leere hell</string>
+
+    <!-- Brightness slider styles -->
+    <string name="theme_customization_brightness_slider_title">Helligkeitsregler</string>
+    <string name="theme_customization_brightness_slider_summary">Stil für den Helligkeitsregler festlegen</string>
 </resources>
