@@ -509,5 +509,8 @@ When the screen is off, the torch can be enabled with one of the following key c
 
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
-    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string> 
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
+    <string name="solid_accent">Solid color accent</string>
+    <string name="outline">Outline</string>
+    <string name="solid_accent_gradient">Solid color accent gradient</string>
 </resources>
