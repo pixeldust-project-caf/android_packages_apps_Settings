@@ -4,9 +4,20 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
+
     <!-- Allow to choose lockscreen or Ambient on wake gestures -->
     <string name="ambient_wake_gestures_title">Ambient-Weckgeste</string>
     <string name="ambient_wake_gestures_summary">Beim Aktivieren des Displays den Ambient Mode anzeigen statt des normalen Sperrbildschirms</string>
+
+    <!-- Package details -->
+    <string name="package_details_group_title">App-Paketdetails</string>
+    <string name="package_name">App-Paketname</string>
+    <string name="package_version">App-Paketversion</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Taschenlampe schnell einschalten</string>
