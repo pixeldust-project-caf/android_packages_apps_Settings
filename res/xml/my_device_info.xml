@@ -28,12 +28,6 @@
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
 
-    <!-- PixelDust logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="pd_logo"
-        android:layout="@layout/pixeldust_logo"
-        android:selectable="false"/>
-
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"
