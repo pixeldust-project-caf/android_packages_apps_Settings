@@ -31,8 +31,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <string name="double_tap_power_for_torch_summary_disabled">Deaktiviert durch Geste zum Öffnen der Kamera</string>
 
     <!-- General tweaks -->
-    <string name="general_settings_title">Allgemeine Einstellungen</string>
-    <string name="general_settings_summary">Weitere allgemeine und nützliche Anpassungen</string>
+    <string name="general_settings_title">Allgemeine Pixeldust Tweaks</string>
+    <string name="general_settings_summary">Nützliche Dinge</string>
 
     <!-- Unlimited photos storage -->
     <string name="use_photos_spoof_title">Unbegrenzter Google Fotos Speicherplatz</string>

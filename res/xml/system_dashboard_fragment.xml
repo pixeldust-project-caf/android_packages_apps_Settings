@@ -66,8 +66,8 @@
         android:key="general_settings"
         android:title="@string/general_settings_title"
         android:summary="@string/general_settings_summary"
-        android:icon="@drawable/ic_settings_general"
-        android:order="-223"
+        android:icon="@drawable/ic_settings_pixeldust"
+        android:order="-247"
         android:fragment="com.pixeldust.settings.tweaks.GeneralSettings"/>
 
     <Preference
