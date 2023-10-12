@@ -35,14 +35,6 @@
             android:layout_width="0dp"
             android:layout_weight="1" />
 
-        <ImageView
-            android:id="@+id/account_avatar"
-            android:layout_width="@dimen/avatar_length"
-            android:layout_height="@dimen/avatar_length"
-            android:layout_marginEnd="@dimen/avatar_margin_end"
-            android:visibility="invisible"
-            android:accessibilityTraversalAfter="@id/homepage_title"
-            android:contentDescription="@string/search_bar_account_avatar_content_description" />
     </LinearLayout>
 
     <FrameLayout

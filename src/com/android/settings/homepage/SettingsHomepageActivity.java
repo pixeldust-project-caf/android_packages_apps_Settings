@@ -215,7 +215,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         final String highlightMenuKey = getHighlightMenuKey();
         // Only allow features on high ram devices.
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
-            initAvatarView();
+            //initAvatarView();
             final boolean scrollNeeded = mIsEmbeddingActivityEnabled
                     && !TextUtils.equals(getString(DEFAULT_HIGHLIGHT_MENU_KEY), highlightMenuKey);
             showSuggestionFragment(scrollNeeded);
@@ -351,7 +351,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
     }
 
-    private void initAvatarView() {
+    /*private void initAvatarView() {
         final ImageView avatarView = findViewById(R.id.account_avatar);
         final ImageView avatarTwoPaneView = findViewById(R.id.account_avatar_two_pane_version);
         if (AvatarViewMixin.isAvatarSupported(this)) {
@@ -363,7 +363,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 getLifecycle().addObserver(new AvatarViewMixin(this, avatarTwoPaneView));
             }
         }
-    }
+    }*/
 
     private void updateHomepageBackground() {
         if (!mIsEmbeddingActivityEnabled) {
