@@ -33,7 +33,7 @@ class RomCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(contex
         )
         */
         linearLayout.id = R.id.rom_logo_id
-        rom_logo.setImageResource(R.drawable.ic_pixeldust)
+        rom_logo.setImageResource(R.drawable.ic_settings_pixeldust)
         val rlparams = RelativeLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT,
             LinearLayout.LayoutParams.MATCH_PARENT
