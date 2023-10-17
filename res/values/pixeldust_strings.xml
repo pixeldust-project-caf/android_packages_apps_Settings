@@ -31,7 +31,7 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="double_tap_power_for_torch_summary_disabled">Disabled by open camera gesture</string>
 
     <!-- General tweaks -->
-    <string name="general_settings_title">General Pixeldust tweaks</string>
+    <string name="general_settings_title">Pixeldust tweaks</string>
     <string name="general_settings_summary">Needful things</string>
 
     <!-- Unlimited photos storage -->
