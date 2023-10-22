@@ -75,5 +75,6 @@
 -keep class android.frameworks.** { *; }
 -keep class android.hardware.** { *; }
 -keep class com.google.** { *; }
+-keep class com.pixeldust.settings.** { *; }
 -keep class vendor.** { *; }
 -keep class hardware.google.** { *; }

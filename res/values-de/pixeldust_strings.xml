@@ -55,4 +55,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Statusleistensymbole</string>
     <string name="icon_manager_summary">Statusleistensymbole konfigurieren</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Für Screenshot swipen</string>
+    <string name="swipe_to_screenshot_summary">Mit drei Fingern über den Bildschirm wischen, um einen Screenshot zu machen</string>
 </resources>
