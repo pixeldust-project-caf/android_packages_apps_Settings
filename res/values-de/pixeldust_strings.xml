@@ -59,4 +59,9 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Swipe to screenshot -->
     <string name="swipe_to_screenshot_title">Für Screenshot swipen</string>
     <string name="swipe_to_screenshot_summary">Mit drei Fingern über den Bildschirm wischen, um einen Screenshot zu machen</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Erweitertes Neustart-Menü</string>
+    <string name="global_actions_advanced_reboot_summary">Weitere Neustartoptionen im Ein/Aus-Menü anzeigen</string>
+
 </resources>
