@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB Konfiguration</string>
+    <string name="usb_default_config_summary">Standardverhalten bei Anschluss an ein Gerät über USB festlegen</string>
+</resources>
