@@ -162,4 +162,8 @@ Bei ausgeschaltetem Display lässt sich die Taschenlampe durch eine der folgende
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
     <string name="unlock_quick_unlock_control_summary">Automatisch entsperren bei korrekter PIN-/Passworteingabe</string>
+
+    <!-- Data activity indicators -->
+    <string name="status_bar_show_activity_indicators_title">Indikator für Datenaktivität</string>
+    <string name="status_bar_show_activity_indicators_summary">Datenaktivität für WLAN und mobile Daten anzeigen</string>
 </resources>
