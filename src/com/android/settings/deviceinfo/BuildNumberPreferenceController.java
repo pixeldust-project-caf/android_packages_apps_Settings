@@ -102,12 +102,9 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
 
     @Override
     public CharSequence getSummary() {
-        String pixeldustVersion = VersionUtils.getPixelDustVersion();
         StringBuilder sb = new StringBuilder();
-        if (!Build.DISPLAY.equals("unknown")) {
-            sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
-            sb.append("\n");
-        }
+        sb.append(BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        String pixeldustVersion = VersionUtils.getPixelDustVersion();
         if (!pixeldustVersion.equals("")){
             sb.append("\n");
             sb.append(pixeldustVersion);
